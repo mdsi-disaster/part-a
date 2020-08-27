@@ -69,4 +69,12 @@ data <- lapply(payload_list, bls_download)
 # Convert list of df's
 df <- bind_rows(data)
 
-write_csv(areas, "./unemployment.csv")
+# Convert Series ID to area code
+df$area_code <- substr(df$seriesID, 4, 18)
+
+# Merge Area Names 
+df <- left_join(df, select(city, area_code, area_text), by = "area_code")
+
+head(df)
+
+write_csv(df, "./unemployment.csv")
