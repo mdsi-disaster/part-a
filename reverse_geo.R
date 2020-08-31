@@ -22,3 +22,12 @@ res <- GET(request)
 
 ## print summary of result
 res
+
+## extract data off the returned json
+data <- fromJSON(rawToChar(res$content))
+
+## lists the structure of the JSON
+names(data)
+
+### exported the formatted address from the JSON result
+data$results$formatted_address
