@@ -67,7 +67,6 @@ p_type_2010_2018 <- p_type_2010_2018 %>%
          'per_high_rise_apartments' = DP04_0013PE)
 
 # Convert to numeric - identified one row that does not have values: Lake County, California - 2017
-
 p_type_2010_2018[,2:17] <- sapply(p_type_2010_2018[,2:17],as.numeric)
 
 # group by house, townhouse or apartment:
