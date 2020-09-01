@@ -1,0 +1,453 @@
+"year","state","county","total_homeless_count"
+"2007","CA","San Jose/Santa Clara ",7202
+"2007","CA","San Francisco CoC",5703
+"2007","CA","Oakland/Alameda County CoC",4838
+"2007","CA","Sacramento ",2452
+"2007","CA","Santa Rosa/Petaluma/Sonoma County CoC",1314
+"2007","CA","Richmond/Contra Costa County CoC",4062
+"2007","CA","Salinas/Monterey, San Benito Counties CoC",1402
+"2007","CA","Marin County CoC",1002
+"2007","CA","Watsonville/Santa Cruz ",2789
+"2007","CA","Mendocino County CoC",1422
+"2007","CA","Turlock/Modesto/Stanislaus County CoC",1593
+"2007","CA","Stockton/San Joaquin County CoC",2479
+"2007","CA","Daly/San Mateo County CoC",1798
+"2007","CA","Visalia, Kings, Tulare Counties CoC",1106
+"2007","CA","Fresno/Madera County CoC",4247
+"2007","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",587
+"2007","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",296
+"2007","CA","Napa ",365
+"2007","CA","Vallejo/Solano County CoC",1956
+"2007","CA","Chico/Paradise/Butte County CoC",1478
+"2007","CA","Merced ",2641
+"2007","CA","Davis/Woodland/Yolo County CoC",414
+"2007","CA","Humboldt County CoC",907
+"2007","CA","Colusa, Glenn, Trinity Counties CoC",155
+"2007","CA","Yuba ",362
+"2007","CA","El Dorado County CoC",107
+"2007","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",400
+"2007","CA","Los Angeles ",47862
+"2007","CA","San Diego ",7326
+"2007","CA","Santa Ana/Anaheim/Orange County CoC",3649
+"2007","CA","Santa Maria/Santa Barbara County CoC",4253
+"2007","CA","Bakersfield/Kern County CoC",1537
+"2007","CA","Long Beach CoC",3829
+"2007","CA","Pasadena CoC",969
+"2007","CA","Riverside ",4508
+"2007","CA","San Bernardino ",6969
+"2007","CA","Oxnard/San Buenaventura/Ventura County CoC",1961
+"2007","CA","Glendale CoC",296
+"2007","CA","Imperial County CoC",342
+"2007","CA","San Luis Obispo County CoC",2408
+"2008","CA","San Jose/Santa Clara ",7202
+"2008","CA","San Francisco CoC",5171
+"2008","CA","Oakland/Alameda County CoC",4838
+"2008","CA","Sacramento ",2615
+"2008","CA","Santa Rosa/Petaluma/Sonoma County CoC",1314
+"2008","CA","Richmond/Contra Costa County CoC",4062
+"2008","CA","Salinas/Monterey, San Benito Counties CoC",1402
+"2008","CA","Marin County CoC",1002
+"2008","CA","Watsonville/Santa Cruz ",2789
+"2008","CA","Mendocino County CoC",1423
+"2008","CA","Turlock/Modesto/Stanislaus County CoC",1593
+"2008","CA","Stockton/San Joaquin County CoC",2354
+"2008","CA","Daly/San Mateo County CoC",1798
+"2008","CA","Visalia, Kings, Tulare Counties CoC",1040
+"2008","CA","Fresno/Madera County CoC",3507
+"2008","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",587
+"2008","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",263
+"2008","CA","Napa ",365
+"2008","CA","Vallejo/Solano County CoC",1956
+"2008","CA","Chico/Paradise/Butte County CoC",592
+"2008","CA","Merced ",2455
+"2008","CA","Davis/Woodland/Yolo County CoC",414
+"2008","CA","Humboldt County CoC",907
+"2008","CA","Colusa, Glenn, Trinity Counties CoC",193
+"2008","CA","Yuba ",594
+"2008","CA","El Dorado County CoC",150
+"2008","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",400
+"2008","CA","Los Angeles ",47862
+"2008","CA","San Diego ",8455
+"2008","CA","Santa Ana/Anaheim/Orange County CoC",3649
+"2008","CA","Santa Maria/Santa Barbara County CoC",4253
+"2008","CA","Bakersfield/Kern County CoC",1537
+"2008","CA","Long Beach CoC",3829
+"2008","CA","Pasadena CoC",983
+"2008","CA","Riverside ",4508
+"2008","CA","San Bernardino ",6969
+"2008","CA","Oxnard/San Buenaventura/Ventura County CoC",1961
+"2008","CA","Glendale CoC",296
+"2008","CA","Imperial County CoC",393
+"2008","CA","San Luis Obispo County CoC",850
+"2009","CA","San Jose/Santa Clara ",7086
+"2009","CA","San Francisco CoC",5823
+"2009","CA","Oakland/Alameda County CoC",4341
+"2009","CA","Sacramento ",2800
+"2009","CA","Santa Rosa/Petaluma/Sonoma County CoC",3247
+"2009","CA","Richmond/Contra Costa County CoC",2759
+"2009","CA","Salinas/Monterey, San Benito Counties CoC",2407
+"2009","CA","Marin County CoC",1026
+"2009","CA","Watsonville/Santa Cruz ",2265
+"2009","CA","Mendocino County CoC",1202
+"2009","CA","Turlock/Modesto/Stanislaus County CoC",1800
+"2009","CA","Stockton/San Joaquin County CoC",3005
+"2009","CA","Daly/San Mateo County CoC",1567
+"2009","CA","Visalia, Kings, Tulare Counties CoC",966
+"2009","CA","Fresno/Madera County CoC",4345
+"2009","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",1054
+"2009","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",340
+"2009","CA","Napa ",314
+"2009","CA","Vallejo/Solano County CoC",829
+"2009","CA","Chico/Paradise/Butte County CoC",689
+"2009","CA","Merced ",372
+"2009","CA","Davis/Woodland/Yolo County CoC",491
+"2009","CA","Humboldt County CoC",1355
+"2009","CA","Colusa, Glenn, Trinity Counties CoC",197
+"2009","CA","Yuba ",411
+"2009","CA","El Dorado County CoC",146
+"2009","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",372
+"2009","CA","Los Angeles ",33243
+"2009","CA","San Diego ",7995
+"2009","CA","Santa Ana/Anaheim/Orange County CoC",8333
+"2009","CA","Santa Maria/Santa Barbara County CoC",4121
+"2009","CA","Bakersfield/Kern County CoC",1499
+"2009","CA","Long Beach CoC",3909
+"2009","CA","Pasadena CoC",1144
+"2009","CA","Riverside ",3366
+"2009","CA","San Bernardino ",2026
+"2009","CA","Oxnard/San Buenaventura/Ventura County CoC",2193
+"2009","CA","Glendale CoC",306
+"2009","CA","Imperial County CoC",505
+"2009","CA","San Luis Obispo County CoC",3829
+"2010","CA","San Jose/Santa Clara ",7086
+"2010","CA","San Francisco CoC",5823
+"2010","CA","Oakland/Alameda County CoC",4341
+"2010","CA","Sacramento ",2734
+"2010","CA","Santa Rosa/Petaluma/Sonoma County CoC",3345
+"2010","CA","Richmond/Contra Costa County CoC",2759
+"2010","CA","Salinas/Monterey, San Benito Counties CoC",2407
+"2010","CA","Marin County CoC",1026
+"2010","CA","Watsonville/Santa Cruz ",2265
+"2010","CA","Mendocino County CoC",1202
+"2010","CA","Turlock/Modesto/Stanislaus County CoC",1800
+"2010","CA","Stockton/San Joaquin County CoC",3005
+"2010","CA","Daly/San Mateo County CoC",1424
+"2010","CA","Visalia, Kings, Tulare Counties CoC",966
+"2010","CA","Fresno/Madera County CoC",4288
+"2010","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",1054
+"2010","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",336
+"2010","CA","Napa ",314
+"2010","CA","Vallejo/Solano County CoC",829
+"2010","CA","Chico/Paradise/Butte County CoC",742
+"2010","CA","Merced ",372
+"2010","CA","Davis/Woodland/Yolo County CoC",491
+"2010","CA","Humboldt County CoC",1355
+"2010","CA","Colusa, Glenn, Trinity Counties CoC",197
+"2010","CA","Yuba ",512
+"2010","CA","El Dorado County CoC",146
+"2010","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",289
+"2010","CA","Del Norte County CoC",18
+"2010","CA","Los Angeles ",33243
+"2010","CA","San Diego ",8383
+"2010","CA","Santa Ana/Anaheim/Orange County CoC",8333
+"2010","CA","Santa Maria/Santa Barbara County CoC",4121
+"2010","CA","Bakersfield/Kern County CoC",1499
+"2010","CA","Long Beach CoC",3909
+"2010","CA","Pasadena CoC",1137
+"2010","CA","Riverside ",3126
+"2010","CA","San Bernardino ",2026
+"2010","CA","Oxnard/San Buenaventura/Ventura County CoC",1815
+"2010","CA","Glendale CoC",428
+"2010","CA","Imperial County CoC",505
+"2010","CA","San Luis Obispo County CoC",3829
+"2011","CA","San Jose/Santa Clara ",7067
+"2011","CA","San Francisco CoC",5669
+"2011","CA","Oakland/Alameda County CoC",4178
+"2011","CA","Sacramento ",2376
+"2011","CA","Santa Rosa/Petaluma/Sonoma County CoC",4541
+"2011","CA","Richmond/Contra Costa County CoC",2415
+"2011","CA","Salinas/Monterey, San Benito Counties CoC",2699
+"2011","CA","Marin County CoC",862
+"2011","CA","Watsonville/Santa Cruz ",2771
+"2011","CA","Mendocino County CoC",1456
+"2011","CA","Turlock/Modesto/Stanislaus County CoC",1434
+"2011","CA","Stockton/San Joaquin County CoC",2540
+"2011","CA","Daly/San Mateo County CoC",1926
+"2011","CA","Visalia, Kings, Tulare Counties CoC",804
+"2011","CA","Fresno/Madera County CoC",5135
+"2011","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",821
+"2011","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",527
+"2011","CA","Napa ",230
+"2011","CA","Vallejo/Solano County CoC",569
+"2011","CA","Chico/Paradise/Butte County CoC",897
+"2011","CA","Merced ",486
+"2011","CA","Davis/Woodland/Yolo County CoC",468
+"2011","CA","Humboldt County CoC",861
+"2011","CA","Colusa, Glenn, Trinity Counties CoC",322
+"2011","CA","Yuba ",649
+"2011","CA","El Dorado County CoC",170
+"2011","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",406
+"2011","CA","Del Norte County CoC",448
+"2011","CA","Los Angeles ",34622
+"2011","CA","San Diego ",9436
+"2011","CA","Santa Ana/Anaheim/Orange County CoC",6939
+"2011","CA","Santa Maria/Santa Barbara County CoC",1698
+"2011","CA","Bakersfield/Kern County CoC",1439
+"2011","CA","Long Beach CoC",3164
+"2011","CA","Pasadena CoC",1216
+"2011","CA","Riverside ",6203
+"2011","CA","San Bernardino ",2825
+"2011","CA","Oxnard/San Buenaventura/Ventura County CoC",1810
+"2011","CA","Glendale CoC",412
+"2011","CA","Imperial County CoC",508
+"2011","CA","San Luis Obispo County CoC",2129
+"2012","CA","San Jose/Santa Clara ",7053
+"2012","CA","San Francisco CoC",5895
+"2012","CA","Oakland/Alameda County CoC",4257
+"2012","CA","Sacramento ",2812
+"2012","CA","Santa Rosa/Petaluma/Sonoma County CoC",4483
+"2012","CA","Richmond/Contra Costa County CoC",2386
+"2012","CA","Salinas/Monterey, San Benito Counties CoC",2673
+"2012","CA","Marin County CoC",725
+"2012","CA","Watsonville/Santa Cruz ",2735
+"2012","CA","Mendocino County CoC",1441
+"2012","CA","Turlock/Modesto/Stanislaus County CoC",1470
+"2012","CA","Stockton/San Joaquin County CoC",1569
+"2012","CA","Daly/San Mateo County CoC",1845
+"2012","CA","Visalia, Kings, Tulare Counties CoC",771
+"2012","CA","Fresno/Madera County CoC",4492
+"2012","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",742
+"2012","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",524
+"2012","CA","Napa ",248
+"2012","CA","Vallejo/Solano County CoC",622
+"2012","CA","Chico/Paradise/Butte County CoC",897
+"2012","CA","Merced ",502
+"2012","CA","Davis/Woodland/Yolo County CoC",513
+"2012","CA","Humboldt County CoC",846
+"2012","CA","Colusa, Glenn, Trinity Counties CoC",303
+"2012","CA","Yuba ",492
+"2012","CA","El Dorado County CoC",217
+"2012","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",379
+"2012","CA","Del Norte County CoC",437
+"2012","CA","Los Angeles ",31553
+"2012","CA","San Diego ",10013
+"2012","CA","Santa Ana/Anaheim/Orange County CoC",7010
+"2012","CA","Santa Maria/Santa Barbara County CoC",1546
+"2012","CA","Bakersfield/Kern County CoC",1352
+"2012","CA","Long Beach CoC",3170
+"2012","CA","Pasadena CoC",904
+"2012","CA","Riverside ",6096
+"2012","CA","San Bernardino ",2532
+"2012","CA","Oxnard/San Buenaventura/Ventura County CoC",1926
+"2012","CA","Glendale CoC",299
+"2012","CA","Imperial County CoC",239
+"2012","CA","San Luis Obispo County CoC",2129
+"2013","CA","San Jose/Santa Clara ",7631
+"2013","CA","San Francisco CoC",7008
+"2013","CA","Oakland/Alameda County CoC",4264
+"2013","CA","Sacramento ",2538
+"2013","CA","Santa Rosa/Petaluma/Sonoma County CoC",4280
+"2013","CA","Richmond/Contra Costa County CoC",2000
+"2013","CA","Salinas/Monterey, San Benito Counties CoC",2955
+"2013","CA","Marin County CoC",676
+"2013","CA","Watsonville/Santa Cruz ",3536
+"2013","CA","Mendocino County CoC",1392
+"2013","CA","Turlock/Modesto/Stanislaus County CoC",1201
+"2013","CA","Stockton/San Joaquin County CoC",1541
+"2013","CA","Daly/San Mateo County CoC",1995
+"2013","CA","Visalia, Kings, Tulare Counties CoC",705
+"2013","CA","Fresno/Madera County CoC",3131
+"2013","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",908
+"2013","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",851
+"2013","CA","Napa ",245
+"2013","CA","Vallejo/Solano County CoC",1329
+"2013","CA","Chico/Paradise/Butte County CoC",712
+"2013","CA","Merced ",372
+"2013","CA","Davis/Woodland/Yolo County CoC",474
+"2013","CA","Humboldt County CoC",864
+"2013","CA","Colusa, Glenn, Trinity Counties CoC",696
+"2013","CA","Yuba ",1485
+"2013","CA","El Dorado County CoC",180
+"2013","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",376
+"2013","CA","Los Angeles ",35524
+"2013","CA","San Diego ",8879
+"2013","CA","Santa Ana/Anaheim/Orange County CoC",4251
+"2013","CA","Santa Maria/Santa Barbara County CoC",1882
+"2013","CA","Bakersfield/Kern County CoC",1152
+"2013","CA","Long Beach CoC",2847
+"2013","CA","Pasadena CoC",772
+"2013","CA","Riverside ",2978
+"2013","CA","San Bernardino ",2321
+"2013","CA","Oxnard/San Buenaventura/Ventura County CoC",1674
+"2013","CA","Glendale CoC",318
+"2013","CA","Imperial County CoC",252
+"2013","CA","San Luis Obispo County CoC",2357
+"2014","CA","San Jose/Santa Clara ",7567
+"2014","CA","San Francisco CoC",6408
+"2014","CA","Oakland/Alameda County CoC",4272
+"2014","CA","Sacramento ",2449
+"2014","CA","Santa Rosa/Petaluma/Sonoma County CoC",4266
+"2014","CA","Richmond/Contra Costa County CoC",2009
+"2014","CA","Salinas/Monterey, San Benito Counties CoC",2962
+"2014","CA","Marin County CoC",679
+"2014","CA","Watsonville/Santa Cruz ",3529
+"2014","CA","Mendocino County CoC",1404
+"2014","CA","Turlock/Modesto/Stanislaus County CoC",1156
+"2014","CA","Stockton/San Joaquin County CoC",1588
+"2014","CA","Daly/San Mateo County CoC",2024
+"2014","CA","Visalia, Kings, Tulare Counties CoC",763
+"2014","CA","Fresno/Madera County CoC",2592
+"2014","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",762
+"2014","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",630
+"2014","CA","Napa ",285
+"2014","CA","Vallejo/Solano County CoC",1295
+"2014","CA","Chico/Paradise/Butte County CoC",696
+"2014","CA","Merced ",768
+"2014","CA","Davis/Woodland/Yolo County CoC",442
+"2014","CA","Humboldt County CoC",932
+"2014","CA","Colusa, Glenn, Trinity Counties CoC",567
+"2014","CA","Yuba ",726
+"2014","CA","El Dorado County CoC",195
+"2014","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",382
+"2014","CA","Los Angeles ",34393
+"2014","CA","San Diego ",8506
+"2014","CA","Santa Ana/Anaheim/Orange County CoC",3833
+"2014","CA","Santa Maria/Santa Barbara County CoC",1832
+"2014","CA","Bakersfield/Kern County CoC",992
+"2014","CA","Long Beach CoC",2738
+"2014","CA","Pasadena CoC",666
+"2014","CA","Riverside ",2945
+"2014","CA","San Bernardino ",2315
+"2014","CA","Oxnard/San Buenaventura/Ventura County CoC",1428
+"2014","CA","Glendale CoC",292
+"2014","CA","Imperial County CoC",298
+"2014","CA","San Luis Obispo County CoC",2366
+"2015","CA","San Jose/Santa Clara ",6556
+"2015","CA","San Francisco CoC",6775
+"2015","CA","Oakland/Alameda County CoC",4040
+"2015","CA","Sacramento ",2659
+"2015","CA","Santa Rosa/Petaluma/Sonoma County CoC",3097
+"2015","CA","Richmond/Contra Costa County CoC",2031
+"2015","CA","Salinas/Monterey, San Benito Counties CoC",2959
+"2015","CA","Marin County CoC",1318
+"2015","CA","Watsonville/Santa Cruz ",1964
+"2015","CA","Mendocino County CoC",947
+"2015","CA","Turlock/Modesto/Stanislaus County CoC",1408
+"2015","CA","Stockton/San Joaquin County CoC",1708
+"2015","CA","Daly/San Mateo County CoC",1483
+"2015","CA","Visalia, Kings, Tulare Counties CoC",862
+"2015","CA","Fresno/Madera County CoC",1722
+"2015","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",796
+"2015","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",591
+"2015","CA","Napa ",293
+"2015","CA","Vallejo/Solano County CoC",1082
+"2015","CA","Chico/Paradise/Butte County CoC",571
+"2015","CA","Merced ",898
+"2015","CA","Davis/Woodland/Yolo County CoC",498
+"2015","CA","Humboldt County CoC",1180
+"2015","CA","Colusa, Glenn, Trinity Counties CoC",136
+"2015","CA","Yuba ",716
+"2015","CA","El Dorado County CoC",269
+"2015","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",430
+"2015","CA","Tehama County CoC",138
+"2015","CA","Lake County CoC",315
+"2015","CA","Los Angeles ",41174
+"2015","CA","San Diego ",8742
+"2015","CA","Santa Ana/Anaheim/Orange County CoC",4452
+"2015","CA","Santa Maria/Santa Barbara County CoC",1729
+"2015","CA","Bakersfield/Kern County CoC",954
+"2015","CA","Long Beach CoC",2345
+"2015","CA","Pasadena CoC",632
+"2015","CA","Riverside ",2372
+"2015","CA","San Bernardino ",2149
+"2015","CA","Oxnard/San Buenaventura/Ventura County CoC",1417
+"2015","CA","Glendale CoC",208
+"2015","CA","Imperial County CoC",554
+"2015","CA","San Luis Obispo County CoC",1515
+"2015","CA","Inyo, Mono, Alpine Counties CoC",53
+"2016","CA","San Jose/Santa Clara ",6524
+"2016","CA","San Francisco CoC",6996
+"2016","CA","Oakland/Alameda County CoC",4145
+"2016","CA","Sacramento ",2500
+"2016","CA","Santa Rosa/Petaluma/Sonoma County CoC",2906
+"2016","CA","Richmond/Contra Costa County CoC",1730
+"2016","CA","Salinas/Monterey, San Benito Counties CoC",3022
+"2016","CA","Marin County CoC",1258
+"2016","CA","Watsonville/Santa Cruz ",1959
+"2016","CA","Mendocino County CoC",1242
+"2016","CA","Turlock/Modesto/Stanislaus County CoC",1434
+"2016","CA","Stockton/San Joaquin County CoC",1780
+"2016","CA","Daly/San Mateo County CoC",1361
+"2016","CA","Visalia, Kings, Tulare Counties CoC",792
+"2016","CA","Fresno/Madera County CoC",1883
+"2016","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",1021
+"2016","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",1272
+"2016","CA","Napa ",317
+"2016","CA","Vallejo/Solano County CoC",1118
+"2016","CA","Chico/Paradise/Butte County CoC",574
+"2016","CA","Merced ",516
+"2016","CA","Davis/Woodland/Yolo County CoC",532
+"2016","CA","Humboldt County CoC",1134
+"2016","CA","Colusa, Glenn, Trinity Counties CoC",115
+"2016","CA","Yuba ",702
+"2016","CA","El Dorado County CoC",269
+"2016","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",632
+"2016","CA","Tehama County CoC",133
+"2016","CA","Lake County CoC",332
+"2016","CA","Los Angeles ",43854
+"2016","CA","San Diego ",8669
+"2016","CA","Santa Ana/Anaheim/Orange County CoC",4319
+"2016","CA","Santa Maria/Santa Barbara County CoC",1813
+"2016","CA","Bakersfield/Kern County CoC",1067
+"2016","CA","Long Beach CoC",2250
+"2016","CA","Pasadena CoC",530
+"2016","CA","Riverside ",2165
+"2016","CA","San Bernardino ",1887
+"2016","CA","Oxnard/San Buenaventura/Ventura County CoC",1271
+"2016","CA","Glendale CoC",240
+"2016","CA","Imperial County CoC",380
+"2016","CA","San Luis Obispo County CoC",1368
+"2016","CA","Inyo, Mono, Alpine Counties CoC",130
+"2017","CA","San Jose/Santa Clara ",7394
+"2017","CA","San Francisco CoC",6858
+"2017","CA","Oakland/Alameda County CoC",5629
+"2017","CA","Sacramento ",3665
+"2017","CA","Santa Rosa/Petaluma/Sonoma County CoC",2835
+"2017","CA","Richmond/Contra Costa County CoC",1607
+"2017","CA","Salinas/Monterey, San Benito Counties CoC",3364
+"2017","CA","Marin County CoC",1117
+"2017","CA","Watsonville/Santa Cruz ",2249
+"2017","CA","Mendocino County CoC",1238
+"2017","CA","Turlock/Modesto/Stanislaus County CoC",1661
+"2017","CA","Stockton/San Joaquin County CoC",1542
+"2017","CA","Daly/San Mateo County CoC",1253
+"2017","CA","Visalia, Kings, Tulare Counties CoC",853
+"2017","CA","Fresno/Madera County CoC",2016
+"2017","CA","Roseville/Rocklin/Placer, Nevada Counties CoC",979
+"2017","CA","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",934
+"2017","CA","Napa ",315
+"2017","CA","Vallejo/Solano County CoC",1232
+"2017","CA","Chico/Paradise/Butte County CoC",1195
+"2017","CA","Merced ",454
+"2017","CA","Davis/Woodland/Yolo County CoC",459
+"2017","CA","Humboldt County CoC",759
+"2017","CA","Colusa, Glenn, Trinity Counties CoC",176
+"2017","CA","Yuba ",760
+"2017","CA","El Dorado County CoC",602
+"2017","CA","Amador, Calaveras, Tuolumne and Mariposa Counties CoC",367
+"2017","CA","Tehama County CoC",124
+"2017","CA","Lake County CoC",401
+"2017","CA","Inyo, Mono, Alpine Counties CoC",121
+"2017","CA","Los Angeles ",55188
+"2017","CA","San Diego ",9160
+"2017","CA","Santa Ana/Anaheim/Orange County CoC",4792
+"2017","CA","Santa Maria/Santa Barbara County CoC",1860
+"2017","CA","Bakersfield/Kern County CoC",810
+"2017","CA","Long Beach CoC",1863
+"2017","CA","Pasadena CoC",575
+"2017","CA","Riverside ",2406
+"2017","CA","San Bernardino ",1866
+"2017","CA","Oxnard/San Buenaventura/Ventura County CoC",1152
+"2017","CA","Glendale CoC",168
+"2017","CA","Imperial County CoC",1154
+"2017","CA","San Luis Obispo County CoC",1125
