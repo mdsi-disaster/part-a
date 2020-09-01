@@ -48,6 +48,7 @@ p_type_2018$year <- '2018'
 # merge datasets 
 p_type_2010_2018 <- rbind(p_type_2010,p_type_2011, p_type_2012, p_type_2013, p_type_2014, p_type_2015, p_type_2016, p_type_2017, p_type_2018)
 
+# rename columns
 p_type_2010_2018 <- p_type_2010_2018 %>%
   rename(county = 'NAME',
          'total_properties' = DP04_0006E,
@@ -73,11 +74,9 @@ p_type_2010_2018[,2:17] <- sapply(p_type_2010_2018[,2:17],as.numeric)
 # 1_detached = house, 1_unit_attached and 2_units = townhouse, 3_4, 5_9 = low_rise_apartments, 10_19 = med_rise_apartments, 20_more = high_rise_apartments
 
 p_type_2010_2018$townhouse <- p_type_2010_2018$one_unit_attached +     p_type_2010_2018$two_units
-
 p_type_2010_2018$per_townhouse <- p_type_2010_2018$per_one_unit_attached + p_type_2010_2018$per_two_units
 
 p_type_2010_2018$low_rise_apartments <- p_type_2010_2018$three_four_units + p_type_2010_2018$five_nine_units
-
 p_type_2010_2018$per_low_rise_apartments <- p_type_2010_2018$per_three_four_units + p_type_2010_2018$per_five_nine_units
 
 # keep relevant columns and re-order
