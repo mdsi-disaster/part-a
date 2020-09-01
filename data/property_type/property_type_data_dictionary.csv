@@ -1,0 +1,16 @@
+variable name,description
+county,county where the properties are located
+state,state where the propertes are located (california only)
+year,year from 2010 to 2018
+total_properties,total count of properties 
+house,count of house (1 unit detached)
+per_house,percentage of houses (1 unit attached) out of total properties
+townhouse,count of townhouse (1 unit attached - 2 units)
+per_townhouse,percentage of townhouses (1 unit detached - 2 units) out of total properties
+low_rise_apartments,count of 3_4 units and 5-9 units properties
+per_low_rise_apartments,percentage of 3_4 units and 5-9 units properties out of total properties
+mid_rise_apartments,count of 10_19 units 
+per_mid_rise_apartments,percentage of 10_19 units out of total properties
+high_rise_apartments,count of 20+ units
+per_high_rise_apartments,percentage of 20+units out of total properties
+Source: https://www.infoplease.com/us/census/california/housing-statistics,
