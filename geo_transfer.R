@@ -16,7 +16,7 @@ revgeocode(c(-118.3526,
 
 
 #Option 2 Can get County Information
-data <- read.csv(here('data','house_price','CA_HOUSE_Raw.csv'))
+data <- read.csv(here('data','house_price','ca_house_raw.csv'))
 zipinfo <- data %>% rename(ZipCode = RegionName) %>% select(ZipCode,City,Metro,CountyName)
 #write.csv(zipinfo, here('data','house_price','zipinfo.csv'))
 
