@@ -14,7 +14,7 @@ library(textclean)
 
 # county mapping to city data ---------
 
-#create a column for county 
+# load data that can later be used to create a column for county in the crime data 
 city_county <- read_excel(here("crime data","city_county.xls"), col_names = TRUE)
 
 city_county <- city_county %>% #rename 'city name column 'Name' variable to city and only select 'city' and 'county' variables
