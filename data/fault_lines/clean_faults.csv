@@ -1,0 +1,558 @@
+name,class,fault_id,county,length_km,time,slip_rate
+airport lake fault zone,A,73,inyo,40,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+alexander-redwood hill fault zone,A,220,sonoma,NA,latest Quaternary (<15 ka),Unspecified
+almanor fault zone,A,21,lassen,40,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+americano creek fault,A,225,sonoma,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+antelope valley fault zone,A,1287,mono,51,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+arrowhead fault zone,A,335,san bernardino,19,undifferentiated Quaternary (<1.6 Ma),Unspecified
+ash creek fault zone,A,196,siskiyou,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+ash meadows fault zone,A,1077,inyo,42,late Quaternary (<130 ka),Less than 0.2 mm/yr
+bald mountain-big lagoon fault zone,A,787,del norte,95,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+bald mountain-big lagoon fault zone,A,12,humboldt,124,middle and late Quaternary (<750 ka),Between 1.0 and 5.0 mm/yr
+bald mountain graben,A,413,mono,17,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"bartlett springs fault system, bartlett springs section",A,29d,lake,80,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"bartlett springs fault system, elk creek section",A,29c,mendocino,80,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"bartlett springs fault system, lake mountain section",A,29a,mendocino,51,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"bartlett springs fault system, round valley section",A,29b,mendocino,75,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+battle creek fault zone,A,20,shasta,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+bear river fault zone,A,153,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+beaver creek fault,A,202,tehama,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+ben lomond fault,A,498,santa cruz,5,late Quaternary (<130 ka),Unspecified
+bennett valley fault zone,A,229,sonoma,NA,latest Quaternary (<15 ka),Unspecified
+benton range fault zone,A,436,mono,61,undifferentiated Quaternary (<1.6 Ma),Unspecified
+berrocal fault zone,A,57,san mateo,57,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+bidwell creek fault zone,A,500,sonoma,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"big pine fault zone, eastern big pine section",A,86b,ventura,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"big pine fault zone, lockwood valley section",A,86c,kern,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"big pine fault zone, western big pine section",A,86a,santa barbara,NA,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+big valley fault,A,165,lake,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+black fox mountain fault zone,A,195,siskiyou,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"black mountains fault zone, artists drive section",A,142b,inyo,22,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"black mountains fault zone, copper canyon section",A,142c,inyo,27,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"black mountains fault zone, mustard hills transition zone",A,142a,inyo,8,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+"black mountains fault zone, smith mountain section",A,142d,inyo,16,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+blackwater fault zone,A,113,san bernardino,78,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+blythe graben,A,505,riverside,4,late Quaternary (<130 ka),Unspecified
+bottle springs fault,A,209,plumas,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+brawley seismic zone,A,124,imperial,68,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+brush mountain shear zone,A,154,mendocino,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+burdell mountain fault,A,226,marin,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+burnt mountain fault zone,A,119,riverside,26,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+butt creek fault zone,A,189,plumas,NA,late Quaternary (<130 ka),Unspecified
+"cabrillo fault, offshore section",A,129b,los angeles,10,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"cabrillo fault, onshore section",A,129a,los angeles,10,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"calaveras fault zone, central calaveras fault section",A,54b,alameda,64,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"calaveras fault zone, northern calaveras section",A,54a,alameda,43,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"calaveras fault zone, paicines section",A,54d,san benito,26,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"calaveras fault zone, southern calaveras section",A,54c,santa clara,24,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"calico-hidalgo fault zone, calico section",A,121a,san bernardino,63,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"calico-hidalgo fault zone, hidalgo section",A,121c,san bernardino,38,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"calico-hidalgo fault zone, west calico section",A,121b,san bernardino,70,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"camp rock-emerson-copper mountain fault zone, camp rock section",A,114a,san bernardino,30,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"camp rock-emerson-copper mountain fault zone, copper mountain section",A,114c,san bernardino,13,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"camp rock-emerson-copper mountain fault zone, emerson section",A,114b,san bernardino,61,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+carneros fault,A,507,santa barbara,2,late Quaternary (<130 ka),Unspecified
+"cedar mountain fault system, cedar mountain section",A,2b,siskiyou,52,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"cedar mountain fault system, ikes mtn.-mt. hebron section",A,2c,siskiyou,43,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+"cedar mountain fault system, stephens pass section",A,2d,siskiyou,7,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+cedar roughs fault,A,745,napa,9,Unspecified,Insufficient data
+channel islands thrust fault,A,139,ventura,NA,undifferentiated Quaternary (<1.6 Ma),Between 1.0 and 5.0 mm/yr
+channel islands western deep ramp,A,493,santa barbara,76,undifferentiated Quaternary (<1.6 Ma),Unspecified
+chemehuevi graben,A,508,san bernardino,3,late Quaternary (<130 ka),Unspecified
+chianti fault,A,222,sonoma,NA,late Quaternary (<130 ka),Unspecified
+chico monocline fault,A,159,tehama,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"chupines fault zone, calera canyon section",A,145c,monterey,NA,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"chupines fault zone, del rey oaks section",A,145a,monterey,36,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"chupines fault zone, laguna seca section",A,145b,monterey,18,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"cleghorn fault zone, northern cleghorn section",A,108b,san bernardino,14,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"cleghorn fault zone, southern cleghorn section",A,108a,san bernardino,24,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+clover valley fault zone,A,157,lake,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+collayomi fault zone,A,34,sonoma,30,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+compton thrust fault,A,133,los angeles,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"concord fault, avon section",A,38a,contra costa,9,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"concord fault, concord section",A,38b,contra costa,4,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"concord fault, ygnacio valley section",A,38c,contra costa,15,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+cordelia fault zone,A,219,solano,NA,latest Quaternary (<15 ka),Unspecified
+corning fault,A,158,tehama,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"coronado bank fault zone, coronado bank-palos verdes section",A,131a,san diego,NA,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"coronado bank fault zone, coronado bank section",A,131b,san diego,NA,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+crablouse ravine fault,A,208,plumas,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+cristianitos fault,A,509,san diego,3,undifferentiated Quaternary (<1.6 Ma),Unspecified
+cross spring fault zone,A,166,lake,NA,late Quaternary (<130 ka),Unspecified
+cross valley fault,A,183,inyo,5,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+cypress point fault,A,146,monterey,12,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+davies valley fault,A,310,imperial,7,latest Quaternary (<15 ka),Unspecified
+davis creek fault zone,A,175,modoc,NA,late Quaternary (<130 ka),Unspecified
+deep springs fault,A,50,inyo,23,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+dry lake fault,A,510,riverside,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+dry valley-smoke creek ranch fault zone,A,1602,lassen,48,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+dume fault,A,100,ventura,NA,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+dunnigan hills fault,A,234,yolo,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+east tahoe fault,A,1651,el dorado,36,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+eaton roughs fault zone,A,17,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+echo canyon thrust,A,182,inyo,2,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+el encanto fault,A,511,santa barbara,4,late Quaternary (<130 ka),Unspecified
+"elsinore fault zone, chino section",A,126b,riverside,20,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"elsinore fault zone, coyote mountain section",A,126f,imperial,33,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"elsinore fault zone, glen ivy section",A,126c,riverside,46,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"elsinore fault zone, julian section",A,126e,san diego,79,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"elsinore fault zone, laguna salada section",A,126g,imperial,61,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"elsinore fault zone, temecula section",A,126d,san diego,62,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"elsinore fault zone, whittier section",A,126a,orange,36,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+eureka peak fault,A,120,san bernardino,22,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+extra fault zone,A,512,imperial,49,latest Quaternary (<15 ka),Unspecified
+faults in west coyote hills,A,513,orange,2,late Quaternary (<130 ka),Unspecified
+"fish lake valley fault zone, cucomongo section",A,49d,inyo,33,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"fish lake valley fault zone, leidy creek section",A,49a,mono,30,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"fish lake valley fault zone, oasis section",A,49c,mono,36,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+fish slough fault zone,A,48,inyo,23,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+fitzhugh creek fault zone,A,174,modoc,NA,late Quaternary (<130 ka),Unspecified
+fort sage fault,A,24,lassen,17,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+franz valley thrust,A,514,sonoma,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+furnace creek fault zone,A,144,inyo,39,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+garberville-briceland fault zone,A,19,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"garlock fault zone, central garlock section",A,69b,san bernardino,107,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"garlock fault zone, eastern garlock section",A,69c,san bernardino,60,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"garlock fault zone, western garlock section",A,69a,los angeles,110,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+geyser peak fault zone,A,228,sonoma,NA,late Quaternary (<130 ka),Unspecified
+gillem-big crack fault system,A,3,modoc,36,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+grapevine fault,A,184,inyo,29,late Quaternary (<130 ka),Less than 0.2 mm/yr
+grapevine mountains fault,A,1094,inyo,23,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+"great valley thrust fault system, coalinga (gv 13) section",A,28m,fresno,39,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"great valley thrust fault system, great valley 01 section",A,28a,glenn,57,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+"great valley thrust fault system, great valley 02 section",A,28b,colusa,28,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+"great valley thrust fault system, great valley 11 section",A,28k,fresno,31,middle and late Quaternary (<750 ka),Between 0.2 and 1.0 mm/yr
+"great valley thrust fault system, great valley 12 section",A,28l,fresno,22,middle and late Quaternary (<750 ka),Between 1.0 and 5.0 mm/yr
+"great valley thrust fault system, kettleman hills-north dome (gv 14) section",A,28n,fresno,30,middle and late Quaternary (<750 ka),Between 1.0 and 5.0 mm/yr
+"great valley thrust fault system, laguna seca (gv 09) section",A,28i,merced,50,middle and late Quaternary (<750 ka),Between 1.0 and 5.0 mm/yr
+"great valley thrust fault system, mysterious ridge (great valley 03) section",A,28c,yolo,66,undifferentiated Quaternary (<1.6 Ma),Between 1.0 and 5.0 mm/yr
+"great valley thrust fault system, orestimba (gv 07) section",A,28g,san joaquin,76,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"great valley thrust fault system, panoche hills (gv 10) section",A,28j,fresno,24,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"great valley thrust fault system, quinto (gv 08) section",A,28h,merced,23,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"great valley thrust fault system, trout creek (great valley 04a) and gordon valley (great valley 04b) sections",A,28d,yolo,61,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+green valley fault,A,37,napa,39,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"greenville fault zone, arroyo mocho section",A,53c,santa clara,25,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"greenville fault zone, clayton section",A,53a,contra costa,16,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"greenville fault zone, marsh creek-greenville section",A,53b,contra costa,35,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"greenville fault zone, san antonio valley section",A,53d,santa clara,24,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+grogan fault,A,11,humboldt,154,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+hanaupah fault,A,68,inyo,7,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+hanover fault,A,459,santa clara,4,undifferentiated Quaternary (<1.6 Ma),Unspecified
+harper fault zone,A,112,san bernardino,79,latest Quaternary (<15 ka),Unspecified
+hartley springs fault zone,A,43,mono,23,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+haskins valley fault,A,204,plumas,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+hatchet mountain fault,A,197,shasta,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+hat creek fault zone,A,9,lassen,59,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+hathaway creek fault,A,415,mendocino,14,late Quaternary (<130 ka),Unspecified
+hays canyon range fault zone,A,1464,lassen,52,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+"hayward fault zone, northern hayward section",A,55a,contra costa,42,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"hayward fault zone, southeast extension section",A,55c,alameda,30,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"hayward fault zone, southern hayward section",A,55b,santa clara,42,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+healdsburg fault,A,31,sonoma,31,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"helendale-south lockhart fault zone, helendale section",A,110b,san bernardino,63,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"helendale-south lockhart fault zone, northern san bernardino mountains section",A,110c,san bernardino,20,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"helendale-south lockhart fault zone, south lockhart section",A,110a,kern,50,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+hermit fault,A,489,san mateo,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+hidden spring fault zone,A,313,riverside,31,latest Quaternary (<15 ka),Unspecified
+hilton creek fault,A,44,mono,30,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+hollywood fault,A,102,los angeles,14,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+homestead valley fault zone,A,116,san bernardino,31,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+honeydew fault zone,A,155,humboldt,NA,late Quaternary (<130 ka),Unspecified
+honey lake fault zone,A,22,plumas,98,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+hosgri fault zone,A,81b,san luis obispo,NA,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+hosgri fault zone,A,81a,san luis obispo,NA,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+hot springs fault,A,311,imperial,17,latest Quaternary (<15 ka),Unspecified
+huckleberry meadows fault,A,783,shasta,17,undifferentiated Quaternary (<1.6 Ma),Insufficient data
+humbug mountain fault,A,393,san bernardino,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"hunter mountain- saline valley fault zone, hunter mountain section",A,66b,inyo,42,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"hunter mountain- saline valley fault zone, saline valley section",A,66a,inyo,31,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"hunting creek-berryessa fault system, hunting creek section",A,35b,lake,17,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"hunting creek-berryessa fault system, lake berryessa section",A,35c,napa,28,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"hunting creek-berryessa fault system, wilson section",A,35a,yolo,20,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+huntoon valley fault system,A,1302,mono,39,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+imperial fault,A,132,imperial,46,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+indian hill fault,A,331,los angeles,20,late Quaternary (<130 ka),Unspecified
+indian valley fault,A,23,plumas,20,latest Quaternary (<15 ka),Unspecified
+isla vista fault,A,516,santa barbara,5,late Quaternary (<130 ka),Unspecified
+javon canyon fault,A,375,ventura,3,latest Quaternary (<15 ka),Unspecified
+jess valley fault zone,A,164,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"johnson valley fault zone, northern johnson valley section",A,115a,san bernardino,32,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"johnson valley fault zone, southern johnson valley section",A,115b,san bernardino,24,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+jolon fault,A,490,monterey,239,undifferentiated Quaternary (<1.6 Ma),Unspecified
+joy woods fault,A,223,sonoma,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+keddie ridge fault,A,191,plumas,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+kern canyon fault zone,A,494,tulare,169,latest Quaternary (<15 ka),Unspecified
+kern front fault,A,368,kern,13,late Quaternary (<130 ka),Unspecified
+kern gorge fault,A,374,kern,NA,late Quaternary (<130 ka),Unspecified
+king range thrust zone,A,152,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+knights valley fault zone,A,517,sonoma,15,undifferentiated Quaternary (<1.6 Ma),Unspecified
+konocti bay fault zone,A,169,lake,NA,latest Quaternary (<15 ka),Unspecified
+kramer hills fault zone,A,321,san bernardino,28,latest Quaternary (<15 ka),Unspecified
+lagoon valley fault,A,518,solano,14,late Quaternary (<130 ka),Unspecified
+laguna meadow fault,A,519,san diego,5,undifferentiated Quaternary (<1.6 Ma),Unspecified
+lake city fault zone,A,176,modoc,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+la panza fault zone,A,78,san luis obispo,89,undifferentiated Quaternary (<1.6 Ma),Unspecified
+laureles fault,A,482,monterey,10,late Quaternary (<130 ka),Unspecified
+lavic lake fault,A,351,san bernardino,40,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+lee flat fault zone,A,521,inyo,9,latest Quaternary (<15 ka),Unspecified
+"lenwood-lockhart fault zone, lenwood section",A,111b,san bernardino,74,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"lenwood-lockhart fault zone, lockhart section",A,111a,kern,69,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+likely fault zone,A,5,modoc,92,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+lion's head fault zone,A,83,santa barbara,69,late Quaternary (<130 ka),Unspecified
+little grass valley fault,A,205,plumas,NA,late Quaternary (<130 ka),Unspecified
+little indian valley fault,A,167,colusa,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+little lake fault zone,A,72,kern,54,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+little pine fault zone,A,255,santa barbara,43,late Quaternary (<130 ka),Unspecified
+little salmon fault (offshore),A,14,humboldt,49,latest Quaternary (<15 ka),Unspecified
+little salmon fault zone,A,15,humboldt,91,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+livermore fault,A,398,alameda,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+llano fault,A,324,los angeles,7,latest Quaternary (<15 ka),Unspecified
+long canyon fault,A,337,san bernardino,19,latest Quaternary (<15 ka),Unspecified
+long valley fault zone,A,437,mono,42,undifferentiated Quaternary (<1.6 Ma),Unspecified
+loon point fault,A,434,santa barbara,1,latest Quaternary (<15 ka),Unspecified
+los alamos fault,A,85,santa barbara,33,latest Quaternary (<15 ka),Unspecified
+"los osos fault zone, estero bay section",A,79a,san luis obispo,NA,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"los osos fault zone, irish hills section",A,79b,san luis obispo,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"los osos fault zone, lopez reservoir section",A,79c,san luis obispo,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"los osos fault zone, newsom ridge section",A,79d,san luis obispo,14,late Quaternary (<130 ka),Less than 0.2 mm/yr
+lost man fault,A,147,del norte,NA,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+lower covington flat fault,A,522,inyo,9,latest Quaternary (<15 ka),Unspecified
+lower elysian park thrust,A,134,los angeles,50,undifferentiated Quaternary (<1.6 Ma),Between 1.0 and 5.0 mm/yr
+lower pitas point-montalvo structure,A,492,santa barbara,90,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"maacama fault zone, northern section",A,30a,mendocino,107,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"maacama fault zone, southern section",A,30b,mendocino,53,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+mad river fault zone,A,13,humboldt,81,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+malibu coast fault,A,99,ventura,62,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+mayfield fault zone,A,6,siskiyou,32,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+mcarthur fault zone,A,8,lassen,59,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+mccumber flat fault,A,792,shasta,11,undifferentiated Quaternary (<1.6 Ma),Insufficient data
+mcgrath fault,A,523,san bernardino,8,undifferentiated Quaternary (<1.6 Ma),Unspecified
+mecca hills fault zone,A,316,riverside,41,latest Quaternary (<15 ka),Unspecified
+mendocino fault zone,A,18,humboldt,174,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+mesa-rincon creek fault zone,A,264,santa barbara,37,late Quaternary (<130 ka),Unspecified
+mesquite lake fault,A,123,san bernardino,49,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+midland fault zone,A,506,solano,88,undifferentiated Quaternary (<1.6 Ma),Unspecified
+miller creek fault,A,217,monterey,NA,late Quaternary (<130 ka),Unspecified
+mirage valley fault zone,A,323,san bernardino,37,late Quaternary (<130 ka),Unspecified
+mission hills fault zone,A,280,los angeles,11,late Quaternary (<130 ka),Unspecified
+"mission ridge fault system, arroyo parida section",A,88c,santa barbara,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"mission ridge fault system, mission ridge section",A,88b,santa barbara,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"mission ridge fault system, more ranch section",A,88a,santa barbara,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"mission ridge fault system, santa ana section",A,88d,ventura,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+mocho fault,A,399,alameda,5,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"mohawk valley fault zone, mohawk valley section",A,25a,plumas,24,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"mohawk valley fault zone, sierra valley section",A,25b,sierra,18,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+mono lake fault,A,41,mono,23,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+montalvo fault,A,524,ventura,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"monterey bay- tularcitos fault zone, monterey bay section",A,62a,monterey,42,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"monterey bay- tularcitos fault zone, seaside-monterey section",A,62b,monterey,25,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"monterey bay- tularcitos fault zone, tularcitos section",A,62c,monterey,32,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+monte vista-shannon fault zone,A,56,san mateo,46,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+moraga fault,A,376,contra costa,44,undifferentiated Quaternary (<1.6 Ma),Unspecified
+morales fault,A,491,san luis obispo,11,undifferentiated Quaternary (<1.6 Ma),Unspecified
+mosquito creek fault,A,210,plumas,19,undifferentiated Quaternary (<1.6 Ma),Unspecified
+mountain home fault zone,A,525,sonoma,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+mount diablo thrust fault,A,353,alameda,32,undifferentiated Quaternary (<1.6 Ma),Between 1.0 and 5.0 mm/yr
+mount eden fault,A,418,riverside,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+mt. general fault,A,343,san bernardino,23,latest Quaternary (<15 ka),Unspecified
+mt. jackson fault zone,A,526,sonoma,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+mt. poso fault,A,384,kern,15,undifferentiated Quaternary (<1.6 Ma),Unspecified
+murphy canyon fault,A,303,san diego,5,undifferentiated Quaternary (<1.6 Ma),Unspecified
+murrietta hot springs fault,A,298,riverside,16,late Quaternary (<130 ka),Unspecified
+nelson corral fault,A,177,lassen,34,late Quaternary (<130 ka),Unspecified
+new hope fault,A,383,kern,13,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"newport-inglewood-rose canyon fault zone, dana point section",A,127c,orange,49,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"newport-inglewood-rose canyon fault zone, del mar section",A,127e,san diego,25,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"newport-inglewood-rose canyon fault zone, north los angeles basin section",A,127a,los angeles,28,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"newport-inglewood-rose canyon fault zone, oceanside section",A,127d,san diego,37,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"newport-inglewood-rose canyon fault zone, san diego section",A,127f,san diego,20,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"newport-inglewood-rose canyon fault zone, silver strand section",A,127g,san diego,23,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"newport-inglewood-rose canyon fault zone, south los angeles basin section",A,127b,los angeles,34,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+nopah fault,A,527,inyo,20,late Quaternary (<130 ka),Unspecified
+northern centinela fault zone,A,504,imperial,4,latest Quaternary (<15 ka),Unspecified
+"northern death valley fault zone, kit fox hills section",A,141c,inyo,33,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"northern death valley fault zone, mesquite flat-screwbean spring section",A,141b,inyo,30,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+north fork road thrust fault zone,A,151,humboldt,32,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"north frontal thrust system, eastern section",A,109b,san bernardino,31,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"north frontal thrust system, western section",A,109a,san bernardino,39,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+northridge blind thrust,A,135,los angeles,41,undifferentiated Quaternary (<1.6 Ma),Between 1.0 and 5.0 mm/yr
+northridge hills fault,A,274,los angeles,14,late Quaternary (<130 ka),Unspecified
+north tahoe fault,B,1649,placer,25,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+nunez fault,A,289,fresno,6,undifferentiated Quaternary (<1.6 Ma),Unspecified
+oak ridge fault,A,94,ventura,98,late Quaternary (<130 ka),Unspecified
+"oak ridge fault, mid-channel structure",A,138,ventura,41,undifferentiated Quaternary (<1.6 Ma),Between 1.0 and 5.0 mm/yr
+oak ridge fault (offshore),A,136,ventura,NA,undifferentiated Quaternary (<1.6 Ma),Greater than 5.0 mm/yr
+oceanic fault zone,A,352,san diego,NA,late Quaternary (<130 ka),Unspecified
+oceanside fault,A,187,san diego,143,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+ocotillo fault zone,A,503,imperial,9,latest Quaternary (<15 ka),Unspecified
+old dale fault,A,394,san bernardino,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+old woman springs fault,A,117,san bernardino,15,latest Quaternary (<15 ka),Unspecified
+o'neill fault system,A,372,merced,55,late Quaternary (<130 ka),Unspecified
+ortega hill fault,A,529,santa barbara,1,late Quaternary (<130 ka),Unspecified
+"ortigalita fault zone, cottonwood arm section",A,52a,merced,31,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"ortigalita fault zone, little panoche valley section",A,52d,san benito,13,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"ortigalita fault zone, los banos valley section",A,52b,merced,35,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"ortigalita fault zone, piedra azul section",A,52c,fresno,23,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+overland avenue fault,A,278,los angeles,9,late Quaternary (<130 ka),Unspecified
+owens river gorge fault zone,A,438,mono,17,late Quaternary (<130 ka),Unspecified
+"owens valley fault zone, 1872 rupture section",A,51b,inyo,118,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"owens valley fault zone, keough hot springs section",A,51a,inyo,21,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+owl lake fault,A,70,san bernardino,25,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+ozena fault zone,A,256,santa barbara,51,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"palos verdes fault zone, palos verdes hills section",A,128b,los angeles,12,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+"palos verdes fault zone, san pedro shelf section",A,128c,los angeles,29,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"palos verdes fault zone, santa monica basin section",A,128a,los angeles,32,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"panamint valley fault zone, brown mountain section",A,67d,san bernardino,17,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"panamint valley fault zone, northern panamint valley section",A,67a,inyo,27,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"panamint valley fault zone, southern panamint valley section",A,67c,san bernardino,54,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+panoche hills fault,A,530,san benito,13,undifferentiated Quaternary (<1.6 Ma),Unspecified
+peavine gulch fault,A,800,shasta,26,undifferentiated Quaternary (<1.6 Ma),Insufficient data
+pelican hill fault,A,137,orange,13,late Quaternary (<130 ka),Unspecified
+pelona fault,A,409,ventura,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+peralta hills fault,A,299,orange,10,late Quaternary (<130 ka),Unspecified
+peralta hills structure,A,363,orange,17,undifferentiated Quaternary (<1.6 Ma),Unspecified
+petrified forest thrust fault,A,531,sonoma,21,undifferentiated Quaternary (<1.6 Ma),Unspecified
+pilarcitos fault,A,235,san mateo,53,undifferentiated Quaternary (<1.6 Ma),Unspecified
+pine mountain fault,A,261,ventura,60,late Quaternary (<130 ka),Unspecified
+pine mountain fault zone,A,532,los angeles,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+pine rock fault zone,A,287,san benito,47,late Quaternary (<130 ka),Unspecified
+pinole fault,A,378,contra costa,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+pinto mountain fault zone (includes morongo valley fault),A,118,riverside,82,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+pinto wash fault zone,A,501,imperial,4,latest Quaternary (<15 ka),Unspecified
+pipes canyon fault,A,320,san bernardino,28,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"pisgah-bullion fault zone, bullion section",A,122b,san bernardino,19,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"pisgah-bullion fault zone, east bullion section",A,122c,san bernardino,54,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"pisgah-bullion fault zone, pisgah section",A,122a,san bernardino,32,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"pisgah-bullion fault zone, west bullion",A,122d,san bernardino,40,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+pitas point fault,A,180,los angeles,43,latest Quaternary (<15 ka),Unspecified
+pittville fault,A,7,modoc,36,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+pleasanton fault,A,238,alameda,25,latest Quaternary (<15 ka),Unspecified
+"pleito fault zone, eastern pleito section",A,76b,kern,16,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"pleito fault zone, western pleito section",A,76a,kern,24,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+point loma fault zone,A,302,san diego,16,late Quaternary (<130 ka),Unspecified
+point reyes fault,A,61,marin,100,undifferentiated Quaternary (<1.6 Ma),Unspecified
+polaris fault,A,497,nevada,38,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+pond fault,A,382,kern,4,undifferentiated Quaternary (<1.6 Ma),Unspecified
+poso creek fault,A,381,kern,79,undifferentiated Quaternary (<1.6 Ma),Unspecified
+premier fault,A,407,kern,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"puente hills blind thrust system, coyote hills section",A,185c,los angeles,25,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"puente hills blind thrust system, los angeles section",A,185a,los angeles,23,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"puente hills blind thrust system, santa fe springs section",A,185b,los angeles,15,historic,Between 0.2 and 1.0 mm/yr
+pulgas fault,A,458,santa clara,16,undifferentiated Quaternary (<1.6 Ma),Unspecified
+purismia structure,A,484,santa barbara,41,undifferentiated Quaternary (<1.6 Ma),Unspecified
+queen lily fault,A,211,plumas,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+quien sabe fault,A,64,san benito,24,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+raymond fault,A,103,los angeles,25,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+red hill-etiwanda avenue fault,A,332,san bernardino,15,latest Quaternary (<15 ka),Unspecified
+red mountain fault zone,A,90,ventura,73,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+redondo canyon fault,A,130,los angeles,12,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+red pass fault,A,360,san bernardino,19,latest Quaternary (<15 ka),Unspecified
+"reliz fault zone, blanco section",A,286a,monterey,23,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"reliz fault zone, sierra de salinas section",A,286b,monterey,55,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+resort fault zone,A,168,lake,42,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"rinconada fault zone, espinosa section",A,63a,monterey,57,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"rinconada fault zone, rinconada section",A,63c,monterey,87,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"rinconada fault zone, san marcos section",A,63b,monterey,25,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+rio vista fault,A,246,solano,53,late Quaternary (<130 ka),Unspecified
+robinson creek fault zone,A,40,mono,19,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+rocky ledge fault zone,A,10,shasta,17,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+rodgers creek fault,A,32,sonoma,56,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+rodman fault,A,342,san bernardino,19,undifferentiated Quaternary (<1.6 Ma),Unspecified
+round valley fault,A,45,inyo,36,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+route 247 fault,A,502,imperial,6,latest Quaternary (<15 ka),Unspecified
+russ fault zone,A,150,humboldt,112,late Quaternary (<130 ka),Unspecified
+saddle blanket flat fault zone,A,172,modoc,57,late Quaternary (<130 ka),Unspecified
+sagehen peak fault,A,440,mono,29,undifferentiated Quaternary (<1.6 Ma),Unspecified
+salton creek fault,A,315,riverside,39,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"san andreas fault zone, cholame-carrizo section",A,1g,monterey,201,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, coachella section",A,1j,imperial,70,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, creeping section",A,1e,monterey,130,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, mojave section",A,1h,san bernardino,112,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, north coast section",A,1b,marin,244,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, parkfield section",A,1f,san luis obispo,32,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, peninsula section",A,1c,santa clara,87,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, san bernardino mountains section",A,1i,san bernardino,128,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, santa cruz mountains section",A,1d,san benito,75,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san andreas fault zone, shelter cove section",A,1a,humboldt,138,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+san antonio fault,A,328,san bernardino,25,late Quaternary (<130 ka),Unspecified
+san benito fault zone,A,288,san benito,34,undifferentiated Quaternary (<1.6 Ma),Unspecified
+san cayetano fault,A,95,ventura,56,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+san clemente fault zone,A,283,los angeles,248,latest Quaternary (<15 ka),Unspecified
+san clemente thrust,A,471,monterey,8,undifferentiated Quaternary (<1.6 Ma),Unspecified
+san diego trough fault zone,A,292,san diego,166,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+san felipe fault zone,A,496,imperial,170,late Quaternary (<130 ka),Unspecified
+"san gabriel fault zone, big tujunga section",A,89e,los angeles,NA,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"san gabriel fault zone, honor rancho section",A,89b,los angeles,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"san gabriel fault zone, newhall section",A,89c,los angeles,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"san gabriel fault zone, palomas section",A,89a,ventura,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"san gabriel fault zone, san gabriel river section",A,89d,los angeles,NA,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+san gorgonio mountain fault,A,338,san bernardino,14,late Quaternary (<130 ka),Unspecified
+san gorgonio pass fault zone,A,250,riverside,54,latest Quaternary (<15 ka),Unspecified
+"san gregorio fault zone, san gregorio section",A,60a,santa cruz,131,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san gregorio fault zone, sur region section",A,60b,monterey,121,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"san jacinto fault, anza section",A,125c,san diego,85,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san jacinto fault, borrego mountain section",A,125e,imperial,34,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"san jacinto fault, coyote creek section",A,125d,san diego,44,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"san jacinto fault, san bernardino valley section",A,125a,riverside,51,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san jacinto fault, san jacinto valley section",A,125b,riverside,59,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"san jacinto fault, superstition hills section",A,125f,imperial,38,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"san jacinto fault, superstition mountain section",A,125g,imperial,23,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+san joaquin fault,A,403,stanislaus,138,late Quaternary (<130 ka),Unspecified
+san joaquin hills thrust,A,186,orange,33,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+san jose fault,A,107,los angeles,22,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+san jose fault,A,245,santa clara,70,undifferentiated Quaternary (<1.6 Ma),Unspecified
+san jose fault zone,A,263,santa barbara,4,late Quaternary (<130 ka),Unspecified
+san juan fault zone,A,77,san luis obispo,95,latest Quaternary (<15 ka),Unspecified
+san luis range fault system (south margin),A,82,san luis obispo,109,late Quaternary (<130 ka),Unspecified
+"san mateo-san onofre-carlsbad fault zone, carlsbad section",A,294c,san diego,NA,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+"san mateo-san onofre-carlsbad fault zone, san onofre-oceanside section",A,294b,san diego,NA,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+"san mateo-san onofre-carlsbad fault zone, san onofre-oceanside section",A,294a,san diego,NA,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+san pedro basin fault zone,A,282,los angeles,83,late Quaternary (<130 ka),Unspecified
+san pedro fault,A,432,santa barbara,7,late Quaternary (<130 ka),Unspecified
+san simeon fault,A,80,san luis obispo,97,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+santa ana fault zone,A,339,san bernardino,49,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"santa cruz-catalina ridge fault zone, catalina escarpment section",A,284b,los angeles,NA,middle and late Quaternary (<750 ka),Between 0.2 and 1.0 mm/yr
+"santa cruz-catalina ridge fault zone, pilgrim banks section",A,284a,ventura,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+santa cruz island fault,A,93,ventura,83,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+santa felicia fault,A,281,los angeles,5,late Quaternary (<130 ka),Unspecified
+santa lucia bank fault zone,A,479,san luis obispo,233,undifferentiated Quaternary (<1.6 Ma),Unspecified
+santa maria fault,A,463,santa barbara,15,undifferentiated Quaternary (<1.6 Ma),Unspecified
+santa monica fault,A,101,los angeles,35,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+santa rosa island fault,A,92,ventura,NA,late Quaternary (<130 ka),Unspecified
+"santa ynez fault zone, eastern section",A,87d,ventura,94,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+"santa ynez fault zone, pacifico section",A,87a,santa barbara,22,late Quaternary (<130 ka),Less than 0.2 mm/yr
+"santa ynez fault zone, south branch section",A,87c,santa barbara,14,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"santa ynez fault zone, western section",A,87b,santa barbara,39,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+santa ynez river fault zone,A,253,santa barbara,89,late Quaternary (<130 ka),Unspecified
+san ysidro fault zone,A,308,san diego,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"sargent fault zone, northwestern section",A,58a,santa clara,29,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"sargent fault zone, southeastern section",A,58b,santa clara,27,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+serra fault zone,A,461,san mateo,20,latest Quaternary (<15 ka),Unspecified
+sheephole fault,A,419,riverside,NA,late Quaternary (<130 ka),Unspecified
+sheephole fault,A,390,san bernardino,18,undifferentiated Quaternary (<1.6 Ma),Unspecified
+sherburne hills thrust fault,A,400,contra costa,9,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"sierra madre fault zone, clamshell-sawpit section",A,105e,los angeles,17,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"sierra madre fault zone, cucamonga section",A,105h,san bernardino,22,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"sierra madre fault zone, san fernando section",A,105b,los angeles,23,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"sierra madre fault zone, santa susana section",A,105a,ventura,35,latest Quaternary (<15 ka),Greater than 5.0 mm/yr
+"sierra madre fault zone, sierra madre b section",A,105c,los angeles,16,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"sierra madre fault zone, sierra madre c section",A,105d,los angeles,23,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+"sierra madre fault zone, sierra madre d section",A,105f,los angeles,16,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"sierra madre fault zone, sierra madre e section",A,105g,san bernardino,15,late Quaternary (<130 ka),Between 1.0 and 5.0 mm/yr
+silver creek fault zone,A,237,santa clara,62,undifferentiated Quaternary (<1.6 Ma),Unspecified
+silver lake fault,A,42,mono,33,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+silver reef fault,A,340,san bernardino,11,latest Quaternary (<15 ka),Unspecified
+"simi-santa rosa fault zone, camarillo-santa rosa valley section",A,98b,ventura,17,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"simi-santa rosa fault zone, simi-santa rosa section",A,98c,los angeles,38,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"simi-santa rosa fault zone, springville section",A,98a,ventura,9,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+sisar fault zone,A,361,ventura,22,late Quaternary (<130 ka),Unspecified
+skeleton canyon fault zone,A,421,riverside,16,latest Quaternary (<15 ka),Unspecified
+skinner flat fault,A,192,plumas,16,late Quaternary (<130 ka),Unspecified
+slinkard valley fault,A,474,mono,25,late Quaternary (<130 ka),Unspecified
+"smith valley fault zone, unnamed southern section",A,1291c,mono,36,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+smoketree wash fault,A,395,riverside,22,late Quaternary (<130 ka),Unspecified
+soda creek fault,A,227,napa,24,late Quaternary (<130 ka),Unspecified
+soda mountain fault,A,366,san bernardino,15,undifferentiated Quaternary (<1.6 Ma),Unspecified
+soledad fault,A,410,los angeles,17,undifferentiated Quaternary (<1.6 Ma),Unspecified
+southampton fault,A,481,contra costa,37,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+south bristol mountains fault,A,348,san bernardino,34,undifferentiated Quaternary (<1.6 Ma),Unspecified
+south cuyama fault zone,A,252,santa barbara,101,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"southern death valley fault zone, confidence hills section",A,143a,inyo,18,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+"southern death valley fault zone, nobel hills section",A,143b,inyo,34,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+southern inyo mountains fault,A,533,inyo,20,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"southern sierra nevada fault zone, haiwee reservoir section",A,65b,inyo,131,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"southern sierra nevada fault zone, independence section",A,65a,inyo,71,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+spring fault,A,534,kern,6,undifferentiated Quaternary (<1.6 Ma),Unspecified
+stanford fault,A,244,santa clara,45,undifferentiated Quaternary (<1.6 Ma),Unspecified
+stateline fault,A,485,san bernardino,31,undifferentiated Quaternary (<1.6 Ma),Unspecified
+stoddard canyon fault,A,329,san bernardino,18,undifferentiated Quaternary (<1.6 Ma),Unspecified
+stoney creek fault,A,171,glenn,8,late Quaternary (<130 ka),Unspecified
+surprise valley fault,A,4,lassen,86,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+surpur creek fault,A,148,humboldt,43,undifferentiated Quaternary (<1.6 Ma),Unspecified
+sycamore canyon fault,A,272,ventura,32,undifferentiated Quaternary (<1.6 Ma),Unspecified
+table bluff fault zone,A,16,humboldt,47,late Quaternary (<130 ka),Unspecified
+tahoe-sierra frontal fault zone,A,215,el dorado,50,undifferentiated Quaternary (<1.6 Ma),Unspecified
+tahoe valley fault zone,A,249,el dorado,13,undifferentiated Quaternary (<1.6 Ma),Unspecified
+tank canyon fault,A,71,san bernardino,17,latest Quaternary (<15 ka),Unspecified
+texas springs syncline,A,181,inyo,NA,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+texas street fault,A,304,san diego,8,undifferentiated Quaternary (<1.6 Ma),Unspecified
+thing valley fault,A,535,san diego,3,undifferentiated Quaternary (<1.6 Ma),Unspecified
+thirty mile bank fault,A,291,san diego,19,undifferentiated Quaternary (<1.6 Ma),Unspecified
+thums-huntington beach,A,260,orange,39,late Quaternary (<130 ka),Unspecified
+tiefort mountains fault zone,A,362,san bernardino,46,undifferentiated Quaternary (<1.6 Ma),Unspecified
+tin mountain fault,A,188,inyo,37,late Quaternary (<130 ka),Less than 0.2 mm/yr
+tolay fault,A,33,sonoma,34,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+towne pass fault,A,97,inyo,58,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+tres pinos fault,A,406,san benito,19,undifferentiated Quaternary (<1.6 Ma),Unspecified
+tunnel ridge fault,A,327,san bernardino,18,undifferentiated Quaternary (<1.6 Ma),Unspecified
+twentynine palms mountain fault,A,392,san bernardino,10,undifferentiated Quaternary (<1.6 Ma),Unspecified
+tyler horse fault,A,386,kern,7,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed creep-active fault,A,536,imperial,2,historic,Unspecified
+unnamed fault east of donovan reservoir,A,198,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed fault east of kelly reservoir,A,199,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed fault in the little san bernardino mountains,A,213,riverside,NA,latest Quaternary (<15 ka),Unspecified
+unnamed fault near fontana,A,515,san bernardino,9,late Quaternary (<130 ka),Unspecified
+unnamed fault near kelley hot spring,A,200,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed fault on nw side tungsten hills,A,487,inyo,16,latest Quaternary (<15 ka),Unspecified
+unnamed faults,B,538,siskiyou,NA,latest Quaternary (<15 ka),Unspecified
+unnamed faults beneath mount shasta,B,816,siskiyou,26,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults east of eagle lake,A,193,lassen,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults east of lake berryessa,A,815,napa,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults east of river spring,A,488,mono,5,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults east side madeline plains,A,486,lassen,41,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults in big valley area,A,178,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults in coso range,A,848,inyo,63,late Quaternary (<130 ka),Unspecified
+unnamed faults in hambone-dana area,A,207,siskiyou,NA,late Quaternary (<130 ka),Unspecified
+unnamed faults in northern saline valley,A,825,inyo,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults in resting spring range,A,849,inyo,48,late Quaternary (<130 ka),Unspecified
+unnamed faults in southwestern excelsior mountains,A,1301,mono,25,undifferentiated Quaternary (<1.6 Ma),Less than 0.2 mm/yr
+unnamed faults in susanville-eagle lake area,A,179,lassen,NA,late Quaternary (<130 ka),Unspecified
+unnamed faults in sutter buttes,A,859,sutter,5,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults in volcanic tablelands,A,46,inyo,40,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+unnamed faults near alkali valley,A,1299,mono,36,late Quaternary (<130 ka),Less than 0.2 mm/yr
+unnamed faults near moorpark,A,860,ventura,23,late Quaternary (<130 ka),Unspecified
+unnamed faults near quackenbush mountain,A,861,lake,11,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults near teels marsh,A,1303,mono,39,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+unnamed faults near telegraph ridge,A,163,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults north of coyote wash,A,600,imperial,13,latest Quaternary (<15 ka),Unspecified
+unnamed faults north of mono lake,A,720,mono,18,latest Quaternary (<15 ka),Unspecified
+unnamed faults nw of santa rosa,A,721,sonoma,16,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults of devils garden plateau,A,173,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults offshore,A,722,humboldt,20,late Quaternary (<130 ka),Unspecified
+unnamed faults south and east of truckee,A,214,placer,NA,late Quaternary (<130 ka),Unspecified
+unnamed faults west of dry mountain,A,499,inyo,34,late Quaternary (<130 ka),Unspecified
+unnamed faults west of hat creek,A,206,shasta,49,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults west of little juniper reservoir,A,201,modoc,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed faults west of mail ridge,A,162,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed fault west of carneros creek,A,537,napa,15,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed fault zone east of bear river fault,A,161,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed fault zone near alder point,A,160,humboldt,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+unnamed possible fault in north hollywood,A,212,los angeles,NA,latest Quaternary (<15 ka),Unspecified
+unnamed west side faults,A,106,inyo,61,late Quaternary (<130 ka),Less than 0.2 mm/yr
+upper elysian park fault,A,218,los angeles,26,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+upper long valley fault zone,A,194,lassen,51,latest Quaternary (<15 ka),Unspecified
+ventura fault,A,91,ventura,13,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+verdugo fault,A,104,los angeles,26,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+vernalis fault,A,723,san joaquin,43,undifferentiated Quaternary (<1.6 Ma),Unspecified
+verona fault,A,240,alameda,13,latest Quaternary (<15 ka),Unspecified
+walker spring fault,A,190,lassen,40,late Quaternary (<130 ka),Unspecified
+walnut creek fault,A,333,los angeles,19,undifferentiated Quaternary (<1.6 Ma),Unspecified
+warm springs valley fault zone,A,1605,lassen,70,latest Quaternary (<15 ka),Between 1.0 and 5.0 mm/yr
+waterman canyon fault zone,A,334,san bernardino,29,late Quaternary (<130 ka),Unspecified
+watterson canyon fault,A,444,mono,22,undifferentiated Quaternary (<1.6 Ma),Unspecified
+west calumet fault,A,396,san bernardino,11,undifferentiated Quaternary (<1.6 Ma),Unspecified
+west huasna fault zone,A,371,san luis obispo,NA,late Quaternary (<130 ka),Unspecified
+west margin fault,A,170,lake,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+"west napa fault, browns valley section",A,36a,napa,33,late Quaternary (<130 ka),Between 0.2 and 1.0 mm/yr
+"west napa fault, napa  airport section",A,36b,napa,8,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+west tahoe-dollar point fault zone,A,216,placer,NA,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+west walker river fault zone,A,140,mono,16,latest Quaternary (<15 ka),Less than 0.2 mm/yr
+whale gulch-bear harbor fault zone,A,156,humboldt,NA,late Quaternary (<130 ka),Unspecified
+"white mountains fault zone, central section",A,47c,inyo,38,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+"white mountains fault zone, hammil section",A,47b,mono,18,undifferentiated Quaternary (<1.6 Ma),Between 0.2 and 1.0 mm/yr
+"white mountains fault zone, inyo-waucoba section",A,47d,inyo,29,latest Quaternary (<15 ka),Between 0.2 and 1.0 mm/yr
+wight way fault,A,221,lake,NA,late Quaternary (<130 ka),Unspecified
+wildcat fault,A,377,contra costa,15,undifferentiated Quaternary (<1.6 Ma),Unspecified
+yellow butte fault,A,149,siskiyou,NA,undifferentiated Quaternary (<1.6 Ma),Unspecified
+yuha basin faults,A,495,imperial,11,undifferentiated Quaternary (<1.6 Ma),Unspecified
+zayante-vergeles fault zone,A,59,san mateo,87,latest Quaternary (<15 ka),NA
