@@ -110,7 +110,8 @@ earnings <- earnings %>%
 # Add county name
 counties <- areas %>% 
   filter(area_type_code == "F" & grepl(", CA", area_text)) %>% 
-  mutate(county = substr(area_code, 5, 7), county_name = gsub(", CA", "", area_text))
+  mutate(county = substr(area_code, 5, 7), county_name = gsub(", CA", "", area_text)) %>% 
+  rename(earnings = EarnS)
 
 earnings <- left_join(earnings, 
                       select(counties, c("county", "county_name")),
