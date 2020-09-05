@@ -30,7 +30,7 @@ result_type_street <- "&result_type=street_address"
 # reading input data ----
 
 #reading earthquakes data
-earthquakes <- read_csv(here("data/earthquake","earthquakes.csv"))
+earthquakes <- read_csv("./data/earthquake/earthquakes.csv")
 
 #mutate region dimension into table
 earthquake_with_region <- earthquakes %>%
@@ -86,7 +86,8 @@ for (row in seq_len(nrow(earthquakes))) { #for (row in c(190)) {
 
 glimpse(earthquake_with_region)
 
-write_csv(earthquake_with_region, "data/earthquake/earthquakes_with_region.csv")
+write_csv(earthquake_with_region, "./data/earthquake/earthquakes_with_region.csv")
+earthquake_with_region <- read_csv("./data/earthquake/earthquakes_with_region.csv")
 
 # count earthquake freq by magnitude
 # grp1 = 1 - 5.5, grp2 = 5.6 - 6.5, grp3 = 6.6 - 7.0, grp4 = 7.1 - 7.9
@@ -101,15 +102,17 @@ earthquake_clean <- earthquake_clean %>%
 
 for (row in seq_len(nrow(earthquake_clean))) {
   if (earthquake_clean$mag[row] <= 5.5) {
-    earthquake_clean$quakes_minor <- 1
-  } else if (earthquake_clean$mag[row] <= 6.5) {
-    earthquake_clean$quakes_low <- 1
-  } else if (earthquake_clean$mag[row] <= 7) {
-    earthquake_clean$quakes_moderate <- 1
-  } else if (earthquake_clean$mag[row] <= 7.9) {
-    earthquake_clean$quakes_severe <- 1
+    earthquake_clean$quakes_minor[row] = 1
+  } else if (earthquake_clean$mag[row] <= 6.5 && earthquake_clean$mag[row] >= 5.6) {
+    earthquake_clean$quakes_low[row] = 1
+  } else if (earthquake_clean$mag[row] <= 7 && earthquake_clean$mag[row] >= 6.6) {
+    earthquake_clean$quakes_moderate[row] = 1
+  } else if (earthquake_clean$mag[row] <= 7.9 && earthquake_clean$mag[row] >= 7.1) {
+    earthquake_clean$quakes_severe[row] = 1
   }
 }
+
+glimpse(earthquake_clean)
 
 # final clean of results: ----
 # - remove un-needed columns
@@ -123,9 +126,10 @@ earthquake_clean_v2 <- earthquake_clean %>%
             quakes_moderate = sum(quakes_moderate),
             quakes_severe = sum(quakes_severe))
 
-glimpse(earthquake_clean)
+glimpse(earthquake_clean_v2)
 
-write_csv(earthquake_with_region, "data/earthquake/earthquakes_clean.csv")
+write_csv(earthquake_clean_v2, "./data/earthquake/earthquakes_clean.csv")
+
 
 # review results ----
 earthquake_with_region %>% count(state)
