@@ -23,6 +23,6 @@ crime$county <- paste(crime$county,"County",sep = " ")
 crime$city <- str_to_title(crime$city)
 
 # Problem: City level is missing
-house_price_gdp_type_crime <-  crime %>% right_join(house_price_gdp_type, by = c('year','county','city'))
+house_price_gdp_type_crime <-  crime %>% right_join(house_price_gdp_type, by = c('year','county'))
 
 
