@@ -1,4 +1,4 @@
-EarnS,time,state,county,year,quarter,county_name
+earnings,time,state,county,year,quarter,county_name
 2689,1991-Q4,06,001,1991,4,Alameda County
 2587,1992-Q1,06,001,1992,1,Alameda County
 2610,1992-Q2,06,001,1992,2,Alameda County
