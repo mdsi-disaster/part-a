@@ -15,7 +15,7 @@ library(textclean)
 # county mapping to city data ---------
 
 # load data that can later be used to create a column for county in the crime data 
-city_county <- read_excel(here("crime data","city_county.xls"), col_names = TRUE)
+city_county <- read_excel(here("data", "crimedata","city_county.xls"), col_names = TRUE)
 
 city_county <- city_county %>% #rename 'city name column 'Name' variable to city and only select 'city' and 'county' variables
   rename("city" = "Name", "county" = "County") %>% 
@@ -26,7 +26,7 @@ city_county <- city_county %>% #rename 'city name column 'Name' variable to city
 
 #2019---------------
 
-crime19 <- read_excel(here("crime data","california_offenses_2019.xls"), skip = 5, col_names = TRUE) # read in the data, remove the top 5 rows of the spreadsheet 
+crime19 <- read_excel(here("data", "crimedata","california_offenses_2019.xls"), skip = 5, col_names = TRUE) # read in the data, remove the top 5 rows of the spreadsheet 
 
 str(crime19) #check that the variables are in the correct format 
 names(crime19)
@@ -60,7 +60,7 @@ crime19[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2018---------------
 
-crime18 <- read_excel(here("crime data","california_offenses_2018.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime18 <- read_excel(here("data", "crimedata","california_offenses_2018.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime18)#check that the variables are in the correct format 
 names(crime18)
@@ -78,7 +78,7 @@ crime18[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2017---------------
 
-crime17 <- read_excel(here("crime data","california_offenses_2017.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime17 <- read_excel(here("data", "crimedata","california_offenses_2017.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime17) #check that the variables are in the correct format 
 
@@ -94,7 +94,7 @@ crime17[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2016---------------
 
-crime16 <- read_excel(here("crime data","california_offenses_2016.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime16 <- read_excel(here("data", "crimedata","california_offenses_2016.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime16) #check that the variables are in the correct format 
 
@@ -114,7 +114,7 @@ crime16[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2015---------------
 
-crime15 <- read_excel(here("crime data","california_offenses_2015.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime15 <- read_excel(here("data", "crimedata","california_offenses_2015.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime15) #check that the variables are in the correct format 
 names(crime15)
@@ -132,7 +132,7 @@ crime15[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2014---------------
 
-crime14 <- read_excel(here("crime data","california_offenses_2014.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime14 <- read_excel(here("data", "crimedata","california_offenses_2014.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime14) #check that the variables are in the correct format 
 names(crime14)
@@ -163,7 +163,7 @@ crime14[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2013---------------
 
-crime13 <- read_excel(here("crime data","california_offenses_2013.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime13 <- read_excel(here("data", "crimedata","california_offenses_2013.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime13) #check that the variables are in the correct format 
 names(crime13)
@@ -181,7 +181,7 @@ crime13[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2012---------------
 
-crime12 <- read_excel(here("crime data","california_offenses_2012.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime12 <- read_excel(here("data", "crimedata","california_offenses_2012.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime12) #check that the variables are in the correct format 
 names(crime12)
@@ -199,8 +199,11 @@ crime12[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2011---------------
 
-crime11 <- read_excel(here("crime data","california_offenses_2011.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime11 <- read_excel(here("data", "crimedata","california_offenses_2011.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
+crime11 <- crime11 %>%
+  filter(State == "CALIFORNIA")
+  
 str(crime11) #check that the variables are in the correct format 
 names(crime11)
 
@@ -209,8 +212,7 @@ crime11 <- crime11 %>% #rename and tidy variables
   select(-"State") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
-  left_join(city_county, by = "city") %>%
-  drop_na("county")
+  left_join(city_county, by = "city")
 
 crime11$year <- 2011 #add a column for the year 
 
@@ -218,7 +220,7 @@ crime11[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2010---------------
 
-crime10 <- read_excel(here("crime data","california_offenses_2010.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime10 <- read_excel(here("data", "crimedata","california_offenses_2010.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime10) #check that the variables are in the correct format 
 names(crime10)
@@ -235,7 +237,7 @@ crime10[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2009---------------
 
-crime09 <- read_excel(here("crime data","california_offenses_2009.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime09 <- read_excel(here("data", "crimedata","california_offenses_2009.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime09) #check that the variables are in the correct format 
 names(crime09)
@@ -252,18 +254,20 @@ crime09[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2008---------------
 
-crime08 <- read_excel(here("crime data","california_offenses_2008.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime08 <- read_excel(here("data", "crimedata","california_offenses_2008.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime08) #check that the variables are in the correct format 
 names(crime08)
+
+crime08 <- crime08 %>%
+  filter(State == "CALIFORNIA")
 
 crime08 <- crime08 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape", "arson" = "Arson1", "vehicle_theft" = "Motor vehicle theft") %>%
   select(-"State") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
-  left_join(city_county, by = "city") %>%
-  drop_na("county")
+  left_join(city_county, by = "city")
 
 crime08$year <- 2008 #add a column for the year 
 
@@ -271,7 +275,7 @@ crime08[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2007---------------
 
-crime07 <- read_excel(here("crime data","california_offenses_2007.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime07 <- read_excel(here("data", "crimedata","california_offenses_2007.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime07) #check that the variables are in the correct format 
 names(crime07)
@@ -291,7 +295,7 @@ crime07[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2006---------------
 
-crime06 <- read_excel(here("crime data","california_offenses_2006.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime06 <- read_excel(here("data", "crimedata","california_offenses_2006.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime06) #check that the variables are in the correct format 
 names(crime06)
@@ -309,7 +313,10 @@ crime06[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2005---------------
 
-crime05 <- read_excel(here("crime data","california_offenses_2005.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime05 <- read_excel(here("data", "crimedata","california_offenses_2005.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+
+crime05 <- crime05 %>%
+  filter(State == "CALIFORNIA")
 
 str(crime05) #check that the variables are in the correct format 
 names(crime05)
@@ -319,8 +326,7 @@ crime05 <- crime05 %>% #rename and tidy variables
   select(-"State") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
-  left_join(city_county, by = "city") %>%
-  drop_na("county")
+  left_join(city_county, by = "city")
 
 crime05$year <- 2005 #add a column for the year 
 
@@ -329,18 +335,21 @@ crime05[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2004---------------
 
-crime04 <- read_excel(here("crime data","california_offenses_2004.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime04 <- read_excel(here("data", "crimedata","california_offenses_2004.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime04) #check that the variables are in the correct format 
 names(crime04)
+
+crime04 <- crime04 %>%
+  filter(State == "CALIFORNIA")
 
 crime04 <- crime04 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape", "arson" = "Arson1", "vehicle_theft" = "Motor vehicle theft", "city" = "City by state", "murder_and_nonnegligent_manslaughter" = "Murder and non-negligent man-slaughter") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
   left_join(city_county, by = "city") %>%
-  drop_na("population") %>%
-  drop_na("county")
+  select(-"state")
+
 
 crime04$year <- 2004 #add a column for the year 
 
@@ -349,18 +358,20 @@ crime04[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2003---------------
 
-crime03 <- read_excel(here("crime data","california_offenses_2003.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
+crime03 <- read_excel(here("data", "crimedata","california_offenses_2003.xls"), skip = 4, col_names = TRUE) # read in the data, remove the top 4 rows of the spreadsheet 
 
 str(crime03) #check that the variables are in the correct format 
 names(crime03)
+
+crime03 <- crime03 %>%
+  filter(State == "CALIFORNIA")
 
 crime03 <- crime03 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape" , "arson" = "Arson1", "vehicle_theft" = "Motor vehicle theft", "city" = "City by state", "murder_and_nonnegligent_manslaughter" = "Murder and non-negligent man-slaughter") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
   left_join(city_county, by = "city") %>%
-  drop_na("population") %>%
-  drop_na("county")
+  select(-"state")
 
 crime03$year <- 2003 #add a column for the year 
 
@@ -368,19 +379,20 @@ crime03[c("population","violent_crime","murder_and_nonnegligent_manslaughter","r
 
 #2002---------------
 
-crime02 <- read_excel(here("crime data","california_offenses_2002.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime02 <- read_excel(here("data", "crimedata","california_offenses_2002.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime02) #check that the variables are in the correct format 
 names(crime02)
+
+crime02 <- crime02 %>%
+  filter(State == "CALIFORNIA")
 
 crime02 <- crime02 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape" , "arson" = "Arson1", "vehicle_theft" = "Motor vehicle theft", "city" = "City by state", "murder_and_nonnegligent_manslaughter" = "Murder      and non-negligent         man-     slaughter", "crime_index_total" = "Crime Index") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
   left_join(city_county, by = "city") %>%
-  drop_na("population") %>%
-  drop_na("county") %>%
-  select(-"modified_crime_index1")
+  select(-"modified_crime_index1", -"state")
 
 crime02$year <- 2002 #add a column for the year 
 
@@ -389,19 +401,20 @@ crime02[c("population","murder_and_nonnegligent_manslaughter","rape","robbery","
 
 #2001---------------
 
-crime01 <- read_excel(here("crime data","california_offenses_2001.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime01 <- read_excel(here("data", "crimedata","california_offenses_2001.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime01) #check that the variables are in the correct format 
 names(crime01)
+
+crime01 <- crime01 %>%
+  filter(State == "CALIFORNIA")
 
 crime01 <- crime01 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape" , "arson" = "Arson1", "vehicle_theft" = "Motor vehicle theft", "city" = "City by state", "murder_and_nonnegligent_manslaughter" = "Murder      and non-negligent         man-     slaughter") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
   left_join(city_county, by = "city") %>%
-  drop_na("population") %>%
-  drop_na("county") %>%
-  select(-"modified_crime_index_total1")
+  select(-"modified_crime_index_total1", -"state")
 
 crime01$year <- 2001 #add a column for the year 
 
@@ -410,19 +423,20 @@ crime01[c("population","murder_and_nonnegligent_manslaughter","rape","robbery","
 
 #2000---------------
 
-crime00 <- read_excel(here("crime data","california_offenses_2000.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime00 <- read_excel(here("data", "crimedata","california_offenses_2000.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime00) #check that the variables are in the correct format 
 names(crime00)
+
+crime00 <- crime00 %>%
+  filter(State == "CALIFORNIA")
 
 crime00 <- crime00 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape" , "vehicle_theft" = "Motor vehicle theft", "city" = "City by state", "murder_and_nonnegligent_manslaughter" = "Murder      and non-negligent         man-     slaughter") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
   left_join(city_county, by = "city") %>%
-  drop_na("population") %>%
-  drop_na("county") %>%
-  select(-"modified_crime_index_total1")
+  select(-"modified_crime_index_total1", -"state")
 
 crime00$year <- 2000 #add a column for the year 
 
@@ -431,20 +445,20 @@ crime00[c("population","murder_and_nonnegligent_manslaughter","rape","robbery","
 
 #1999---------------
 
-crime99 <- read_excel(here("crime data","california_offenses_1999.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
+crime99 <- read_excel(here("data", "crimedata","california_offenses_1999.xls"), skip = 3, col_names = TRUE) # read in the data, remove the top 3 rows of the spreadsheet 
 
 str(crime99) #check that the variables are in the correct format 
 names(crime99)
+
+crime99 <- crime99 %>%
+  filter(State == "CALIFORNIA")
 
 crime99 <- crime99 %>% #rename and tidy variables 
   rename("rape" = "Forcible rape" , "vehicle_theft" = "Motor vehicle theft", "city" = "City by state", "murder_and_nonnegligent_manslaughter" = "Murder      and non-negligent         man-     slaughter") %>%
   clean_names("snake") %>%
   mutate(city = tolower(city)) %>% # convert city names from caps to sentence case 
   left_join(city_county, by = "city") %>%
-  drop_na("population") %>%
-  drop_na("county") %>%
-  select(-"modified_crime_index_total1") %>%
-  replace(is.na(.), 0)
+  select(-"modified_crime_index_total1", -"state")
 
 crime99$year <- 1999 #add a column for the year 
 
@@ -500,6 +514,14 @@ cities <- cacrime %>%
 counties <- cacrime %>%
   count(cacrime$county)
 
-write_csv(cacrime, here("crime data","clean_cacrime.csv"))
+write_csv(cacrime, here("data", "crimedata","clean_cacrime.csv"))
 
-write_csv(city_county, here("crime data","clean_city_county.csv"))
+write_csv(city_county, here("data", "crimedata","clean_city_county.csv"))
+
+table <- cacrime %>%
+  count(year,city)
+
+cleanca <-read_csv(here("data", "crimedata","clean_cacrime.csv"))
+
+cleantab <- cleanca %>%
+  count(year,city)
