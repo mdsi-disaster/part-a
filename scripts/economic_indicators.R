@@ -8,11 +8,9 @@ library(readr)
 # Register keys at:
 # https://data.bls.gov/registrationEngine/
 # https://api.census.gov/data/key_signup.html
-# https://apps.bea.gov/API/signup/index.cfm 
 
 bls_key = "c3c3770818ad4c8cbdbeb0503b308d8d"
 cen_key <- "3379365abe31dbc9f567a9914ef913a33935ccde"
-bea_key <- "47EC1F03-EC80-4F0E-89C3-4A9640317E53"
 
 
 ##### Unemployment Rate ##### 
