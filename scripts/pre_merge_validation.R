@@ -15,6 +15,12 @@ county_key <- city_key %>%
 write_csv(city_key, "./data/keys/city_key.csv")
 write_csv(county_key, "./data/keys/county_key.csv")
 
+
+city_key <- read_csv("./data/keys/city_key.csv")
+county_key <- read_csv("./data/keys/county_key.csv")
+
+## Crime data cleaning
+
 crime_clean <- read_csv("./data/crimedata/clean_cacrime.csv")
 
 crime_keyed <- merge(x=city_key, y=crime_clean, by=c("city","county"), all.y=TRUE)
@@ -22,9 +28,8 @@ crime_keyed <- merge(x=city_key, y=crime_clean, by=c("city","county"), all.y=TRU
 count_keys <- crime_clean %>%
   count(city,county,year)
 
-## earthquake data
-city_key <- read_csv("./data/keys/city_key.csv")
-county_key <- read_csv("./data/keys/county_key.csv")
+## earthquake data cleaning
+
 
 earthquake <- read_csv("./data/earthquake/earthquakes_clean.csv")
 
@@ -82,5 +87,54 @@ homeless_clean_v2 <- homeless_clean %>%
 
 write_csv(homeless_clean_v2, "./data/homelessness/homelessness_clean.csv")
 
+homeless_clean_v3 <- read_csv("./data/homelessness/homelessness_clean.csv")
+
+homeless_clean_v3 <- homeless_clean_v3 %>%
+  filter (county != "a city")
+
+write_csv(homeless_clean_v3, "./data/homelessness/homelessness_clean.csv")
 
 ## Finish homeless cleaning
+
+## cleaning earnings data -----
+
+earnings <- read_csv("./data/income/cen_earnings_clean.csv")
+
+earnings_counties <- earnings %>%
+  count(county_name) %>%
+  select(county_name)
+
+write_csv(earnings_counties, "./data/income/earnings_county_key.csv")
+earnings_key <- read_csv("./data/income/earnings_county_key.csv")
+
+earnings <- earnings %>%
+  select(-county)
+
+earnings_months <- read_csv("./data/income/qtr_to_month.csv")
+
+earnings_months_v2 <- earnings_months %>%
+  select(month)
+
+earnings_v2 = merge(x=earnings,y=earnings_months_v2,y.all=TRUE)
+
+earnings_v3 = merge(x=earnings_v2, y=earnings_months,by=c("quarter","month"),y.all=TRUE)
+
+earnings_clean = merge(x=earnings_v3, y=earnings_key,by="county_name",all=TRUE)
+
+earnings_clean_v2 <- earnings_clean %>%
+  select(county,month,year,earnings)
+
+# check for dupes
+earnings_clean_dupe <- earnings_clean %>%
+  count(county,month,year)
+
+# check for NAs
+count_invalid <- earnings_clean %>%
+  filter(is.na(county))
+
+write_csv(earnings_clean_v2, "./data/income/earnings_clean.csv")
+
+
+glimpse(earnings)
+
+glimpse(earnings_months)
