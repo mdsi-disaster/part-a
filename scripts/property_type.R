@@ -88,6 +88,12 @@ p_type_2010_2018 <- p_type_2010_2018 %>%
            sep = ", ", 
            into = c("county", "state"))
 
+property_type_clean <- p_type_2010_2018 %>% separate(county, sep = " County", into = "county")
+
+property_type_clean <- property_type_clean[,c(-2)]
+
+property_type_clean$county <- tolower(property_type_clean$county)
+
 # export csv
-#write.csv(p_type_2010_2018,"./property_type.csv", row.names = FALSE)
+write.csv(property_type_clean,"./property_type_clean.csv", row.names = FALSE)
 
