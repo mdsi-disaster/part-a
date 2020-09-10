@@ -145,7 +145,6 @@ year,county,homeless_count
 2011,madera,5135
 2013,madera,3131
 2012,madera,4492
-NA,a city,NA
 2008,humboldt,907
 2011,humboldt,861
 2010,humboldt,1355
@@ -180,7 +179,6 @@ NA,a city,NA
 2015,lake,315
 2016,lake,332
 2017,lake,401
-NA,a city,NA
 2007,los angeles,47862
 2017,los angeles,55188
 2013,los angeles,35524
@@ -258,7 +256,6 @@ NA,a city,NA
 2015,ventura,1417
 2012,ventura,1926
 2017,ventura,1152
-NA,a city,NA
 2016,siskiyou,182
 2016,lassen,182
 2016,plumas,182
