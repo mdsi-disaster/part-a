@@ -1,0 +1,583 @@
+county_raw,year,state,total_homeless_count,shared_obs,homeless_count_calc,county
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2007,CA,400,4,100,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2007,CA,400,4,100,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2007,CA,400,4,100,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2007,CA,400,4,100,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2011,CA,406,4,102,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2011,CA,406,4,102,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2011,CA,406,4,102,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2011,CA,406,4,102,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2008,CA,400,4,100,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2008,CA,400,4,100,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2008,CA,400,4,100,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2008,CA,400,4,100,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2013,CA,376,4,94,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2013,CA,376,4,94,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2013,CA,376,4,94,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2013,CA,376,4,94,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2012,CA,379,4,95,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2012,CA,379,4,95,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2012,CA,379,4,95,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2012,CA,379,4,95,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2009,CA,372,4,93,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2009,CA,372,4,93,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2009,CA,372,4,93,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2009,CA,372,4,93,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2014,CA,382,4,96,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2014,CA,382,4,96,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2014,CA,382,4,96,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2014,CA,382,4,96,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2017,CA,367,4,92,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2017,CA,367,4,92,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2017,CA,367,4,92,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2017,CA,367,4,92,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2010,CA,289,4,72,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2010,CA,289,4,72,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2010,CA,289,4,72,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2010,CA,289,4,72,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2015,CA,430,4,108,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2015,CA,430,4,108,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2015,CA,430,4,108,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2015,CA,430,4,108,mariposa
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2016,CA,632,4,158,tuolumne
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2016,CA,632,4,158,calaveras
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2016,CA,632,4,158,amador
+"Amador, Calaveras, Tuolumne and Mariposa Counties CoC",2016,CA,632,4,158,mariposa
+Bakersfield/Kern County CoC,2013,CA,1152,1,1152,kern
+Bakersfield/Kern County CoC,2016,CA,1067,1,1067,kern
+Bakersfield/Kern County CoC,2017,CA,810,1,810,kern
+Bakersfield/Kern County CoC,2011,CA,1439,1,1439,kern
+Bakersfield/Kern County CoC,2009,CA,1499,1,1499,kern
+Bakersfield/Kern County CoC,2014,CA,992,1,992,kern
+Bakersfield/Kern County CoC,2015,CA,954,1,954,kern
+Bakersfield/Kern County CoC,2008,CA,1537,1,1537,kern
+Bakersfield/Kern County CoC,2007,CA,1537,1,1537,kern
+Bakersfield/Kern County CoC,2010,CA,1499,1,1499,kern
+Bakersfield/Kern County CoC,2012,CA,1352,1,1352,kern
+Chico/Paradise/Butte County CoC,2010,CA,742,1,742,butte
+Chico/Paradise/Butte County CoC,2008,CA,592,1,592,butte
+Chico/Paradise/Butte County CoC,2009,CA,689,1,689,butte
+Chico/Paradise/Butte County CoC,2011,CA,897,1,897,butte
+Chico/Paradise/Butte County CoC,2015,CA,571,1,571,butte
+Chico/Paradise/Butte County CoC,2007,CA,1478,1,1478,butte
+Chico/Paradise/Butte County CoC,2012,CA,897,1,897,butte
+Chico/Paradise/Butte County CoC,2017,CA,1195,1,1195,butte
+Chico/Paradise/Butte County CoC,2014,CA,696,1,696,butte
+Chico/Paradise/Butte County CoC,2016,CA,574,1,574,butte
+Chico/Paradise/Butte County CoC,2013,CA,712,1,712,butte
+"Colusa, Glenn, Trinity Counties CoC",2010,CA,197,3,66,glenn
+"Colusa, Glenn, Trinity Counties CoC",2010,CA,197,3,66,colusa
+"Colusa, Glenn, Trinity Counties CoC",2010,CA,197,3,66,trinity
+"Colusa, Glenn, Trinity Counties CoC",2011,CA,322,3,107,glenn
+"Colusa, Glenn, Trinity Counties CoC",2011,CA,322,3,107,colusa
+"Colusa, Glenn, Trinity Counties CoC",2011,CA,322,3,107,trinity
+"Colusa, Glenn, Trinity Counties CoC",2007,CA,155,3,52,glenn
+"Colusa, Glenn, Trinity Counties CoC",2007,CA,155,3,52,colusa
+"Colusa, Glenn, Trinity Counties CoC",2007,CA,155,3,52,trinity
+"Colusa, Glenn, Trinity Counties CoC",2017,CA,176,3,59,glenn
+"Colusa, Glenn, Trinity Counties CoC",2017,CA,176,3,59,colusa
+"Colusa, Glenn, Trinity Counties CoC",2017,CA,176,3,59,trinity
+"Colusa, Glenn, Trinity Counties CoC",2012,CA,303,3,101,glenn
+"Colusa, Glenn, Trinity Counties CoC",2012,CA,303,3,101,colusa
+"Colusa, Glenn, Trinity Counties CoC",2012,CA,303,3,101,trinity
+"Colusa, Glenn, Trinity Counties CoC",2008,CA,193,3,64,glenn
+"Colusa, Glenn, Trinity Counties CoC",2008,CA,193,3,64,colusa
+"Colusa, Glenn, Trinity Counties CoC",2008,CA,193,3,64,trinity
+"Colusa, Glenn, Trinity Counties CoC",2014,CA,567,3,189,glenn
+"Colusa, Glenn, Trinity Counties CoC",2014,CA,567,3,189,colusa
+"Colusa, Glenn, Trinity Counties CoC",2014,CA,567,3,189,trinity
+"Colusa, Glenn, Trinity Counties CoC",2016,CA,115,3,38,glenn
+"Colusa, Glenn, Trinity Counties CoC",2016,CA,115,3,38,colusa
+"Colusa, Glenn, Trinity Counties CoC",2016,CA,115,3,38,trinity
+"Colusa, Glenn, Trinity Counties CoC",2013,CA,696,3,232,glenn
+"Colusa, Glenn, Trinity Counties CoC",2013,CA,696,3,232,colusa
+"Colusa, Glenn, Trinity Counties CoC",2013,CA,696,3,232,trinity
+"Colusa, Glenn, Trinity Counties CoC",2009,CA,197,3,66,glenn
+"Colusa, Glenn, Trinity Counties CoC",2009,CA,197,3,66,colusa
+"Colusa, Glenn, Trinity Counties CoC",2009,CA,197,3,66,trinity
+"Colusa, Glenn, Trinity Counties CoC",2015,CA,136,3,45,glenn
+"Colusa, Glenn, Trinity Counties CoC",2015,CA,136,3,45,colusa
+"Colusa, Glenn, Trinity Counties CoC",2015,CA,136,3,45,trinity
+Daly/San Mateo County CoC,2013,CA,1995,1,1995,san mateo
+Daly/San Mateo County CoC,2007,CA,1798,1,1798,san mateo
+Daly/San Mateo County CoC,2008,CA,1798,1,1798,san mateo
+Daly/San Mateo County CoC,2014,CA,2024,1,2024,san mateo
+Daly/San Mateo County CoC,2012,CA,1845,1,1845,san mateo
+Daly/San Mateo County CoC,2017,CA,1253,1,1253,san mateo
+Daly/San Mateo County CoC,2016,CA,1361,1,1361,san mateo
+Daly/San Mateo County CoC,2015,CA,1483,1,1483,san mateo
+Daly/San Mateo County CoC,2011,CA,1926,1,1926,san mateo
+Daly/San Mateo County CoC,2009,CA,1567,1,1567,san mateo
+Daly/San Mateo County CoC,2010,CA,1424,1,1424,san mateo
+Davis/Woodland/Yolo County CoC,2010,CA,491,1,491,yolo
+Davis/Woodland/Yolo County CoC,2009,CA,491,1,491,yolo
+Davis/Woodland/Yolo County CoC,2013,CA,474,1,474,yolo
+Davis/Woodland/Yolo County CoC,2011,CA,468,1,468,yolo
+Davis/Woodland/Yolo County CoC,2007,CA,414,1,414,yolo
+Davis/Woodland/Yolo County CoC,2008,CA,414,1,414,yolo
+Davis/Woodland/Yolo County CoC,2014,CA,442,1,442,yolo
+Davis/Woodland/Yolo County CoC,2012,CA,513,1,513,yolo
+Davis/Woodland/Yolo County CoC,2015,CA,498,1,498,yolo
+Davis/Woodland/Yolo County CoC,2016,CA,532,1,532,yolo
+Davis/Woodland/Yolo County CoC,2017,CA,459,1,459,yolo
+Del Norte County CoC,2010,CA,18,1,18,del norte
+Del Norte County CoC,2011,CA,448,1,448,del norte
+Del Norte County CoC,2012,CA,437,1,437,del norte
+El Dorado County CoC,2013,CA,180,1,180,el dorado
+El Dorado County CoC,2007,CA,107,1,107,el dorado
+El Dorado County CoC,2012,CA,217,1,217,el dorado
+El Dorado County CoC,2016,CA,269,1,269,el dorado
+El Dorado County CoC,2008,CA,150,1,150,el dorado
+El Dorado County CoC,2017,CA,602,1,602,el dorado
+El Dorado County CoC,2010,CA,146,1,146,el dorado
+El Dorado County CoC,2009,CA,146,1,146,el dorado
+El Dorado County CoC,2014,CA,195,1,195,el dorado
+El Dorado County CoC,2011,CA,170,1,170,el dorado
+El Dorado County CoC,2015,CA,269,1,269,el dorado
+Fresno/Madera County CoC,2014,CA,2592,1,2592,madera
+Fresno/Madera County CoC,2007,CA,4247,1,4247,madera
+Fresno/Madera County CoC,2010,CA,4288,1,4288,madera
+Fresno/Madera County CoC,2008,CA,3507,1,3507,madera
+Fresno/Madera County CoC,2016,CA,1883,1,1883,madera
+Fresno/Madera County CoC,2017,CA,2016,1,2016,madera
+Fresno/Madera County CoC,2009,CA,4345,1,4345,madera
+Fresno/Madera County CoC,2015,CA,1722,1,1722,madera
+Fresno/Madera County CoC,2011,CA,5135,1,5135,madera
+Fresno/Madera County CoC,2013,CA,3131,1,3131,madera
+Fresno/Madera County CoC,2012,CA,4492,1,4492,madera
+Glendale CoC,NA,NA,NA,NA,NA,a city
+Humboldt County CoC,2008,CA,907,1,907,humboldt
+Humboldt County CoC,2011,CA,861,1,861,humboldt
+Humboldt County CoC,2010,CA,1355,1,1355,humboldt
+Humboldt County CoC,2015,CA,1180,1,1180,humboldt
+Humboldt County CoC,2009,CA,1355,1,1355,humboldt
+Humboldt County CoC,2013,CA,864,1,864,humboldt
+Humboldt County CoC,2007,CA,907,1,907,humboldt
+Humboldt County CoC,2014,CA,932,1,932,humboldt
+Humboldt County CoC,2017,CA,759,1,759,humboldt
+Humboldt County CoC,2012,CA,846,1,846,humboldt
+Humboldt County CoC,2016,CA,1134,1,1134,humboldt
+Imperial County CoC,2009,CA,505,1,505,imperial
+Imperial County CoC,2015,CA,554,1,554,imperial
+Imperial County CoC,2008,CA,393,1,393,imperial
+Imperial County CoC,2011,CA,508,1,508,imperial
+Imperial County CoC,2016,CA,380,1,380,imperial
+Imperial County CoC,2007,CA,342,1,342,imperial
+Imperial County CoC,2010,CA,505,1,505,imperial
+Imperial County CoC,2013,CA,252,1,252,imperial
+Imperial County CoC,2012,CA,239,1,239,imperial
+Imperial County CoC,2017,CA,1154,1,1154,imperial
+Imperial County CoC,2014,CA,298,1,298,imperial
+"Inyo, Mono, Alpine Counties CoC",2017,CA,121,3,40,inyo
+"Inyo, Mono, Alpine Counties CoC",2017,CA,121,3,40,mono
+"Inyo, Mono, Alpine Counties CoC",2017,CA,121,3,40,alpine
+"Inyo, Mono, Alpine Counties CoC",2015,CA,53,3,18,inyo
+"Inyo, Mono, Alpine Counties CoC",2015,CA,53,3,18,mono
+"Inyo, Mono, Alpine Counties CoC",2015,CA,53,3,18,alpine
+"Inyo, Mono, Alpine Counties CoC",2016,CA,130,3,43,inyo
+"Inyo, Mono, Alpine Counties CoC",2016,CA,130,3,43,mono
+"Inyo, Mono, Alpine Counties CoC",2016,CA,130,3,43,alpine
+Lake County CoC,2015,CA,315,1,315,lake
+Lake County CoC,2016,CA,332,1,332,lake
+Lake County CoC,2017,CA,401,1,401,lake
+Long Beach CoC,NA,NA,NA,NA,NA,a city
+Los Angeles,2007,CA,47862,1,47862,los angeles
+Los Angeles,2017,CA,55188,1,55188,los angeles
+Los Angeles,2013,CA,35524,1,35524,los angeles
+Los Angeles,2012,CA,31553,1,31553,los angeles
+Los Angeles,2011,CA,34622,1,34622,los angeles
+Los Angeles,2015,CA,41174,1,41174,los angeles
+Los Angeles,2016,CA,43854,1,43854,los angeles
+Los Angeles,2008,CA,47862,1,47862,los angeles
+Los Angeles,2014,CA,34393,1,34393,los angeles
+Los Angeles,2009,CA,33243,1,33243,los angeles
+Los Angeles,2010,CA,33243,1,33243,los angeles
+Marin County CoC,2016,CA,1258,1,1258,marin
+Marin County CoC,2012,CA,725,1,725,marin
+Marin County CoC,2010,CA,1026,1,1026,marin
+Marin County CoC,2009,CA,1026,1,1026,marin
+Marin County CoC,2014,CA,679,1,679,marin
+Marin County CoC,2008,CA,1002,1,1002,marin
+Marin County CoC,2017,CA,1117,1,1117,marin
+Marin County CoC,2007,CA,1002,1,1002,marin
+Marin County CoC,2013,CA,676,1,676,marin
+Marin County CoC,2011,CA,862,1,862,marin
+Marin County CoC,2015,CA,1318,1,1318,marin
+Mendocino County CoC,2009,CA,1202,1,1202,mendocino
+Mendocino County CoC,2007,CA,1422,1,1422,mendocino
+Mendocino County CoC,2016,CA,1242,1,1242,mendocino
+Mendocino County CoC,2008,CA,1423,1,1423,mendocino
+Mendocino County CoC,2015,CA,947,1,947,mendocino
+Mendocino County CoC,2012,CA,1441,1,1441,mendocino
+Mendocino County CoC,2013,CA,1392,1,1392,mendocino
+Mendocino County CoC,2014,CA,1404,1,1404,mendocino
+Mendocino County CoC,2017,CA,1238,1,1238,mendocino
+Mendocino County CoC,2011,CA,1456,1,1456,mendocino
+Mendocino County CoC,2010,CA,1202,1,1202,mendocino
+Merced,2008,CA,2455,1,2455,merced
+Merced,2011,CA,486,1,486,merced
+Merced,2010,CA,372,1,372,merced
+Merced,2016,CA,516,1,516,merced
+Merced,2012,CA,502,1,502,merced
+Merced,2007,CA,2641,1,2641,merced
+Merced,2017,CA,454,1,454,merced
+Merced,2009,CA,372,1,372,merced
+Merced,2013,CA,372,1,372,merced
+Merced,2015,CA,898,1,898,merced
+Merced,2014,CA,768,1,768,merced
+Napa,2015,CA,293,1,293,napa
+Napa,2008,CA,365,1,365,napa
+Napa,2016,CA,317,1,317,napa
+Napa,2009,CA,314,1,314,napa
+Napa,2012,CA,248,1,248,napa
+Napa,2011,CA,230,1,230,napa
+Napa,2017,CA,315,1,315,napa
+Napa,2014,CA,285,1,285,napa
+Napa,2007,CA,365,1,365,napa
+Napa,2013,CA,245,1,245,napa
+Napa,2010,CA,314,1,314,napa
+Oakland/Alameda County CoC,2009,CA,4341,1,4341,alameda
+Oakland/Alameda County CoC,2014,CA,4272,1,4272,alameda
+Oakland/Alameda County CoC,2007,CA,4838,1,4838,alameda
+Oakland/Alameda County CoC,2011,CA,4178,1,4178,alameda
+Oakland/Alameda County CoC,2008,CA,4838,1,4838,alameda
+Oakland/Alameda County CoC,2013,CA,4264,1,4264,alameda
+Oakland/Alameda County CoC,2010,CA,4341,1,4341,alameda
+Oakland/Alameda County CoC,2012,CA,4257,1,4257,alameda
+Oakland/Alameda County CoC,2017,CA,5629,1,5629,alameda
+Oakland/Alameda County CoC,2016,CA,4145,1,4145,alameda
+Oakland/Alameda County CoC,2015,CA,4040,1,4040,alameda
+Oxnard/San Buenaventura/Ventura County CoC,2009,CA,2193,1,2193,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2016,CA,1271,1,1271,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2013,CA,1674,1,1674,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2008,CA,1961,1,1961,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2014,CA,1428,1,1428,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2010,CA,1815,1,1815,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2011,CA,1810,1,1810,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2007,CA,1961,1,1961,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2015,CA,1417,1,1417,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2012,CA,1926,1,1926,ventura
+Oxnard/San Buenaventura/Ventura County CoC,2017,CA,1152,1,1152,ventura
+Pasadena CoC,NA,NA,NA,NA,NA,a city
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2016,CA,1272,7,182,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2014,CA,630,7,90,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2008,CA,263,7,38,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2017,CA,934,7,133,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2011,CA,527,7,75,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2010,CA,336,7,48,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2012,CA,524,7,75,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2015,CA,591,7,84,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2009,CA,340,7,49,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2007,CA,296,7,42,del norte
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,siskiyou
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,lassen
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,plumas
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,modoc
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,sierra
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,shasta
+"Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",2013,CA,851,7,122,del norte
+Richmond/Contra Costa County CoC,2010,CA,2759,1,2759,contra costa
+Richmond/Contra Costa County CoC,2014,CA,2009,1,2009,contra costa
+Richmond/Contra Costa County CoC,2009,CA,2759,1,2759,contra costa
+Richmond/Contra Costa County CoC,2015,CA,2031,1,2031,contra costa
+Richmond/Contra Costa County CoC,2008,CA,4062,1,4062,contra costa
+Richmond/Contra Costa County CoC,2011,CA,2415,1,2415,contra costa
+Richmond/Contra Costa County CoC,2007,CA,4062,1,4062,contra costa
+Richmond/Contra Costa County CoC,2013,CA,2000,1,2000,contra costa
+Richmond/Contra Costa County CoC,2016,CA,1730,1,1730,contra costa
+Richmond/Contra Costa County CoC,2017,CA,1607,1,1607,contra costa
+Richmond/Contra Costa County CoC,2012,CA,2386,1,2386,contra costa
+Riverside,2013,CA,2978,1,2978,riverside
+Riverside,2009,CA,3366,1,3366,riverside
+Riverside,2015,CA,2372,1,2372,riverside
+Riverside,2007,CA,4508,1,4508,riverside
+Riverside,2008,CA,4508,1,4508,riverside
+Riverside,2016,CA,2165,1,2165,riverside
+Riverside,2012,CA,6096,1,6096,riverside
+Riverside,2014,CA,2945,1,2945,riverside
+Riverside,2017,CA,2406,1,2406,riverside
+Riverside,2011,CA,6203,1,6203,riverside
+Riverside,2010,CA,3126,1,3126,riverside
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2014,CA,762,2,381,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2014,CA,762,2,381,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2017,CA,979,2,490,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2017,CA,979,2,490,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2010,CA,1054,2,527,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2010,CA,1054,2,527,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2008,CA,587,2,294,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2008,CA,587,2,294,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2015,CA,796,2,398,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2015,CA,796,2,398,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2007,CA,587,2,294,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2007,CA,587,2,294,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2011,CA,821,2,410,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2011,CA,821,2,410,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2016,CA,1021,2,510,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2016,CA,1021,2,510,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2012,CA,742,2,371,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2012,CA,742,2,371,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2009,CA,1054,2,527,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2009,CA,1054,2,527,nevada
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2013,CA,908,2,454,placer
+"Roseville/Rocklin/Placer, Nevada Counties CoC",2013,CA,908,2,454,nevada
+Sacramento,2014,CA,2449,1,2449,sacramento
+Sacramento,2013,CA,2538,1,2538,sacramento
+Sacramento,2012,CA,2812,1,2812,sacramento
+Sacramento,2010,CA,2734,1,2734,sacramento
+Sacramento,2008,CA,2615,1,2615,sacramento
+Sacramento,2015,CA,2659,1,2659,sacramento
+Sacramento,2017,CA,3665,1,3665,sacramento
+Sacramento,2016,CA,2500,1,2500,sacramento
+Sacramento,2009,CA,2800,1,2800,sacramento
+Sacramento,2007,CA,2452,1,2452,sacramento
+Sacramento,2011,CA,2376,1,2376,sacramento
+"Salinas/Monterey, San Benito Counties CoC",2010,CA,2407,2,1204,san benito
+"Salinas/Monterey, San Benito Counties CoC",2010,CA,2407,2,1204,monterey
+"Salinas/Monterey, San Benito Counties CoC",2009,CA,2407,2,1204,san benito
+"Salinas/Monterey, San Benito Counties CoC",2009,CA,2407,2,1204,monterey
+"Salinas/Monterey, San Benito Counties CoC",2014,CA,2962,2,1481,san benito
+"Salinas/Monterey, San Benito Counties CoC",2014,CA,2962,2,1481,monterey
+"Salinas/Monterey, San Benito Counties CoC",2008,CA,1402,2,701,san benito
+"Salinas/Monterey, San Benito Counties CoC",2008,CA,1402,2,701,monterey
+"Salinas/Monterey, San Benito Counties CoC",2017,CA,3364,2,1682,san benito
+"Salinas/Monterey, San Benito Counties CoC",2017,CA,3364,2,1682,monterey
+"Salinas/Monterey, San Benito Counties CoC",2007,CA,1402,2,701,san benito
+"Salinas/Monterey, San Benito Counties CoC",2007,CA,1402,2,701,monterey
+"Salinas/Monterey, San Benito Counties CoC",2015,CA,2959,2,1480,san benito
+"Salinas/Monterey, San Benito Counties CoC",2015,CA,2959,2,1480,monterey
+"Salinas/Monterey, San Benito Counties CoC",2012,CA,2673,2,1336,san benito
+"Salinas/Monterey, San Benito Counties CoC",2012,CA,2673,2,1336,monterey
+"Salinas/Monterey, San Benito Counties CoC",2011,CA,2699,2,1350,san benito
+"Salinas/Monterey, San Benito Counties CoC",2011,CA,2699,2,1350,monterey
+"Salinas/Monterey, San Benito Counties CoC",2013,CA,2955,2,1478,san benito
+"Salinas/Monterey, San Benito Counties CoC",2013,CA,2955,2,1478,monterey
+"Salinas/Monterey, San Benito Counties CoC",2016,CA,3022,2,1511,san benito
+"Salinas/Monterey, San Benito Counties CoC",2016,CA,3022,2,1511,monterey
+San Bernardino,2017,CA,1866,1,1866,san bernardino
+San Bernardino,2014,CA,2315,1,2315,san bernardino
+San Bernardino,2013,CA,2321,1,2321,san bernardino
+San Bernardino,2011,CA,2825,1,2825,san bernardino
+San Bernardino,2015,CA,2149,1,2149,san bernardino
+San Bernardino,2009,CA,2026,1,2026,san bernardino
+San Bernardino,2016,CA,1887,1,1887,san bernardino
+San Bernardino,2012,CA,2532,1,2532,san bernardino
+San Bernardino,2008,CA,6969,1,6969,san bernardino
+San Bernardino,2007,CA,6969,1,6969,san bernardino
+San Bernardino,2010,CA,2026,1,2026,san bernardino
+San Diego,2013,CA,8879,1,8879,san diego
+San Diego,2008,CA,8455,1,8455,san diego
+San Diego,2010,CA,8383,1,8383,san diego
+San Diego,2009,CA,7995,1,7995,san diego
+San Diego,2014,CA,8506,1,8506,san diego
+San Diego,2012,CA,10013,1,10013,san diego
+San Diego,2015,CA,8742,1,8742,san diego
+San Diego,2011,CA,9436,1,9436,san diego
+San Diego,2016,CA,8669,1,8669,san diego
+San Diego,2017,CA,9160,1,9160,san diego
+San Diego,2007,CA,7326,1,7326,san diego
+San Francisco CoC,2007,CA,5703,1,5703,san francisco
+San Francisco CoC,2010,CA,5823,1,5823,san francisco
+San Francisco CoC,2009,CA,5823,1,5823,san francisco
+San Francisco CoC,2012,CA,5895,1,5895,san francisco
+San Francisco CoC,2016,CA,6996,1,6996,san francisco
+San Francisco CoC,2013,CA,7008,1,7008,san francisco
+San Francisco CoC,2014,CA,6408,1,6408,san francisco
+San Francisco CoC,2015,CA,6775,1,6775,san francisco
+San Francisco CoC,2011,CA,5669,1,5669,san francisco
+San Francisco CoC,2008,CA,5171,1,5171,san francisco
+San Francisco CoC,2017,CA,6858,1,6858,san francisco
+San Jose/Santa Clara,2007,CA,7202,1,7202,santa clara
+San Jose/Santa Clara,2010,CA,7086,1,7086,santa clara
+San Jose/Santa Clara,2011,CA,7067,1,7067,santa clara
+San Jose/Santa Clara,2017,CA,7394,1,7394,santa clara
+San Jose/Santa Clara,2015,CA,6556,1,6556,santa clara
+San Jose/Santa Clara,2012,CA,7053,1,7053,santa clara
+San Jose/Santa Clara,2016,CA,6524,1,6524,santa clara
+San Jose/Santa Clara,2014,CA,7567,1,7567,santa clara
+San Jose/Santa Clara,2009,CA,7086,1,7086,santa clara
+San Jose/Santa Clara,2013,CA,7631,1,7631,santa clara
+San Jose/Santa Clara,2008,CA,7202,1,7202,santa clara
+San Luis Obispo County CoC,2009,CA,3829,1,3829,san luis obispo
+San Luis Obispo County CoC,2016,CA,1368,1,1368,san luis obispo
+San Luis Obispo County CoC,2007,CA,2408,1,2408,san luis obispo
+San Luis Obispo County CoC,2008,CA,850,1,850,san luis obispo
+San Luis Obispo County CoC,2014,CA,2366,1,2366,san luis obispo
+San Luis Obispo County CoC,2013,CA,2357,1,2357,san luis obispo
+San Luis Obispo County CoC,2010,CA,3829,1,3829,san luis obispo
+San Luis Obispo County CoC,2011,CA,2129,1,2129,san luis obispo
+San Luis Obispo County CoC,2015,CA,1515,1,1515,san luis obispo
+San Luis Obispo County CoC,2012,CA,2129,1,2129,san luis obispo
+San Luis Obispo County CoC,2017,CA,1125,1,1125,san luis obispo
+Santa Ana/Anaheim/Orange County CoC,2012,CA,7010,1,7010,orange
+Santa Ana/Anaheim/Orange County CoC,2016,CA,4319,1,4319,orange
+Santa Ana/Anaheim/Orange County CoC,2017,CA,4792,1,4792,orange
+Santa Ana/Anaheim/Orange County CoC,2008,CA,3649,1,3649,orange
+Santa Ana/Anaheim/Orange County CoC,2013,CA,4251,1,4251,orange
+Santa Ana/Anaheim/Orange County CoC,2011,CA,6939,1,6939,orange
+Santa Ana/Anaheim/Orange County CoC,2015,CA,4452,1,4452,orange
+Santa Ana/Anaheim/Orange County CoC,2007,CA,3649,1,3649,orange
+Santa Ana/Anaheim/Orange County CoC,2014,CA,3833,1,3833,orange
+Santa Ana/Anaheim/Orange County CoC,2009,CA,8333,1,8333,orange
+Santa Ana/Anaheim/Orange County CoC,2010,CA,8333,1,8333,orange
+Santa Maria/Santa Barbara County CoC,2017,CA,1860,1,1860,santa barbara
+Santa Maria/Santa Barbara County CoC,2016,CA,1813,1,1813,santa barbara
+Santa Maria/Santa Barbara County CoC,2007,CA,4253,1,4253,santa barbara
+Santa Maria/Santa Barbara County CoC,2015,CA,1729,1,1729,santa barbara
+Santa Maria/Santa Barbara County CoC,2013,CA,1882,1,1882,santa barbara
+Santa Maria/Santa Barbara County CoC,2009,CA,4121,1,4121,santa barbara
+Santa Maria/Santa Barbara County CoC,2010,CA,4121,1,4121,santa barbara
+Santa Maria/Santa Barbara County CoC,2014,CA,1832,1,1832,santa barbara
+Santa Maria/Santa Barbara County CoC,2008,CA,4253,1,4253,santa barbara
+Santa Maria/Santa Barbara County CoC,2011,CA,1698,1,1698,santa barbara
+Santa Maria/Santa Barbara County CoC,2012,CA,1546,1,1546,santa barbara
+Santa Rosa/Petaluma/Sonoma County CoC,2017,CA,2835,1,2835,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2009,CA,3247,1,3247,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2010,CA,3345,1,3345,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2008,CA,1314,1,1314,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2007,CA,1314,1,1314,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2012,CA,4483,1,4483,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2016,CA,2906,1,2906,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2014,CA,4266,1,4266,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2013,CA,4280,1,4280,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2015,CA,3097,1,3097,sonoma
+Santa Rosa/Petaluma/Sonoma County CoC,2011,CA,4541,1,4541,sonoma
+Stockton/San Joaquin County CoC,2014,CA,1588,1,1588,san joaquin
+Stockton/San Joaquin County CoC,2007,CA,2479,1,2479,san joaquin
+Stockton/San Joaquin County CoC,2013,CA,1541,1,1541,san joaquin
+Stockton/San Joaquin County CoC,2010,CA,3005,1,3005,san joaquin
+Stockton/San Joaquin County CoC,2009,CA,3005,1,3005,san joaquin
+Stockton/San Joaquin County CoC,2011,CA,2540,1,2540,san joaquin
+Stockton/San Joaquin County CoC,2008,CA,2354,1,2354,san joaquin
+Stockton/San Joaquin County CoC,2012,CA,1569,1,1569,san joaquin
+Stockton/San Joaquin County CoC,2016,CA,1780,1,1780,san joaquin
+Stockton/San Joaquin County CoC,2017,CA,1542,1,1542,san joaquin
+Stockton/San Joaquin County CoC,2015,CA,1708,1,1708,san joaquin
+Tehama County CoC,2016,CA,133,1,133,tehama
+Tehama County CoC,2017,CA,124,1,124,tehama
+Tehama County CoC,2015,CA,138,1,138,tehama
+Turlock/Modesto/Stanislaus County CoC,2007,CA,1593,1,1593,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2012,CA,1470,1,1470,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2008,CA,1593,1,1593,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2013,CA,1201,1,1201,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2015,CA,1408,1,1408,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2009,CA,1800,1,1800,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2014,CA,1156,1,1156,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2010,CA,1800,1,1800,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2016,CA,1434,1,1434,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2011,CA,1434,1,1434,stanislaus
+Turlock/Modesto/Stanislaus County CoC,2017,CA,1661,1,1661,stanislaus
+Vallejo/Solano County CoC,2015,CA,1082,1,1082,solano
+Vallejo/Solano County CoC,2016,CA,1118,1,1118,solano
+Vallejo/Solano County CoC,2009,CA,829,1,829,solano
+Vallejo/Solano County CoC,2012,CA,622,1,622,solano
+Vallejo/Solano County CoC,2010,CA,829,1,829,solano
+Vallejo/Solano County CoC,2017,CA,1232,1,1232,solano
+Vallejo/Solano County CoC,2013,CA,1329,1,1329,solano
+Vallejo/Solano County CoC,2008,CA,1956,1,1956,solano
+Vallejo/Solano County CoC,2007,CA,1956,1,1956,solano
+Vallejo/Solano County CoC,2011,CA,569,1,569,solano
+Vallejo/Solano County CoC,2014,CA,1295,1,1295,solano
+"Visalia, Kings, Tulare Counties CoC",2014,CA,763,2,382,tulare
+"Visalia, Kings, Tulare Counties CoC",2014,CA,763,2,382,kings
+"Visalia, Kings, Tulare Counties CoC",2009,CA,966,2,483,tulare
+"Visalia, Kings, Tulare Counties CoC",2009,CA,966,2,483,kings
+"Visalia, Kings, Tulare Counties CoC",2015,CA,862,2,431,tulare
+"Visalia, Kings, Tulare Counties CoC",2015,CA,862,2,431,kings
+"Visalia, Kings, Tulare Counties CoC",2008,CA,1040,2,520,tulare
+"Visalia, Kings, Tulare Counties CoC",2008,CA,1040,2,520,kings
+"Visalia, Kings, Tulare Counties CoC",2010,CA,966,2,483,tulare
+"Visalia, Kings, Tulare Counties CoC",2010,CA,966,2,483,kings
+"Visalia, Kings, Tulare Counties CoC",2013,CA,705,2,352,tulare
+"Visalia, Kings, Tulare Counties CoC",2013,CA,705,2,352,kings
+"Visalia, Kings, Tulare Counties CoC",2016,CA,792,2,396,tulare
+"Visalia, Kings, Tulare Counties CoC",2016,CA,792,2,396,kings
+"Visalia, Kings, Tulare Counties CoC",2007,CA,1106,2,553,tulare
+"Visalia, Kings, Tulare Counties CoC",2007,CA,1106,2,553,kings
+"Visalia, Kings, Tulare Counties CoC",2011,CA,804,2,402,tulare
+"Visalia, Kings, Tulare Counties CoC",2011,CA,804,2,402,kings
+"Visalia, Kings, Tulare Counties CoC",2012,CA,771,2,386,tulare
+"Visalia, Kings, Tulare Counties CoC",2012,CA,771,2,386,kings
+"Visalia, Kings, Tulare Counties CoC",2017,CA,853,2,426,tulare
+"Visalia, Kings, Tulare Counties CoC",2017,CA,853,2,426,kings
+Watsonville/Santa Cruz,2009,CA,2265,1,2265,santa cruz
+Watsonville/Santa Cruz,2007,CA,2789,1,2789,santa cruz
+Watsonville/Santa Cruz,2010,CA,2265,1,2265,santa cruz
+Watsonville/Santa Cruz,2011,CA,2771,1,2771,santa cruz
+Watsonville/Santa Cruz,2013,CA,3536,1,3536,santa cruz
+Watsonville/Santa Cruz,2015,CA,1964,1,1964,santa cruz
+Watsonville/Santa Cruz,2016,CA,1959,1,1959,santa cruz
+Watsonville/Santa Cruz,2012,CA,2735,1,2735,santa cruz
+Watsonville/Santa Cruz,2008,CA,2789,1,2789,santa cruz
+Watsonville/Santa Cruz,2014,CA,3529,1,3529,santa cruz
+Watsonville/Santa Cruz,2017,CA,2249,1,2249,santa cruz
+Yuba,2012,CA,492,1,492,yuba
+Yuba,2010,CA,512,1,512,yuba
+Yuba,2013,CA,1485,1,1485,yuba
+Yuba,2011,CA,649,1,649,yuba
+Yuba,2007,CA,362,1,362,yuba
+Yuba,2017,CA,760,1,760,yuba
+Yuba,2008,CA,594,1,594,yuba
+Yuba,2014,CA,726,1,726,yuba
+Yuba,2016,CA,702,1,702,yuba
+Yuba,2015,CA,716,1,716,yuba
+Yuba,2009,CA,411,1,411,yuba

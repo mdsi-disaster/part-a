@@ -57,4 +57,30 @@ count_invalid <- eq_keyed %>%
 
 write_csv(eq_keyed, "./data/earthquake/earthquake_clean_v2.csv")
 
+### cleaning homeless data -
+# the data included entries which were combined counties or counties and cities,
+# as well as city only entries
+# i decided to remove the city entries and averaged the shared counts across each county evenly,
+# (observations / number of listed counties)
+#I then mapped the data back to the county key for merging with larger dataset.
 
+
+homeless <- read_csv("./data/homelessness/homelessness_inprogress.csv")
+homeless_key <- read_csv("./data/homelessness/homelessness_inprogress_county_conversion_key.csv")
+
+homeless_average <- homeless %>%
+  mutate(homeless_count_calc = round(total_homeless_count / shared_obs)) %>%
+  filter(shared_obs != 0)
+
+homeless_clean <- merge(x=homeless_average, y=homeless_key,by="county_raw" , all=TRUE)
+
+write_csv(homeless_clean, "./data/homelessness/homelessness_inprogress_v2.csv")
+
+homeless_clean_v2 <- homeless_clean %>%
+  select(year,county,homeless_count_calc) %>%
+  rename(homeless_count = homeless_count_calc)
+
+write_csv(homeless_clean_v2, "./data/homelessness/homelessness_clean.csv")
+
+
+## Finish homeless cleaning

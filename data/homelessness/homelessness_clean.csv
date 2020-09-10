@@ -1,0 +1,583 @@
+year,county,homeless_count
+2007,tuolumne,100
+2007,calaveras,100
+2007,amador,100
+2007,mariposa,100
+2011,tuolumne,102
+2011,calaveras,102
+2011,amador,102
+2011,mariposa,102
+2008,tuolumne,100
+2008,calaveras,100
+2008,amador,100
+2008,mariposa,100
+2013,tuolumne,94
+2013,calaveras,94
+2013,amador,94
+2013,mariposa,94
+2012,tuolumne,95
+2012,calaveras,95
+2012,amador,95
+2012,mariposa,95
+2009,tuolumne,93
+2009,calaveras,93
+2009,amador,93
+2009,mariposa,93
+2014,tuolumne,96
+2014,calaveras,96
+2014,amador,96
+2014,mariposa,96
+2017,tuolumne,92
+2017,calaveras,92
+2017,amador,92
+2017,mariposa,92
+2010,tuolumne,72
+2010,calaveras,72
+2010,amador,72
+2010,mariposa,72
+2015,tuolumne,108
+2015,calaveras,108
+2015,amador,108
+2015,mariposa,108
+2016,tuolumne,158
+2016,calaveras,158
+2016,amador,158
+2016,mariposa,158
+2013,kern,1152
+2016,kern,1067
+2017,kern,810
+2011,kern,1439
+2009,kern,1499
+2014,kern,992
+2015,kern,954
+2008,kern,1537
+2007,kern,1537
+2010,kern,1499
+2012,kern,1352
+2010,butte,742
+2008,butte,592
+2009,butte,689
+2011,butte,897
+2015,butte,571
+2007,butte,1478
+2012,butte,897
+2017,butte,1195
+2014,butte,696
+2016,butte,574
+2013,butte,712
+2010,glenn,66
+2010,colusa,66
+2010,trinity,66
+2011,glenn,107
+2011,colusa,107
+2011,trinity,107
+2007,glenn,52
+2007,colusa,52
+2007,trinity,52
+2017,glenn,59
+2017,colusa,59
+2017,trinity,59
+2012,glenn,101
+2012,colusa,101
+2012,trinity,101
+2008,glenn,64
+2008,colusa,64
+2008,trinity,64
+2014,glenn,189
+2014,colusa,189
+2014,trinity,189
+2016,glenn,38
+2016,colusa,38
+2016,trinity,38
+2013,glenn,232
+2013,colusa,232
+2013,trinity,232
+2009,glenn,66
+2009,colusa,66
+2009,trinity,66
+2015,glenn,45
+2015,colusa,45
+2015,trinity,45
+2013,san mateo,1995
+2007,san mateo,1798
+2008,san mateo,1798
+2014,san mateo,2024
+2012,san mateo,1845
+2017,san mateo,1253
+2016,san mateo,1361
+2015,san mateo,1483
+2011,san mateo,1926
+2009,san mateo,1567
+2010,san mateo,1424
+2010,yolo,491
+2009,yolo,491
+2013,yolo,474
+2011,yolo,468
+2007,yolo,414
+2008,yolo,414
+2014,yolo,442
+2012,yolo,513
+2015,yolo,498
+2016,yolo,532
+2017,yolo,459
+2010,del norte,18
+2011,del norte,448
+2012,del norte,437
+2013,el dorado,180
+2007,el dorado,107
+2012,el dorado,217
+2016,el dorado,269
+2008,el dorado,150
+2017,el dorado,602
+2010,el dorado,146
+2009,el dorado,146
+2014,el dorado,195
+2011,el dorado,170
+2015,el dorado,269
+2014,madera,2592
+2007,madera,4247
+2010,madera,4288
+2008,madera,3507
+2016,madera,1883
+2017,madera,2016
+2009,madera,4345
+2015,madera,1722
+2011,madera,5135
+2013,madera,3131
+2012,madera,4492
+NA,a city,NA
+2008,humboldt,907
+2011,humboldt,861
+2010,humboldt,1355
+2015,humboldt,1180
+2009,humboldt,1355
+2013,humboldt,864
+2007,humboldt,907
+2014,humboldt,932
+2017,humboldt,759
+2012,humboldt,846
+2016,humboldt,1134
+2009,imperial,505
+2015,imperial,554
+2008,imperial,393
+2011,imperial,508
+2016,imperial,380
+2007,imperial,342
+2010,imperial,505
+2013,imperial,252
+2012,imperial,239
+2017,imperial,1154
+2014,imperial,298
+2017,inyo,40
+2017,mono,40
+2017,alpine,40
+2015,inyo,18
+2015,mono,18
+2015,alpine,18
+2016,inyo,43
+2016,mono,43
+2016,alpine,43
+2015,lake,315
+2016,lake,332
+2017,lake,401
+NA,a city,NA
+2007,los angeles,47862
+2017,los angeles,55188
+2013,los angeles,35524
+2012,los angeles,31553
+2011,los angeles,34622
+2015,los angeles,41174
+2016,los angeles,43854
+2008,los angeles,47862
+2014,los angeles,34393
+2009,los angeles,33243
+2010,los angeles,33243
+2016,marin,1258
+2012,marin,725
+2010,marin,1026
+2009,marin,1026
+2014,marin,679
+2008,marin,1002
+2017,marin,1117
+2007,marin,1002
+2013,marin,676
+2011,marin,862
+2015,marin,1318
+2009,mendocino,1202
+2007,mendocino,1422
+2016,mendocino,1242
+2008,mendocino,1423
+2015,mendocino,947
+2012,mendocino,1441
+2013,mendocino,1392
+2014,mendocino,1404
+2017,mendocino,1238
+2011,mendocino,1456
+2010,mendocino,1202
+2008,merced,2455
+2011,merced,486
+2010,merced,372
+2016,merced,516
+2012,merced,502
+2007,merced,2641
+2017,merced,454
+2009,merced,372
+2013,merced,372
+2015,merced,898
+2014,merced,768
+2015,napa,293
+2008,napa,365
+2016,napa,317
+2009,napa,314
+2012,napa,248
+2011,napa,230
+2017,napa,315
+2014,napa,285
+2007,napa,365
+2013,napa,245
+2010,napa,314
+2009,alameda,4341
+2014,alameda,4272
+2007,alameda,4838
+2011,alameda,4178
+2008,alameda,4838
+2013,alameda,4264
+2010,alameda,4341
+2012,alameda,4257
+2017,alameda,5629
+2016,alameda,4145
+2015,alameda,4040
+2009,ventura,2193
+2016,ventura,1271
+2013,ventura,1674
+2008,ventura,1961
+2014,ventura,1428
+2010,ventura,1815
+2011,ventura,1810
+2007,ventura,1961
+2015,ventura,1417
+2012,ventura,1926
+2017,ventura,1152
+NA,a city,NA
+2016,siskiyou,182
+2016,lassen,182
+2016,plumas,182
+2016,modoc,182
+2016,sierra,182
+2016,shasta,182
+2016,del norte,182
+2014,siskiyou,90
+2014,lassen,90
+2014,plumas,90
+2014,modoc,90
+2014,sierra,90
+2014,shasta,90
+2014,del norte,90
+2008,siskiyou,38
+2008,lassen,38
+2008,plumas,38
+2008,modoc,38
+2008,sierra,38
+2008,shasta,38
+2008,del norte,38
+2017,siskiyou,133
+2017,lassen,133
+2017,plumas,133
+2017,modoc,133
+2017,sierra,133
+2017,shasta,133
+2017,del norte,133
+2011,siskiyou,75
+2011,lassen,75
+2011,plumas,75
+2011,modoc,75
+2011,sierra,75
+2011,shasta,75
+2011,del norte,75
+2010,siskiyou,48
+2010,lassen,48
+2010,plumas,48
+2010,modoc,48
+2010,sierra,48
+2010,shasta,48
+2010,del norte,48
+2012,siskiyou,75
+2012,lassen,75
+2012,plumas,75
+2012,modoc,75
+2012,sierra,75
+2012,shasta,75
+2012,del norte,75
+2015,siskiyou,84
+2015,lassen,84
+2015,plumas,84
+2015,modoc,84
+2015,sierra,84
+2015,shasta,84
+2015,del norte,84
+2009,siskiyou,49
+2009,lassen,49
+2009,plumas,49
+2009,modoc,49
+2009,sierra,49
+2009,shasta,49
+2009,del norte,49
+2007,siskiyou,42
+2007,lassen,42
+2007,plumas,42
+2007,modoc,42
+2007,sierra,42
+2007,shasta,42
+2007,del norte,42
+2013,siskiyou,122
+2013,lassen,122
+2013,plumas,122
+2013,modoc,122
+2013,sierra,122
+2013,shasta,122
+2013,del norte,122
+2010,contra costa,2759
+2014,contra costa,2009
+2009,contra costa,2759
+2015,contra costa,2031
+2008,contra costa,4062
+2011,contra costa,2415
+2007,contra costa,4062
+2013,contra costa,2000
+2016,contra costa,1730
+2017,contra costa,1607
+2012,contra costa,2386
+2013,riverside,2978
+2009,riverside,3366
+2015,riverside,2372
+2007,riverside,4508
+2008,riverside,4508
+2016,riverside,2165
+2012,riverside,6096
+2014,riverside,2945
+2017,riverside,2406
+2011,riverside,6203
+2010,riverside,3126
+2014,placer,381
+2014,nevada,381
+2017,placer,490
+2017,nevada,490
+2010,placer,527
+2010,nevada,527
+2008,placer,294
+2008,nevada,294
+2015,placer,398
+2015,nevada,398
+2007,placer,294
+2007,nevada,294
+2011,placer,410
+2011,nevada,410
+2016,placer,510
+2016,nevada,510
+2012,placer,371
+2012,nevada,371
+2009,placer,527
+2009,nevada,527
+2013,placer,454
+2013,nevada,454
+2014,sacramento,2449
+2013,sacramento,2538
+2012,sacramento,2812
+2010,sacramento,2734
+2008,sacramento,2615
+2015,sacramento,2659
+2017,sacramento,3665
+2016,sacramento,2500
+2009,sacramento,2800
+2007,sacramento,2452
+2011,sacramento,2376
+2010,san benito,1204
+2010,monterey,1204
+2009,san benito,1204
+2009,monterey,1204
+2014,san benito,1481
+2014,monterey,1481
+2008,san benito,701
+2008,monterey,701
+2017,san benito,1682
+2017,monterey,1682
+2007,san benito,701
+2007,monterey,701
+2015,san benito,1480
+2015,monterey,1480
+2012,san benito,1336
+2012,monterey,1336
+2011,san benito,1350
+2011,monterey,1350
+2013,san benito,1478
+2013,monterey,1478
+2016,san benito,1511
+2016,monterey,1511
+2017,san bernardino,1866
+2014,san bernardino,2315
+2013,san bernardino,2321
+2011,san bernardino,2825
+2015,san bernardino,2149
+2009,san bernardino,2026
+2016,san bernardino,1887
+2012,san bernardino,2532
+2008,san bernardino,6969
+2007,san bernardino,6969
+2010,san bernardino,2026
+2013,san diego,8879
+2008,san diego,8455
+2010,san diego,8383
+2009,san diego,7995
+2014,san diego,8506
+2012,san diego,10013
+2015,san diego,8742
+2011,san diego,9436
+2016,san diego,8669
+2017,san diego,9160
+2007,san diego,7326
+2007,san francisco,5703
+2010,san francisco,5823
+2009,san francisco,5823
+2012,san francisco,5895
+2016,san francisco,6996
+2013,san francisco,7008
+2014,san francisco,6408
+2015,san francisco,6775
+2011,san francisco,5669
+2008,san francisco,5171
+2017,san francisco,6858
+2007,santa clara,7202
+2010,santa clara,7086
+2011,santa clara,7067
+2017,santa clara,7394
+2015,santa clara,6556
+2012,santa clara,7053
+2016,santa clara,6524
+2014,santa clara,7567
+2009,santa clara,7086
+2013,santa clara,7631
+2008,santa clara,7202
+2009,san luis obispo,3829
+2016,san luis obispo,1368
+2007,san luis obispo,2408
+2008,san luis obispo,850
+2014,san luis obispo,2366
+2013,san luis obispo,2357
+2010,san luis obispo,3829
+2011,san luis obispo,2129
+2015,san luis obispo,1515
+2012,san luis obispo,2129
+2017,san luis obispo,1125
+2012,orange,7010
+2016,orange,4319
+2017,orange,4792
+2008,orange,3649
+2013,orange,4251
+2011,orange,6939
+2015,orange,4452
+2007,orange,3649
+2014,orange,3833
+2009,orange,8333
+2010,orange,8333
+2017,santa barbara,1860
+2016,santa barbara,1813
+2007,santa barbara,4253
+2015,santa barbara,1729
+2013,santa barbara,1882
+2009,santa barbara,4121
+2010,santa barbara,4121
+2014,santa barbara,1832
+2008,santa barbara,4253
+2011,santa barbara,1698
+2012,santa barbara,1546
+2017,sonoma,2835
+2009,sonoma,3247
+2010,sonoma,3345
+2008,sonoma,1314
+2007,sonoma,1314
+2012,sonoma,4483
+2016,sonoma,2906
+2014,sonoma,4266
+2013,sonoma,4280
+2015,sonoma,3097
+2011,sonoma,4541
+2014,san joaquin,1588
+2007,san joaquin,2479
+2013,san joaquin,1541
+2010,san joaquin,3005
+2009,san joaquin,3005
+2011,san joaquin,2540
+2008,san joaquin,2354
+2012,san joaquin,1569
+2016,san joaquin,1780
+2017,san joaquin,1542
+2015,san joaquin,1708
+2016,tehama,133
+2017,tehama,124
+2015,tehama,138
+2007,stanislaus,1593
+2012,stanislaus,1470
+2008,stanislaus,1593
+2013,stanislaus,1201
+2015,stanislaus,1408
+2009,stanislaus,1800
+2014,stanislaus,1156
+2010,stanislaus,1800
+2016,stanislaus,1434
+2011,stanislaus,1434
+2017,stanislaus,1661
+2015,solano,1082
+2016,solano,1118
+2009,solano,829
+2012,solano,622
+2010,solano,829
+2017,solano,1232
+2013,solano,1329
+2008,solano,1956
+2007,solano,1956
+2011,solano,569
+2014,solano,1295
+2014,tulare,382
+2014,kings,382
+2009,tulare,483
+2009,kings,483
+2015,tulare,431
+2015,kings,431
+2008,tulare,520
+2008,kings,520
+2010,tulare,483
+2010,kings,483
+2013,tulare,352
+2013,kings,352
+2016,tulare,396
+2016,kings,396
+2007,tulare,553
+2007,kings,553
+2011,tulare,402
+2011,kings,402
+2012,tulare,386
+2012,kings,386
+2017,tulare,426
+2017,kings,426
+2009,santa cruz,2265
+2007,santa cruz,2789
+2010,santa cruz,2265
+2011,santa cruz,2771
+2013,santa cruz,3536
+2015,santa cruz,1964
+2016,santa cruz,1959
+2012,santa cruz,2735
+2008,santa cruz,2789
+2014,santa cruz,3529
+2017,santa cruz,2249
+2012,yuba,492
+2010,yuba,512
+2013,yuba,1485
+2011,yuba,649
+2007,yuba,362
+2017,yuba,760
+2008,yuba,594
+2014,yuba,726
+2016,yuba,702
+2015,yuba,716
+2009,yuba,411
