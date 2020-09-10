@@ -97,3 +97,14 @@ property_type_clean$county <- tolower(property_type_clean$county)
 # export csv
 write.csv(property_type_clean,"./property_type_clean.csv", row.names = FALSE)
 
+# import county file
+clean_city_county <- read_csv("C:/Users/sandr/projects/part-a/data/crimedata/clean_city_county.csv")
+
+# Keep county level only
+clean_county <- clean_city_county[,2]
+clean_county_grouped <- distinct(clean_county)
+
+# missing 16 counties
+test <- right_join(property_type_clean, clean_county_grouped, by = "county")
+
+write.csv(test,"./property_type_clean_county.csv", row.names = FALSE)
