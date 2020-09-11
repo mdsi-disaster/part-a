@@ -98,5 +98,13 @@ merged_data <- merged_data %>%
 merged_data <- merged_data %>% 
   left_join(inc_data, by=c("county", "year", "quarter"))
 
+
+# Interest rates ######
+ir_data <- read_csv("./interest_rate.csv")
+
+merged_data <- merged_data %>% 
+  left_join(ir_data, by=c("year", "month"))
+
+
 # Save Copy
 write_csv(merged_data, "./merged_data.csv")
