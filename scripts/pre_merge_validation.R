@@ -138,3 +138,74 @@ write_csv(earnings_clean_v2, "./data/income/earnings_clean.csv")
 glimpse(earnings)
 
 glimpse(earnings_months)
+
+
+
+## look at unemployment
+
+unemployment  <- read_csv("./data/unemployment/unemployment.csv")
+
+## gdp
+
+gdp  <- read_csv("./data/gdp/clean_ca_gdp_yoy_change.csv")
+
+## property type
+
+property <- read_csv("./data/property_type/property_type_clean_county.csv")
+
+property_keyed <- merge(x=county_key, y=property, by=c("county"), y.all=TRUE)
+                        
+
+check_dupe <- property_keyed %>%
+  count(county,year)
+
+check_na <- property %>%
+  filter(is.na(year))
+
+## house price
+
+house <- read_csv("./data/house_price/CA_house_price.csv")
+
+## create house key
+
+house_key <- house %>%
+  select(City,County) %>%
+  count(City, County)
+
+write_csv(house_key, "./data/house_price/house_key.csv")
+
+house_key <- read_csv("./data/house_price/house_key.csv")
+
+house_keyed <- merge(x=house_key,y=house, by=c("City","County"), all=TRUE)
+
+house_invalid_city <- house_keyed %>%
+  filter(is.na(city_key))
+
+write_csv(house_invalid_city, "./data/house_price/house_invalid_city.csv")
+
+house_clean <- house_keyed %>%
+  filter(!is.na(city_key))
+
+count_dupe <- house_clean %>%
+  count(city_key,county_key,Year,Month) %>%
+  rename(zipcode_records = n)
+
+write_csv(count_dupe, "./data/house_price/house_zipcode_records.csv")
+
+house_clean_v2 <- house_clean %>%
+  select(city_key,county_key,Zip_code,Month,Year,ZHVI) %>%
+  rename(city = city_key, county = county_key, month = Month, year = Year, zipcode = Zip_code,
+         house_price = ZHVI)
+  
+write_csv(house_clean_v2, "./data/house_price/h_price_clean_by_zipcode.csv")
+
+house_clean_v3 <- house_clean_v2 %>%
+  group_by(city,county,month,year) %>%
+  summarise(house_price = mean(house_price))
+
+house_clean_v4 <- house_clean_v3 %>%
+  filter(!is.na(house_price))
+
+write_csv(house_clean_v4, "./data/house_price/h_price_clean.csv")
+
+### double checking eqs

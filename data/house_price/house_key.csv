@@ -1,0 +1,460 @@
+City,city_key,County,county_key
+Adelanto,adelanto,San Bernardino County,san bernardino
+Agoura Hills,agoura hills,Los Angeles County,los angeles
+Alameda,alameda,Alameda County,alameda
+Albany,albany,Alameda County,alameda
+Alhambra,alhambra,Los Angeles County,los angeles
+Aliso Viejo,aliso viejo,Orange County,orange
+Alturas,alturas,Modoc County,modoc
+Amador City,amador city,Amador County,amador
+American Canyon,american canyon,Napa County,napa
+Anaheim,anaheim,Orange County,orange
+Anderson,anderson,Shasta County,shasta
+Antioch,antioch,Contra Costa County,contra costa
+Apple Valley,apple valley,San Bernardino County,san bernardino
+Arcadia,arcadia,Los Angeles County,los angeles
+Arcata,arcata,Humboldt County,humboldt
+Arroyo Grande,arroyo grande,San Luis Obispo County,san luis obispo
+Artesia,artesia,Los Angeles County,los angeles
+Arvin,arvin,Kern County,kern
+Atascadero,atascadero,San Luis Obispo County,san luis obispo
+Atherton,atherton,San Mateo County,san mateo
+Atwater,atwater,Merced County,merced
+Auburn,auburn,Placer County,placer
+Avalon,avalon,Los Angeles County,los angeles
+Avenal,avenal,Kings County,kings
+Azusa,azusa,Los Angeles County,los angeles
+Bakersfield,bakersfield,Kern County,kern
+Baldwin Park,baldwin park,Los Angeles County,los angeles
+Banning,banning,Riverside County,riverside
+Barstow,barstow,San Bernardino County,san bernardino
+Beaumont,beaumont,Riverside County,riverside
+Bell,bell,Los Angeles County,los angeles
+Bellflower,bellflower,Los Angeles County,los angeles
+Belmont,belmont,San Mateo County,san mateo
+Benicia,benicia,Solano County,solano
+Berkeley,berkeley,Alameda County,alameda
+Beverly Hills,beverly hills,Los Angeles County,los angeles
+Big Bear Lake,big bear lake,San Bernardino County,san bernardino
+Biggs,biggs,Butte County,butte
+Bishop,bishop,Inyo County,inyo
+Blue Lake,blue lake,Humboldt County,humboldt
+Blythe,blythe,Riverside County,riverside
+Bradbury,bradbury,Los Angeles County,los angeles
+Brawley,brawley,Imperial County,imperial
+Brea,brea,Orange County,orange
+Brentwood,brentwood,Contra Costa County,contra costa
+Brisbane,brisbane,San Mateo County,san mateo
+Buellton,buellton,Santa Barbara County,santa barbara
+Buena Park,buena park,Orange County,orange
+Burbank,burbank,Los Angeles County,los angeles
+Burlingame,burlingame,San Mateo County,san mateo
+Calabasas,calabasas,Los Angeles County,los angeles
+Calexico,calexico,Imperial County,imperial
+California City,california city,Kern County,kern
+Calimesa,calimesa,Riverside County,riverside
+Calipatria,calipatria,Imperial County,imperial
+Calistoga,calistoga,Napa County,napa
+Camarillo,camarillo,Ventura County,ventura
+Campbell,campbell,Santa Clara County,santa clara
+Canyon Lake,canyon lake,Riverside County,riverside
+Capitola,capitola,Santa Cruz County,santa cruz
+Carlsbad,carlsbad,San Diego County,san diego
+Carmel-by-the-Sea,carmel-by-the-sea,Monterey County,monterey
+Carpinteria,carpinteria,Santa Barbara County,santa barbara
+Carson,carson,Los Angeles County,los angeles
+Cathedral City,cathedral city,Riverside County,riverside
+Ceres,ceres,Stanislaus County,stanislaus
+Cerritos,cerritos,Los Angeles County,los angeles
+Chico,chico,Butte County,butte
+Chino,chino,San Bernardino County,san bernardino
+Chino Hills,chino hills,San Bernardino County,san bernardino
+Chowchilla,chowchilla,Madera County,madera
+Chula Vista,chula vista,San Diego County,san diego
+Citrus Heights,citrus heights,Sacramento County,sacramento
+Claremont,claremont,Los Angeles County,los angeles
+Clayton,clayton,Contra Costa County,contra costa
+Clearlake,clearlake,Lake County,lake
+Cloverdale,cloverdale,Sonoma County,sonoma
+Clovis,clovis,Fresno County,fresno
+Coachella,coachella,Riverside County,riverside
+Coalinga,coalinga,Fresno County,fresno
+Colfax,colfax,Placer County,placer
+Colton,colton,San Bernardino County,san bernardino
+Colusa,colusa,Colusa County,colusa
+Commerce,commerce,Los Angeles County,los angeles
+Compton,compton,Los Angeles County,los angeles
+Concord,concord,Contra Costa County,contra costa
+Corcoran,corcoran,Kings County,kings
+Corning,corning,Tehama County,tehama
+Corona,corona,Riverside County,riverside
+Coronado,coronado,San Diego County,san diego
+Corte Madera,corte madera,Marin County,marin
+Costa Mesa,costa mesa,Orange County,orange
+Cotati,cotati,Sonoma County,sonoma
+Covina,covina,Los Angeles County,los angeles
+Crescent City,crescent city,Del Norte County,del norte
+Culver City,culver city,Los Angeles County,los angeles
+Cupertino,cupertino,Santa Clara County,santa clara
+Cypress,cypress,Orange County,orange
+Daly City,daly city,San Mateo County,san mateo
+Dana Point,dana point,Orange County,orange
+Danville,danville,Contra Costa County,contra costa
+Davis,davis,Yolo County,yolo
+Del Mar,del mar,San Diego County,san diego
+Delano,delano,Kern County,kern
+Desert Hot Springs,desert hot springs,Riverside County,riverside
+Diamond Bar,diamond bar,Los Angeles County,los angeles
+Dinuba,dinuba,Tulare County,tulare
+Dixon,dixon,Solano County,solano
+Dorris,dorris,Siskiyou County,siskiyou
+Dos Palos,dos palos,Merced County,merced
+Downey,downey,Los Angeles County,los angeles
+Duarte,duarte,Los Angeles County,los angeles
+Dublin,dublin,Alameda County,alameda
+Dunsmuir,dunsmuir,Siskiyou County,siskiyou
+Eastvale,eastvale,Riverside County,riverside
+El Cajon,el cajon,San Diego County,san diego
+El Centro,el centro,Imperial County,imperial
+El Cerrito,el cerrito,Contra Costa County,contra costa
+El Monte,el monte,Los Angeles County,los angeles
+El Segundo,el segundo,Los Angeles County,los angeles
+Elk Grove,elk grove,Sacramento County,sacramento
+Encinitas,encinitas,San Diego County,san diego
+Escalon,escalon,San Joaquin County,san joaquin
+Escondido,escondido,San Diego County,san diego
+Etna,etna,Siskiyou County,siskiyou
+Eureka,eureka,Humboldt County,humboldt
+Exeter,exeter,Tulare County,tulare
+Fairfax,fairfax,Marin County,marin
+Fairfield,fairfield,Solano County,solano
+Farmersville,farmersville,Tulare County,tulare
+Ferndale,ferndale,Humboldt County,humboldt
+Fillmore,fillmore,Ventura County,ventura
+Firebaugh,firebaugh,Fresno County,fresno
+Folsom,folsom,Sacramento County,sacramento
+Fontana,fontana,San Bernardino County,san bernardino
+Fort Bragg,fort bragg,Mendocino County,mendocino
+Fort Jones,fort jones,Siskiyou County,siskiyou
+Fortuna,fortuna,Humboldt County,humboldt
+Foster City,foster city,San Mateo County,san mateo
+Fountain Valley,fountain valley,Orange County,orange
+Fowler,fowler,Fresno County,fresno
+Fremont,fremont,Alameda County,alameda
+Fresno,fresno,Fresno County,fresno
+Fullerton,fullerton,Orange County,orange
+Galt,galt,Sacramento County,sacramento
+Garden Grove,garden grove,Orange County,orange
+Gardena,gardena,Los Angeles County,los angeles
+Gilroy,gilroy,Santa Clara County,santa clara
+Glendale,glendale,Los Angeles County,los angeles
+Glendora,glendora,Los Angeles County,los angeles
+Goleta,goleta,Santa Barbara County,santa barbara
+Gonzales,gonzales,Monterey County,monterey
+Grand Terrace,grand terrace,San Bernardino County,san bernardino
+Grass Valley,grass valley,Nevada County,nevada
+Greenfield,greenfield,Monterey County,monterey
+Gridley,gridley,Butte County,butte
+Grover Beach,grover beach,San Luis Obispo County,san luis obispo
+Guadalupe,guadalupe,Santa Barbara County,santa barbara
+Gustine,gustine,Merced County,merced
+Half Moon Bay,half moon bay,San Mateo County,san mateo
+Hanford,hanford,Kings County,kings
+Hawaiian Gardens,hawaiian gardens,Los Angeles County,los angeles
+Hawthorne,hawthorne,Los Angeles County,los angeles
+Hayward,hayward,Alameda County,alameda
+Healdsburg,healdsburg,Sonoma County,sonoma
+Hemet,hemet,Riverside County,riverside
+Hercules,hercules,Contra Costa County,contra costa
+Hermosa Beach,hermosa beach,Los Angeles County,los angeles
+Hesperia,hesperia,San Bernardino County,san bernardino
+Highland,highland,San Bernardino County,san bernardino
+Hollister,hollister,San Benito County,san benito
+Holtville,holtville,Imperial County,imperial
+Hughson,hughson,Stanislaus County,stanislaus
+Huntington Beach,huntington beach,Orange County,orange
+Huntington Park,huntington park,Los Angeles County,los angeles
+Huron,huron,Fresno County,fresno
+Imperial,imperial,Imperial County,imperial
+Imperial Beach,imperial beach,San Diego County,san diego
+Indian Wells,indian wells,Riverside County,riverside
+Indio,indio,Riverside County,riverside
+Inglewood,inglewood,Los Angeles County,los angeles
+Ione,ione,Amador County,amador
+Irvine,irvine,Orange County,orange
+Isleton,isleton,Sacramento County,sacramento
+Jackson,jackson,Amador County,amador
+Kerman,kerman,Fresno County,fresno
+King City,king city,Monterey County,monterey
+Kingsburg,kingsburg,Fresno County,fresno
+La Canada Flintridge,la canada flintridge,Los Angeles County,los angeles
+La Habra,la habra,Orange County,orange
+La Mesa,la mesa,San Diego County,san diego
+La Mirada,la mirada,Los Angeles County,los angeles
+La Palma,la palma,Orange County,orange
+La Puente,la puente,Los Angeles County,los angeles
+La Quinta,la quinta,Riverside County,riverside
+La Verne,la verne,Los Angeles County,los angeles
+Lafayette,lafayette,Contra Costa County,contra costa
+Laguna Beach,laguna beach,Orange County,orange
+Laguna Hills,laguna hills,Orange County,orange
+Laguna Niguel,laguna niguel,Orange County,orange
+Laguna Woods,laguna woods,Orange County,orange
+Lake Elsinore,lake elsinore,Riverside County,riverside
+Lake Forest,lake forest,Orange County,orange
+Lakeport,lakeport,Lake County,lake
+Lakewood,lakewood,Los Angeles County,los angeles
+Lancaster,lancaster,Los Angeles County,los angeles
+Larkspur,larkspur,Marin County,marin
+Lathrop,lathrop,San Joaquin County,san joaquin
+Lawndale,lawndale,Los Angeles County,los angeles
+Lemon Grove,lemon grove,San Diego County,san diego
+Lemoore,lemoore,Kings County,kings
+Lincoln,lincoln,Placer County,placer
+Lindsay,lindsay,Tulare County,tulare
+Live Oak,live oak,Sutter County,sutter
+Livermore,livermore,Alameda County,alameda
+Livingston,livingston,Merced County,merced
+Lodi,lodi,San Joaquin County,san joaquin
+Loma Linda,loma linda,San Bernardino County,san bernardino
+Lomita,lomita,Los Angeles County,los angeles
+Lompoc,lompoc,Santa Barbara County,santa barbara
+Long Beach,long beach,Los Angeles County,los angeles
+Loomis,loomis,Placer County,placer
+Los Alamitos,los alamitos,Orange County,orange
+Los Altos,los altos,Santa Clara County,santa clara
+Los Angeles,los angeles,Los Angeles County,los angeles
+Los Banos,los banos,Merced County,merced
+Los Gatos,los gatos,Santa Clara County,santa clara
+Loyalton,loyalton,Sierra County,sierra
+Lynwood,lynwood,Los Angeles County,los angeles
+Madera,madera,Madera County,madera
+Malibu,malibu,Los Angeles County,los angeles
+Mammoth Lakes,mammoth lakes,Mono County,mono
+Manhattan Beach,manhattan beach,Los Angeles County,los angeles
+Manteca,manteca,San Joaquin County,san joaquin
+Maricopa,maricopa,Ventura County,kern
+Marina,marina,Monterey County,monterey
+Martinez,martinez,Contra Costa County,contra costa
+Marysville,marysville,Yuba County,yuba
+Maywood,maywood,Los Angeles County,los angeles
+Mendota,mendota,Fresno County,fresno
+Menifee,menifee,Riverside County,riverside
+Menlo Park,menlo park,San Mateo County,san mateo
+Merced,merced,Merced County,merced
+Mill Valley,mill valley,Marin County,marin
+Millbrae,millbrae,San Mateo County,san mateo
+Milpitas,milpitas,Santa Clara County,santa clara
+Mission Viejo,mission viejo,Orange County,orange
+Modesto,modesto,Stanislaus County,stanislaus
+Monrovia,monrovia,Los Angeles County,los angeles
+Montague,montague,Siskiyou County,siskiyou
+Montclair,montclair,San Bernardino County,san bernardino
+Montebello,montebello,Los Angeles County,los angeles
+Monterey,monterey,Monterey County,monterey
+Monterey Park,monterey park,Los Angeles County,los angeles
+Moorpark,moorpark,Ventura County,ventura
+Moraga,moraga,Contra Costa County,contra costa
+Moreno Valley,moreno valley,Riverside County,riverside
+Morgan Hill,morgan hill,Santa Clara County,santa clara
+Morro Bay,morro bay,San Luis Obispo County,san luis obispo
+Mount Shasta,mount shasta,Siskiyou County,siskiyou
+Mountain View,mountain view,Santa Clara County,santa clara
+Murrieta,murrieta,Riverside County,riverside
+Napa,napa,Napa County,napa
+National City,national city,San Diego County,san diego
+Needles,needles,San Bernardino County,san bernardino
+Nevada City,nevada city,Nevada County,nevada
+Newark,newark,Alameda County,alameda
+Newman,newman,Stanislaus County,stanislaus
+Newport Beach,newport beach,Orange County,orange
+Norco,norco,Riverside County,riverside
+Norwalk,norwalk,Los Angeles County,los angeles
+Novato,novato,Marin County,marin
+Oakdale,oakdale,Stanislaus County,stanislaus
+Oakland,oakland,Alameda County,alameda
+Oakley,oakley,Contra Costa County,contra costa
+Oceanside,oceanside,San Diego County,san diego
+Ojai,ojai,Ventura County,ventura
+Ontario,ontario,San Bernardino County,san bernardino
+Orange,orange,Orange County,orange
+Orange Cove,orange cove,Fresno County,fresno
+Orinda,orinda,Contra Costa County,contra costa
+Orland,orland,Glenn County,glenn
+Oroville,oroville,Butte County,butte
+Oxnard,oxnard,Ventura County,ventura
+Pacific Grove,pacific grove,Monterey County,monterey
+Pacifica,pacifica,San Mateo County,san mateo
+Palm Desert,palm desert,Riverside County,riverside
+Palm Springs,palm springs,Riverside County,riverside
+Palmdale,palmdale,Los Angeles County,los angeles
+Palo Alto,palo alto,Santa Clara County,santa clara
+Palos Verdes Estates,palos verdes estates,Los Angeles County,los angeles
+Paradise,paradise,Butte County,butte
+Paramount,paramount,Los Angeles County,los angeles
+Parlier,parlier,Fresno County,fresno
+Pasadena,pasadena,Los Angeles County,los angeles
+Paso Robles,paso robles,San Luis Obispo County,san luis obispo
+Patterson,patterson,Stanislaus County,stanislaus
+Perris,perris,Riverside County,riverside
+Petaluma,petaluma,Sonoma County,sonoma
+Pico Rivera,pico rivera,Los Angeles County,los angeles
+Pinole,pinole,Contra Costa County,contra costa
+Pismo Beach,pismo beach,San Luis Obispo County,san luis obispo
+Pittsburg,pittsburg,Contra Costa County,contra costa
+Placentia,placentia,Orange County,orange
+Placerville,placerville,El Dorado County,el dorado
+Pleasant Hill,pleasant hill,Contra Costa County,contra costa
+Pleasanton,pleasanton,Alameda County,alameda
+Plymouth,plymouth,Amador County,amador
+Point Arena,point arena,Mendocino County,mendocino
+Pomona,pomona,Los Angeles County,los angeles
+Port Hueneme,port hueneme,Ventura County,ventura
+Porterville,porterville,Tulare County,tulare
+Portola,portola,Plumas County,plumas
+Portola Valley,portola valley,San Mateo County,san mateo
+Poway,poway,San Diego County,san diego
+Rancho Cordova,rancho cordova,Sacramento County,sacramento
+Rancho Cucamonga,rancho cucamonga,San Bernardino County,san bernardino
+Rancho Mirage,rancho mirage,Riverside County,riverside
+Rancho Palos Verdes,rancho palos verdes,Los Angeles County,los angeles
+Rancho Santa Margarita,rancho santa margarita,Orange County,orange
+Red Bluff,red bluff,Tehama County,tehama
+Redding,redding,Shasta County,shasta
+Redlands,redlands,San Bernardino County,san bernardino
+Redondo Beach,redondo beach,Los Angeles County,los angeles
+Redwood City,redwood city,San Mateo County,san mateo
+Reedley,reedley,Fresno County,fresno
+Rialto,rialto,San Bernardino County,san bernardino
+Richmond,richmond,Contra Costa County,contra costa
+Ridgecrest,ridgecrest,Kern County,kern
+Rio Dell,rio dell,Humboldt County,humboldt
+Rio Vista,rio vista,Solano County,solano
+Ripon,ripon,San Joaquin County,san joaquin
+Riverbank,riverbank,Stanislaus County,stanislaus
+Riverside,riverside,Riverside County,riverside
+Rocklin,rocklin,Placer County,placer
+Rohnert Park,rohnert park,Sonoma County,sonoma
+Rosemead,rosemead,Los Angeles County,los angeles
+Roseville,roseville,Placer County,placer
+Ross,ross,Marin County,marin
+Sacramento,sacramento,Sacramento County,sacramento
+Salinas,salinas,Monterey County,monterey
+San Anselmo,san anselmo,Marin County,marin
+San Bernardino,san bernardino,San Bernardino County,san bernardino
+San Bruno,san bruno,San Mateo County,san mateo
+San Carlos,san carlos,San Mateo County,san mateo
+San Clemente,san clemente,Orange County,orange
+San Diego,san diego,San Diego County,san diego
+San Dimas,san dimas,Los Angeles County,los angeles
+San Fernando,san fernando,Los Angeles County,los angeles
+San Francisco,san francisco,San Francisco County,san francisco
+San Gabriel,san gabriel,Los Angeles County,los angeles
+San Jacinto,san jacinto,Riverside County,riverside
+San Joaquin,san joaquin,Fresno County,fresno
+San Jose,san jose,Santa Clara County,santa clara
+San Juan Bautista,san juan bautista,San Benito County,san benito
+San Juan Capistrano,san juan capistrano,Orange County,orange
+San Leandro,san leandro,Alameda County,alameda
+San Luis Obispo,san luis obispo,San Luis Obispo County,san luis obispo
+San Marcos,san marcos,San Diego County,san diego
+San Marino,san marino,Los Angeles County,los angeles
+San Mateo,san mateo,San Mateo County,san mateo
+San Pablo,san pablo,Contra Costa County,contra costa
+San Rafael,san rafael,Marin County,marin
+San Ramon,san ramon,Contra Costa County,contra costa
+Sanger,sanger,Fresno County,fresno
+Santa Ana,santa ana,Orange County,orange
+Santa Barbara,santa barbara,Santa Barbara County,santa barbara
+Santa Clara,santa clara,Santa Clara County,santa clara
+Santa Clarita,santa clarita,Los Angeles County,los angeles
+Santa Cruz,santa cruz,Santa Cruz County,santa cruz
+Santa Fe Springs,santa fe springs,Los Angeles County,los angeles
+Santa Maria,santa maria,Santa Barbara County,santa barbara
+Santa Monica,santa monica,Los Angeles County,los angeles
+Santa Paula,santa paula,Ventura County,ventura
+Santa Rosa,santa rosa,Sonoma County,sonoma
+Santee,santee,San Diego County,san diego
+Saratoga,saratoga,Santa Clara County,santa clara
+Sausalito,sausalito,Marin County,marin
+Scotts Valley,scotts valley,Santa Cruz County,santa cruz
+Seal Beach,seal beach,Orange County,orange
+Seaside,seaside,Monterey County,monterey
+Sebastopol,sebastopol,Sonoma County,sonoma
+Selma,selma,Fresno County,fresno
+Shafter,shafter,Kern County,kern
+Shasta Lake,shasta lake,Shasta County,shasta
+Sierra Madre,sierra madre,Los Angeles County,los angeles
+Signal Hill,signal hill,Los Angeles County,los angeles
+Simi Valley,simi valley,Ventura County,ventura
+Solana Beach,solana beach,San Diego County,san diego
+Soledad,soledad,Monterey County,monterey
+Solvang,solvang,Santa Barbara County,santa barbara
+Sonoma,sonoma,Sonoma County,sonoma
+Sonora,sonora,Tuolumne County,tuolumne
+South El Monte,south el monte,Los Angeles County,los angeles
+South Gate,south gate,Los Angeles County,los angeles
+South Lake Tahoe,south lake tahoe,El Dorado County,el dorado
+South Pasadena,south pasadena,Los Angeles County,los angeles
+South San Francisco,south san francisco,San Mateo County,san mateo
+Saint Helena,st. helena,Napa County,napa
+Stanton,stanton,Orange County,orange
+Stockton,stockton,San Joaquin County,san joaquin
+Suisun City,suisun city,Solano County,solano
+Sunnyvale,sunnyvale,Santa Clara County,santa clara
+Susanville,susanville,Lassen County,lassen
+Sutter Creek,sutter creek,Amador County,amador
+Taft,taft,Kern County,kern
+Tehachapi,tehachapi,Kern County,kern
+Tehama,tehama,Tehama County,tehama
+Temecula,temecula,Riverside County,riverside
+Temple City,temple city,Los Angeles County,los angeles
+Thousand Oaks,thousand oaks,Ventura County,ventura
+Tiburon,tiburon,Marin County,marin
+Torrance,torrance,Los Angeles County,los angeles
+Tracy,tracy,San Joaquin County,san joaquin
+Trinidad,trinidad,Humboldt County,humboldt
+Truckee,truckee,Nevada County,nevada
+Tulare,tulare,Tulare County,tulare
+Tulelake,tulelake,Modoc County,siskiyou
+Turlock,turlock,Stanislaus County,stanislaus
+Tustin,tustin,Orange County,orange
+Twentynine Palms,twentynine palms,San Bernardino County,san bernardino
+Ukiah,ukiah,Mendocino County,mendocino
+Union City,union city,Alameda County,alameda
+Upland,upland,San Bernardino County,san bernardino
+Vacaville,vacaville,Solano County,solano
+Vallejo,vallejo,Solano County,solano
+Ventura,ventura,Ventura County,ventura
+Victorville,victorville,San Bernardino County,san bernardino
+Villa Park,villa park,Orange County,orange
+Visalia,visalia,Tulare County,tulare
+Vista,vista,San Diego County,san diego
+Walnut,walnut,Los Angeles County,los angeles
+Walnut Creek,walnut creek,Contra Costa County,contra costa
+Wasco,wasco,Kern County,kern
+Waterford,waterford,Stanislaus County,stanislaus
+Watsonville,watsonville,Santa Cruz County,santa cruz
+Weed,weed,Siskiyou County,siskiyou
+West Covina,west covina,Los Angeles County,los angeles
+West Hollywood,west hollywood,Los Angeles County,los angeles
+West Sacramento,west sacramento,Yolo County,yolo
+Westlake Village,westlake village,Ventura County,los angeles
+Westminster,westminster,Orange County,orange
+Westmorland,westmorland,Imperial County,imperial
+Wheatland,wheatland,Yuba County,yuba
+Whittier,whittier,Los Angeles County,los angeles
+Wildomar,wildomar,Riverside County,riverside
+Williams,williams,Colusa County,colusa
+Willits,willits,Mendocino County,mendocino
+Willows,willows,Glenn County,glenn
+Windsor,windsor,Sonoma County,sonoma
+Winters,winters,Yolo County,yolo
+Woodlake,woodlake,Tulare County,tulare
+Woodland,woodland,Yolo County,yolo
+Yorba Linda,yorba linda,Orange County,orange
+Yountville,yountville,Napa County,napa
+Yreka,yreka,Siskiyou County,siskiyou
+Yuba City,yuba city,Sutter County,sutter
+Yucaipa,yucaipa,San Bernardino County,san bernardino
+Yucca Valley,yucca valley,San Bernardino County,san bernardino
