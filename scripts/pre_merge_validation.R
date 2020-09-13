@@ -210,4 +210,8 @@ write_csv(house_clean_v4, "./data/house_price/h_price_clean.csv")
 
 ### cleaning house month data (from string to int)
 h_price_clean <- read_csv("data/house_price/h_price_clean.csv")
+h_price_clean$month <- as.numeric(h_price_clean$month)
+
+write_csv(h_price_clean, "./data/house_price/h_price_clean.csv")
+
 
