@@ -98,21 +98,26 @@ earthquake_clean <- earthquake_with_region %>%
 glimpse(earthquake_clean)
 
 earthquake_clean <- earthquake_clean %>%
-  mutate(quakes_minor = 0, quakes_low = 0, quakes_moderate = 0, quakes_severe = 0)
+  mutate(quakes_minor = 0, quakes_moderate = 0, quakes_severe = 0)
 
 for (row in seq_len(nrow(earthquake_clean))) {
-  if (earthquake_clean$mag[row] <= 5.5) {
+  if (earthquake_clean$mag[row] <= 3.0) {
     earthquake_clean$quakes_minor[row] = 1
-  } else if (earthquake_clean$mag[row] <= 6.5 && earthquake_clean$mag[row] >= 5.6) {
-    earthquake_clean$quakes_low[row] = 1
-  } else if (earthquake_clean$mag[row] <= 7 && earthquake_clean$mag[row] >= 6.6) {
+  } else if (earthquake_clean$mag[row] <= 4.0 && earthquake_clean$mag[row] >= 3.1) {
     earthquake_clean$quakes_moderate[row] = 1
-  } else if (earthquake_clean$mag[row] <= 7.9 && earthquake_clean$mag[row] >= 7.1) {
+  } else if (earthquake_clean$mag[row] <= 7.9 && earthquake_clean$mag[row] >= 4.1) {
     earthquake_clean$quakes_severe[row] = 1
   }
 }
 
 glimpse(earthquake_clean)
+
+check_eq <- earthquake_clean %>%
+  group_by() %>%
+  summarise(
+    minor = sum(quakes_minor),
+    moderate = sum(quakes_moderate),
+    severe = sum(quakes_severe))
 
 # final clean of results: ----
 # - remove un-needed columns
@@ -122,11 +127,17 @@ earthquake_clean_v2 <- earthquake_clean %>%
   select(-mag,-time, -state) %>%
   group_by(city,county,month,year) %>%
   summarise(quakes_minor = sum(quakes_minor),
-            quakes_low = sum(quakes_low),
             quakes_moderate = sum(quakes_moderate),
             quakes_severe = sum(quakes_severe))
 
 glimpse(earthquake_clean_v2)
+
+check_eq2 <- earthquake_clean_v2 %>%
+  group_by() %>%
+  summarise(
+    minor = sum(quakes_minor),
+    moderate = sum(quakes_moderate),
+    severe = sum(quakes_severe))
 
 write_csv(earthquake_clean_v2, "./data/earthquake/earthquakes_clean.csv")
 
@@ -183,3 +194,7 @@ data$results$formatted_address[2]
 
 ## returns first value in string separated by commas.
 gsub(",.*$", "", data$results$formatted_address[1])
+
+
+## re-classify EQ data
+earthquakes_v2 <- read_csv("data/earthquake/earthquakes_with_region.csv")

@@ -28,16 +28,16 @@ crime_keyed <- merge(x=city_key, y=crime_clean, by=c("city","county"), all.y=TRU
 count_keys <- crime_clean %>%
   count(city,county,year)
 
-## earthquake data cleaning
+## earthquake data checking
 
 
 earthquake <- read_csv("./data/earthquake/earthquakes_clean.csv")
 
+## sum eq events by by county
 earthquake_clean <- earthquake %>%
   select(-city) %>%
   group_by(county,month,year) %>%
   summarise(quakes_minor = sum(quakes_minor),
-            quakes_low = sum(quakes_low),
             quakes_moderate = sum(quakes_moderate),
             quakes_severe = sum(quakes_severe))
 
@@ -61,6 +61,8 @@ count_invalid <- eq_keyed %>%
   filter(is.na(county))
 
 write_csv(eq_keyed, "./data/earthquake/earthquake_clean_v2.csv")
+
+check_eq <- read_csv("data/earthquake/earthquake_clean_v2.csv")
 
 ### cleaning homeless data -
 # the data included entries which were combined counties or counties and cities,
