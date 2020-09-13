@@ -208,4 +208,6 @@ house_clean_v4 <- house_clean_v3 %>%
 
 write_csv(house_clean_v4, "./data/house_price/h_price_clean.csv")
 
-### double checking eqs
+### cleaning house month data (from string to int)
+h_price_clean <- read_csv("data/house_price/h_price_clean.csv")
+
