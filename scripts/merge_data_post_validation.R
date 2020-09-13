@@ -110,8 +110,10 @@ data <- data_raw %>%
 
 sapply(data, function(x) sum(is.na(x)))
 
-check_data <- data %>%
-  count(month,year) %>%
-  select(-n)
+## check why city is NA
+data %>%
+  filter(is.na(city)) %>%
+  count(county)
 
-write_csv(check_data, "data/keys/date_key.csv")
+## ignore values from 1991 to 1997
+data <- data %>% filter(year > 1997)
