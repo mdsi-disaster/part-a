@@ -14,8 +14,11 @@ date_key <- read_csv("data/keys/date_key.csv")
 date_key$month <- as.numeric(date_key$month)
 
 count_date_key <- date_key %>%
-  filter(!is.na(month)) %>%
   count(year)
+
+date_key <- date_key %>%
+  filter(!is.na(month)) %>%
+  filter(!is.na(year))
 
 write_csv(date_key, "data/keys/date_key.csv")
 
@@ -87,3 +90,28 @@ data <- merge(x=data, y=property, by=c("county","year"), all=TRUE)
 write_csv(data, "data/merged_data_raw.csv")
 
 str(data)
+
+## analysis and cleaning of merged data
+
+data_raw <- read_csv("data/merged_data_raw.csv", 
+                    col_types = cols(city = col_character(), 
+                                     county = col_character(),
+                                     .default = "d"))
+
+sapply(data_raw, function(x) sum(is.na(x)))
+
+## identify values where year is NA
+check_data <- data_raw %>%
+  filter(is.na(year))
+
+## we do not want any records where year is NA.
+data <- data_raw %>%
+  filter(!is.na(year))
+
+sapply(data, function(x) sum(is.na(x)))
+
+check_data <- data %>%
+  count(month,year) %>%
+  select(-n)
+
+write_csv(check_data, "data/keys/date_key.csv")
