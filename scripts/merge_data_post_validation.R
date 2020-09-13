@@ -10,6 +10,17 @@ city_key <- read_csv("data/keys/city_key.csv")
 county_key <- read_csv("data/keys/county_key.csv")
 date_key <- read_csv("data/keys/date_key.csv")
 
+#clean date key
+date_key$month <- as.numeric(date_key$month)
+
+count_date_key <- date_key %>%
+  filter(!is.na(month)) %>%
+  count(year)
+
+write_csv(date_key, "data/keys/date_key.csv")
+
+
+
 ## build overall key
 key <- merge(x=city_key, y=county_key, by="county", all=TRUE)
 key <- merge(x=key, y=date_key, all=TRUE)
