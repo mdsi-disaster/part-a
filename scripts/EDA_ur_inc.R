@@ -115,7 +115,39 @@ inc_reg_sum %>%
        y = "Avg Monthly Earnings")
 
 # Fix outlier
-# inc_region[inc_region$county == "tuolumne" & inc_region$year == 2010 & inc_region$quarter == 2, 'income'] <- 3313
+inc_region[inc_region$county == "tuolumne" & inc_region$year == 2010 & inc_region$quarter == 2, 'income'] <- 3313
+
+# Convert to cumulative growth rate 
+inc_growth <- inc_region %>% 
+  arrange(year, quarter) %>% 
+  group_by(county) %>% 
+  mutate(rate = income/lag(income) - 1) %>% 
+  filter(!is.na(rate)) %>% 
+  mutate(cum_rate = cumprod(1+rate)-1) 
+
+# Group by region
+inc_g_sum <- inc_growth %>% 
+  group_by(date, Region) %>% 
+  summarise(mean = mean(cum_rate), 
+            median = median(cum_rate), 
+            high = max(cum_rate), 
+            low = min(cum_rate)) %>% 
+  ungroup()
+
+# Tidy format
+inc_g_sum <- inc_g_sum %>% 
+  pivot_longer(c(mean, median, high, low), names_to = "type")
+
+# Plot
+inc_g_sum %>% 
+  ggplot(aes(x = date, y = value, group = type, colour = type)) + 
+  geom_line() +
+  facet_wrap(~Region, ncol = 3) + 
+  theme(legend.title = element_blank(), axis.text.x = element_text(angle = 45)) + 
+  labs(title = "Income",
+       subtitle = "Summary by Region",
+       x = "Date (Quarterly)",
+       y = "Cumulative Growth Rate of Monthly Earnings")
 
 
 #Extract city to county mapping 
