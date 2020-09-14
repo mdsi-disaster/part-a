@@ -38,6 +38,7 @@ homelessness <- read_csv("data/homelessness/homelessness_clean.csv")
 house_price <- read_csv("data/house_price/h_price_clean.csv")
 income <- read_csv("data/income/earnings_clean.csv")
 property <- read_csv("data/property_type/property_type_clean_county.csv")
+unemployment <- read_csv("data/unemployment/unemployment_clean_keys.csv")
 
 ## rename clean data headers 
 
@@ -94,6 +95,9 @@ data <- data %>%
 data <- data %>%
   left_join(property, by=c("county","year"))
 
+data <- data %>%
+  left_join(unemployment, by = c("city","county","month","year")) 
+
 # write merged data file
 
 write_csv(data, "data/merged/merged_data_raw_0914zb.csv")
@@ -127,15 +131,20 @@ table(data_raw$year)
 ## check which years we have earthquake data  
 
 quakes <- data_raw %>%
-  na.omit(quakes_minor, quakes_moderate, quakes_severe) #remove rows that are 'na' for quakes. 
+  drop_na(quakes_minor) #remove rows that are 'na' for quakes. 
 
-table(no_quakes$year) #we only have data for quakes from 2010 to 2017
+table(quakes$year) #we only have data for quakes from 2010 to 2019
 
 ## simplify the quakes data frame by removing the individual crime counts that we don't need 
 
 quakes <- quakes %>%
   select(-crime_murder, -crime_rape, -crime_arson, -crime_larceny, -crime_assault, -crime_burglary, -crime_robbery, -crime_vehicle) %>%
-  mutate(crime_index = (crime_index*100000)) #multiply crime index by 100,000 to complete calculation for frime index 
+  mutate(crime_index = (crime_index*100000)) #multiply crime index by 100,000 to complete calculation for crime index 
 
 summary(quakes)  
+
+# merged dataset with years quakes = 'na' are removed 
+write_csv(data, "data/merged/quakes.csv")
+
+crime <- read_csv("data/crimedata/clean_cacrime.csv")
   
