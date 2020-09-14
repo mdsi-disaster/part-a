@@ -37,6 +37,7 @@ homelessness <- read_csv("data/homelessness/homelessness_clean.csv")
 house_price <- read_csv("data/house_price/h_price_clean.csv")
 income <- read_csv("data/income/earnings_clean.csv")
 property <- read_csv("data/property_type/property_type_clean_county.csv")
+faults <- read_csv("data/fault_lines/aggregate_faults_clean.csv")
 
 ## rename clean data headers
 
@@ -84,6 +85,8 @@ data <- merge(x=data, y=house_price, by=c("city","county","month","year"), all=T
 data <- merge(x=data, y=income, by=c("county","month","year"), all=TRUE)
 
 data <- merge(x=data, y=property, by=c("county","year"), all=TRUE)
+
+data <- merge(x=data, y=faults, by="county", all=TRUE)
 
 # write merged data file
 
