@@ -216,4 +216,22 @@ h_price_clean$month <- as.numeric(h_price_clean$month)
 
 write_csv(h_price_clean, "./data/house_price/h_price_clean.csv")
 
+## fault lines analysis
 
+clean_faults <- read_csv("data/fault_lines/clean_faults.csv")
+
+faults_check <- merge(x=county_key,y=clean_faults,by="county", y.all=TRUE)
+
+check_dupe <- faults_check %>%
+  count(county)
+
+faults_merged <- faults_check %>%
+  add_count(county) %>%
+  group_by(county,n) %>%
+  summarise(fault_length = sum(length_km)) %>%
+  rename (fault_num = n)
+
+check_dupe <- faults_merged %>%
+  count(county)
+
+write_csv(faults_merged, "data/fault_lines/aggregate_faults_clean.csv")

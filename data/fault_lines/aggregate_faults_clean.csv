@@ -1,0 +1,47 @@
+county,fault_num,fault_length
+alameda,8,219
+colusa,2,NA
+contra costa,11,235
+del norte,2,NA
+el dorado,3,99
+fresno,7,175
+glenn,2,65
+humboldt,22,NA
+imperial,19,665
+inyo,43,NA
+kern,15,NA
+lake,10,NA
+lassen,14,NA
+los angeles,45,NA
+marin,3,NA
+mendocino,7,NA
+merced,5,194
+modoc,14,NA
+mono,24,690
+monterey,19,NA
+napa,8,NA
+nevada,1,38
+orange,8,199
+placer,3,NA
+plumas,12,NA
+riverside,18,NA
+san benito,8,251
+san bernardino,64,NA
+san diego,24,NA
+san joaquin,2,119
+san luis obispo,14,NA
+san mateo,6,270
+santa barbara,25,NA
+santa clara,12,455
+santa cruz,2,136
+shasta,7,NA
+sierra,1,18
+siskiyou,10,NA
+solano,4,NA
+sonoma,17,NA
+stanislaus,1,138
+sutter,1,5
+tehama,3,NA
+tulare,1,169
+ventura,26,NA
+yolo,4,NA
