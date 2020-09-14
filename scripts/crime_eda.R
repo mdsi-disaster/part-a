@@ -110,38 +110,38 @@ citycrime %>%
 
 summary(citycrime)
 
-# identifying outliers - following steps on this page: http://r-statistics.co/Outlier-Treatment-With-R.html
+# # identifying outliers - following steps on this page: http://r-statistics.co/Outlier-Treatment-With-R.html
+# 
+# outlier_values <- boxplot.stats(citycrime$av_crime)$out
+# 
+# dev.off() # This will delete your current plots in the RStudio Plots Pane. If you have multiple graphics devices open, repeat this command until the output displays null device.
+# 
+# boxplot(citycrime$av_crime, main="City Crime Index", boxwex=0.1)
+# 
+# mtext(paste("Outliers: ", paste(outlier_values, collapse=", ")), cex=0.6)
+# 
+# print(outlier_values) #checking out the av_crime values that are classified as outliers - makes sense as these values are all within the 4th quartile 
+# 
+# #outlier(citycrime$av_crime) # this is the most extreme observation from the mean 
+# 
+# #outlier(citycrime$av_crime, opposite = TRUE) # this is the least extreme observation from the mean? 
+# 
+# # Capping - For missing values that lie outside the 1.5 * IQR limits, we could cap it by replacing those observations outside the lower limit with the value of 5th %ile and those that lie above the upper limit, with the value of 95th %ile
+# 
+# x <- citycrime$av_crime #code to replace lower limits with the 5th percentile and values that lie above the upper limit with the 95th percentile 
+# qnt <- quantile(x, probs=c(.25, .75), na.rm = T)
+# caps <- quantile(x, probs=c(.05, .95), na.rm = T)
+# H <- 1.5 * IQR(x, na.rm = T)
+# x[x < (qnt[1] - H)] <- caps[1]
+# x[x > (qnt[2] + H)] <- caps[2]
+# 
+# print(x)
+# 
+# citycrime$av_crime_caps <- x #add a new column to the citycrime data frame for the capped av crime index 
 
-outlier_values <- boxplot.stats(citycrime$av_crime)$out
+boxplot(citycrime$av_crime_caps, main="City Crime Index", boxwex=0.1) 
 
-dev.off() # This will delete your current plots in the RStudio Plots Pane. If you have multiple graphics devices open, repeat this command until the output displays null device.
-
-boxplot(citycrime$av_crime, main="City Crime Index", boxwex=0.1)
-
-mtext(paste("Outliers: ", paste(outlier_values, collapse=", ")), cex=0.6)
-
-print(outlier_values) #checking out the av_crime values that are classified as outliers - makes sense as these values are all within the 4th quartile 
-
-#outlier(citycrime$av_crime) # this is the most extreme observation from the mean 
-
-#outlier(citycrime$av_crime, opposite = TRUE) # this is the least extreme observation from the mean? 
-
-# Capping - For missing values that lie outside the 1.5 * IQR limits, we could cap it by replacing those observations outside the lower limit with the value of 5th %ile and those that lie above the upper limit, with the value of 95th %ile
-
-x <- citycrime$av_crime #code to replace lower limits with the 5th percentile and values that lie above the upper limit with the 95th percentile 
-qnt <- quantile(x, probs=c(.25, .75), na.rm = T)
-caps <- quantile(x, probs=c(.05, .95), na.rm = T)
-H <- 1.5 * IQR(x, na.rm = T)
-x[x < (qnt[1] - H)] <- caps[1]
-x[x > (qnt[2] + H)] <- caps[2]
-
-print(x)
-
-citycrime$av_crime_caps <- x #add a new column to the citycrime data frame for the capped av crime index 
-
-boxplot(citycrime$av_crime_caps, main="City Crime Index", boxwex=0.1)
-
-#Or remove the values that fall below 25% or above 75% 
+#Or remove the values that fall below 25% or above 75% https://www.r-bloggers.com/how-to-remove-outliers-in-r/
 
 Q <- quantile(citycrime$av_crime, probs=c(.25, .75), na.rm = FALSE) #use the quantile() function to find the 25th and the 75th percentile of the dataset
 
@@ -192,9 +192,9 @@ eliminated %>%
   xlab("") +
   theme_bw()
 
-# Industry, Vernon and Sand City have the highest crime rates across the 8 year period if you don't take the outliers into account
+# Industry, Vernon and Sand City have the highest crime rates across the 8 year period if you take the outliers into account
 
-# Big Bear Lake, Palm Springs and Grass valley have the highest crime rates across the 8 year period if you take the outliers into account
+# Big Bear Lake, Palm Springs and Grass valley have the highest crime rates across the 8 year period if you remove the outliers
 
 # Which Counties have the highest crime across the 8 year period ------------
 
@@ -239,7 +239,7 @@ countycrime %>%
   arrange(desc(av_crime)) %>%
   filter(av_crime >= 4.42) %>%
   ggplot(mapping = aes(x = av_crime, y = county)) + 
-  geom_point() # Tuolumne, Tehama and San Francisco have the highest crime rates if you don't take the outliers into account 
+  geom_point() # Tuolumne, Tehama and San Francisco have the highest crime rates if you don't remove the outliers
 
 elim_county %>% #dataset with outliers eliminated
   arrange(desc(av_crime)) # top 10 values are >= 4.34
@@ -336,7 +336,7 @@ yearcrime %>%
 
 yearcrime %>%
   ggplot(mapping = aes(x=year, y=av_crime)) + 
-  geom_point() #crime index is highest in 2012 and lowest in 2018
+  geom_line() #crime index is highest in 2012 and lowest in 2018
 
 ggplot(yearcrime, aes(year)) + 
   geom_line(aes(y=av_crime), colour="red") + 
@@ -358,17 +358,17 @@ sanfran %>%
 # check out maps ------------
 #https://bcb.dfci.harvard.edu/~aedin/courses/R/CDC/maps.html
 
-map("usa")
-map("county")
-
-map.cities(county = "California")
-
-map("state", "CALIFORNIA")
-data(us.cities)
-map.cities(us.cities, country = "CA")
-
-map("state", "CALIFORNIA")
-map("county")
+# map("usa")
+# map("county")
+# 
+# map.cities(county = "California")
+# 
+# map("state", "CALIFORNIA")
+# data(us.cities)
+# map.cities(us.cities, country = "CA")
+# 
+# map("state", "CALIFORNIA")
+# map("county")
 
 #https://medium.com/@urban_institute/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2
 
@@ -463,7 +463,7 @@ fipcrime <- fipcrime %>% #joining the dataset 'county.fips' from the urbnmapr pa
 #        caption = "Author: Chris Goodman (@cbgoodman), Data: U.S. Census Bureau Census of Governments")
 
 
-plot_usmap(data = fipcrime, values = "crime_quantiles", include = "CA")
+# plot_usmap(data = fipcrime, values = "crime_quantiles", include = "CA") # need to set quantiles using above code to do this 
 
 plot_usmap(data = fipcrime, values = "av_crime", include = "CA") + #viridis option colour scheme 
   scale_fill_viridis(
