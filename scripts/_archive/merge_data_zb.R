@@ -145,6 +145,4 @@ summary(quakes)
 
 # merged dataset with years quakes = 'na' are removed 
 write_csv(data, "data/merged/quakes.csv")
-
-crime <- read_csv("data/crimedata/clean_cacrime.csv")
   
