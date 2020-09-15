@@ -34,7 +34,7 @@ property_house <- property_type %>%
   )
 
 # plot
-house <- ggplot(property_house, aes(x=year, y=mean_per_house,group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Plot of average % of house in California",x="Year", y = "% house") + ylim(60,70)
+house <- ggplot(property_house, aes(x=year, y=mean_per_house,group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of houses",x="Year", y = "% house") + ylim(60,70)
 
 # Plot per_townhouse
 # group and remove NAs
@@ -47,7 +47,7 @@ property_townhouse <- property_type %>%
   )
 
 # plot
-townhouse <- ggplot(property_townhouse, aes(x=year, y=mean_per_townhouse, group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Plot of average % of townhouse in California",x="Year", y = "% townhouse") + ylim(5,10)
+townhouse <- ggplot(property_townhouse, aes(x=year, y=mean_per_townhouse, group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of townhouses ",x="Year", y = "% townhouse") + ylim(5,10)
 
 # Plot per_apartments
 # group and remove NAs
@@ -59,8 +59,73 @@ property_apartments <- property_type %>%
     .groups = 'drop'
   )
 
-apartments <- ggplot(property_apartments, aes(x=year, y=mean_per_apartments, group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Plot of average % of apartments in California",x="Year", y = "% apartments") + ylim(20,22)
+apartments <- ggplot(property_apartments, aes(x=year, y=mean_per_apartments, group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of apartments",x="Year", y = "% apartments") + ylim(20,22)
 
 
 # Compare all 3 
-grid.arrange(house, townhouse, apartments, nrow=3) # in 2013 the proportion of house increases whilst apartments decreases before continuing to rise year on year - could be interesting to plot vs prices in the area
+grid.arrange(house, townhouse, apartments, nrow=3,top = 'Property types in California from 2010 to 2018') # in 2013 the proportion of house increases whilst apartments decreases before continuing to rise year on year - could be interesting to plot vs prices in the area
+
+# map % per county 
+property_county <- property_type %>%
+  filter(year != 'NA') %>%
+  group_by(county) %>%
+  summarise(
+    mean_per_house = mean(per_house, na.rm = TRUE),
+    mean_per_apartments = mean(per_apartments, na.rm = TRUE),
+    mean_per_townhouse = mean(per_townhouse, na.rm = TRUE),
+    .groups = 'drop'
+  )
+
+property_county$state <- 'CA'
+
+library(devtools)
+library(usmap)
+
+# merging wiht county.fips
+county_map <- us_map(regions = "counties")
+
+property_county$county <- paste(property_county$county, 'County', sep = " ")
+
+property_county$county <- str_to_title(property_county$county)  
+
+county_map_joined <- property_county %>% #joining the dataset 'county.fips' from the urbnmapr package so that I can add the fip codes to the fipcrime dataset
+  left_join(county_map, by = "county")
+
+# clean county_map_joined
+# per_house
+map_per_house <- county_map_joined[,c(12,2)]
+
+map_house <- plot_usmap(data = map_per_house, values = "mean_per_house", include = "CA") + 
+  scale_fill_gradient2(name = "% of House") + 
+  labs(x = "",
+       y = "", 
+       title = "% of House per County",
+       subtitle = "Average from 2010 - 2018",
+       caption = "")
+
+
+# per_townhouse
+map_per_townhouse <- county_map_joined[,c(12,4)]
+
+map_townhouse <- plot_usmap(data = map_per_townhouse, values = "mean_per_townhouse", include = "CA") + 
+  scale_fill_gradient2(name = "% of Townhouse") + 
+  labs(x = "",
+       y = "", 
+       title = "% of Townhouse per County",
+       subtitle = "Average from 2010 - 2018",
+       caption = "")
+
+# per apartments
+map_per_apartments <- county_map_joined[,c(12,3)]
+
+map_apartments <- plot_usmap(data = map_per_apartments, values = "mean_per_apartments", include = "CA") + 
+  scale_fill_gradient2(name = "% of Apartments") + 
+  labs(x = "",
+       y = "", 
+       title = "% of Apartments per County",
+       subtitle = "Average from 2010 - 2018",
+       caption = "")
+
+map_house
+map_townhouse
+map_apartments
