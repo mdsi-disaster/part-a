@@ -16,8 +16,10 @@ library(viridis)
 library(ruler)
 library(maps)
 library(usmap)
+library(VennDiagram) 
 
 crime <- read_csv(here("data", "crimedata", "clean_cacrime.csv"))
+cities <- read_csv(here("data", "crimedata", "clean_city_county.csv"))
 
 # check for dupes
 crime %>%
@@ -34,6 +36,18 @@ crime %>%
   ggplot() + 
   geom_bar(mapping = aes(y = city)) # this is a graph of the number of observations for each city, can see that we don'y have every city for every year of crime data 
 
+crime_year <- crime %>% #checking to 
+  group_by(year) %>% 
+  summarise(crime = (sum(sum_index_crimes)))
+
+crime06 <- crime %>%
+  filter(year == 2006)
+
+crime04 <- crime %>%
+  filter(year == 2004)
+
+setdiff(cities$city, crime05$city)
+
 crime %>%
   ggplot() + 
   geom_bar(mapping = aes(y = county)) # this is a graph of the number of observations for each county. 
@@ -42,7 +56,7 @@ crime %>%
 
 crime %>%
   ggplot() + 
-  geom_bar(mapping = aes(y = year)) # this is a graph of the number of observations for each year. There is more data from 2006-2018. There is only a comparatively small amount of data from 2019 - 2019 only has data collected for 6 months of the year. Might be best to remove this year. 
+  geom_bar(mapping = aes(y = year)) # this is a graph of the number of observations for each year (i.e. number of cities with data recorded each year) There is more data from 2006-2018. There is only a comparatively small amount of data from 1999 - 2005. 2019 only has data collected for 6 months of the year. Might be best to remove this year. 
 
 crime %>%
   ggplot() + 
@@ -88,9 +102,28 @@ newcrime %>% #since there are 9 years of data, if there is data for each city fo
   count(city, county) %>%
   filter(n != 9) #there are 18 cities that don't have data for each year. 
 
+cities %>%
+  count(city) #there are 482 cities in total in the list 
+
+county_key <- read_csv(here("data", "keys", "county_key.csv")) 
+
 setdiff(cities$city, newcrime$city) #this shows the names of the 21 municipalities that we don't have crime data for. These municipalities mostly have a population of less than 10,000 people, except for Wasco which has a poppulation of 25,000 
 
-setdiff(cities$county, newcrime$county) #this shows the names of the 2 counties that we don't have crime data for: Sierra (~3,000 people) and Plumas (less than 20,000 people)
+setdiff(county_key$county, newcrime$county) #this shows the names of the 5 counties that we don't have crime data for: Sierra (~3,000 people), Plumas (less than 20,000 people), Trinity, Alpine, Mariposa 
+
+city_pop <- read_csv(here("data", "crimedata", "city_population.csv")) #load in csv with county populations
+
+city_pop <- city_pop %>%
+  mutate(City = tolower(City)) #county observations to lowercase
+
+city_missing <- city_pop %>%
+  filter(City %in% c("amador city","blue lake","carmel-by-the-sea","colfax",     "corte madera","la cañada flintridge","larkspur","lathrop","live oak","loomis","loyalton","maricopa","plymouth","point arena","portola","portola valley","san carlos","san joaquin","san juan bautista","shasta lake","tehama",               "trinidad","wasco","woodside"))
+  
+city_missing %>%
+  ggplot(aes(x=Population, y=City)) + 
+  geom_bar(fill="cadetblue3", stat="identity") +
+  labs(title = "Missing Cities by Population") + 
+  theme_bw()
 
 # which city has the highest crime index across the 8 year period? -----------
 
@@ -104,9 +137,17 @@ citycrime <- newcrime %>%
   mutate(av_violent= (av_violent*100)) %>%
   mutate(av_property= (av_property*100))
 
+
+#label outliers here if I have time
+
 citycrime %>%
   ggplot() + 
-  geom_boxplot(mapping = aes(y = av_crime)) #check the distribution of the average crime index in cities. There are some outliers. 
+  geom_boxplot(mapping = aes(y = av_crime)) +
+  theme_bw() + 
+  labs(title = "Outliers for City Crime Index", 
+       y = "Crime Index") 
+
+#check the distribution of the average crime index in cities. There are some outliers. 
 
 summary(citycrime)
 
@@ -139,7 +180,7 @@ summary(citycrime)
 # 
 # citycrime$av_crime_caps <- x #add a new column to the citycrime data frame for the capped av crime index 
 
-boxplot(citycrime$av_crime_caps, main="City Crime Index", boxwex=0.1) 
+#boxplot(citycrime$av_crime_caps, main="City Crime Index", boxwex=0.1) 
 
 #Or remove the values that fall below 25% or above 75% https://www.r-bloggers.com/how-to-remove-outliers-in-r/
 
@@ -157,6 +198,13 @@ low <- Q[1]-1.5*iqr # Lower Range
 eliminated <- subset(citycrime, citycrime$av_crime > (Q[1] - 1.5*iqr) & citycrime$av_crime < (Q[2]+1.5*iqr)) #20 observations that fell outside .25 and .75 have been removed 
 
 boxplot(eliminated$av_crime, main="City Crime Index", boxwex=0.1) #boxplot shows that the outliers have been removed 
+
+eliminated %>%
+  ggplot() + 
+  geom_boxplot(mapping = aes(y = av_crime)) +
+  theme_bw() + 
+  labs(title = "Outliers Removed for City Crime Index", 
+       y = "Crime Index")
 
 citycrime %>% 
   arrange(desc(av_crime)) # top 10 values are >= 7.26
@@ -190,7 +238,10 @@ eliminated %>%
   ggplot( aes(x = av_crime, y = reorder(city, av_crime))) +
   geom_point() + 
   xlab("") +
-  theme_bw()
+  theme_bw() + 
+  labs(title = "Highest Average Crime Index by City 2010-2018", 
+       x = "Crime Index", 
+       y = "City")
 
 # Industry, Vernon and Sand City have the highest crime rates across the 8 year period if you take the outliers into account
 
@@ -244,7 +295,7 @@ countycrime %>%
 elim_county %>% #dataset with outliers eliminated
   arrange(desc(av_crime)) # top 10 values are >= 4.34
 
-eliminated$city <- factor(eliminated$city, levels = eliminated$city[order(eliminated$av_crime)])
+eliminated$county <- factor(eliminated$county, levels = eliminated$county[order(eliminated$av_crime)])
 
 elim_county %>% 
   filter(av_crime >= 4.34) %>%
@@ -263,6 +314,69 @@ countycrime %>%
   geom_point()
 
 # Calaveras, Colusa, San Benito have the lowest crime rates 
+
+# Or should the county crime be calculated once the city outliers are removed? Because otherwise the cities that were considered outliers are included in the average for the counties 
+
+
+countycrime2 <- eliminated %>% 
+  group_by(county) %>% 
+  summarise(av_crime = (mean(av_crime)), #get the crime index averages when grouping by year 
+            av_violent = (mean(av_violent)),
+            av_property = (mean(av_property)))
+
+countycrime2 %>%
+  ggplot() + 
+  geom_boxplot(mapping = aes(y = av_crime)) #check the distribution of the average crime index in counties. There are come outliers but I'd rather not remove them. 
+
+# elim_county %>%
+#   ggplot() + 
+#   geom_boxplot(mapping = aes(y = av_crime)) #another way to visualise outliers removed
+
+countycrime2 %>% 
+  arrange(desc(av_crime)) # top 10 values are >= 3.43
+
+countycrime2$county <- factor(countycrime2$county, levels = countycrime2$county[order(countycrime2$av_crime)])
+
+countycrime2 %>% 
+  filter(av_crime >= 3.43) %>%
+  ggplot(mapping = aes(x = av_crime, y = county)) + 
+  geom_point() + 
+  xlab("") +
+  theme_bw() +
+  labs(title = "Highest Average County Crime Rate", 
+       x = "Crime Index", 
+       y = "County") # Lake, Shasta and Inyo have the highest average crime rates if you don't remove the outliers
+
+elim_county2 %>% #dataset with outliers eliminated
+  arrange(desc(av_crime)) # top 10 values are >= 3.24
+
+eliminated$city <- factor(eliminated$city, levels = eliminated$city[order(eliminated$av_crime)])
+
+elim_county2 %>% 
+  filter(av_crime >= 3.24) %>%
+  ggplot( aes(x = av_crime, y = reorder(county, av_crime))) +
+  geom_point() + 
+  xlab("") +
+  theme_bw() +
+  labs(title = "Highest Average County Crime Rate", 
+       x = "Crime Index", 
+       y = "County")
+# Tehama, Modoc and Nevada have the highest crime rates if you take the outliers into account 
+
+elim_county2 %>% 
+  arrange(av_crime) # lowest 10 values are <= 2.05
+
+elim_county2 %>% 
+  arrange(av_crime) %>%
+  filter(av_crime <= 2.05) %>%
+  ggplot(mapping = aes(x = av_crime, y = county)) + 
+  geom_point() + 
+  theme_bw() + 
+  labs(title = "Lowest County Crime Rate", 
+       x = "Crime Index", 
+       y = "County")
+
+
 
 # Which year and which city has the highest crime rate? --------------
 # Industry, a city with ~219 people has the highest crime rate, followed by Vernon, a city with ~112 people, then Sand City ~334, Colma ~1792 Are these significant values? 
@@ -312,7 +426,10 @@ elim_newc %>% #not sure why this plot is not showing the y variables in the corr
   ggplot( aes(x = crime_index, y = reorder(city, crime_index), colour = year)) +
   geom_point() + 
   xlab("") +
-  theme_bw()
+  theme_bw() + 
+  labs(title = "Highest City Crime Rate", 
+       x = "Crime Index", 
+       y = "City")
 
 #Which year has the highest crime rate -----------
 
@@ -336,7 +453,14 @@ yearcrime %>%
 
 yearcrime %>%
   ggplot(mapping = aes(x=year, y=av_crime)) + 
-  geom_line() #crime index is highest in 2012 and lowest in 2018
+  geom_line() + 
+  xlab("") +
+  theme_bw() + 
+  labs(title = "Crime Rate by Year", 
+       x = "Year", 
+       y = "Crime Rate")
+
+#crime index is highest in 2012 and lowest in 2018
 
 ggplot(yearcrime, aes(year)) + 
   geom_line(aes(y=av_crime), colour="red") + 
@@ -372,16 +496,16 @@ sanfran %>%
 
 #https://medium.com/@urban_institute/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2
 
-fipcrime <-newcrime
+fipcrime <- countycrime2
 
-fipcrime <- elim_newc %>% #new dataframe that I'll add fip codes to
-  group_by(county) %>%
-  summarise(av_crime = (sum(sum_index_crimes))/(sum(population)), 
-            av_violent = (sum(sum_violent_crime))/(sum(population)),
-            av_property = (sum(sum_property_crime))/(sum(population))) %>%
-  mutate(av_crime= (av_crime*100)) %>%
-  mutate(av_violent= (av_violent*100)) %>%
-  mutate(av_property= (av_property*100))
+# fipcrime <- elim_county2 %>% #new dataframe that I'll add fip codes to
+#   group_by(county) %>%
+#   summarise(av_crime = (sum(sum_index_crimes))/(sum(population)), 
+#             av_violent = (sum(sum_violent_crime))/(sum(population)),
+#             av_property = (sum(sum_property_crime))/(sum(population))) %>%
+#   mutate(av_crime= (av_crime*100)) %>%
+#   mutate(av_violent= (av_violent*100)) %>%
+#   mutate(av_property= (av_property*100))
 
 fipcrime$polyname <- paste("california", fipcrime$county, sep = ",") #new column called polyname that I can use to merge fipcode varaible 
 
