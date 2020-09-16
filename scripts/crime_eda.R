@@ -479,7 +479,7 @@ sanfran %>%
   geom_smooth()
 
 
-# check out maps ------------
+# Check out maps ------------
 #https://bcb.dfci.harvard.edu/~aedin/courses/R/CDC/maps.html
 
 # map("usa")
@@ -608,3 +608,6 @@ plot_usmap(data = fipcrime, values = "av_crime", include = "CA") +
        title = "Crime Index by County",
        subtitle = "Average Index from 2010 - 2018",
        caption = "")
+
+# Correlation between crime and house prices ------------
+
