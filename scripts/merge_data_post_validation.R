@@ -72,19 +72,19 @@ property <- property %>%
 
 
 ## merging datasets
-data <- merge(x=key, y=crime, by=c("city","county","year"), all=TRUE)
+data <- merge(x=key, y=crime, by=c("city","county","year"), all=TRUE) ### --- aggregate city to county using ...
 
-data <- merge(x=data,y=earthquake,by=c("county","month","year"), all=TRUE)
+data <- merge(x=data,y=earthquake,by=c("county","month","year"), all=TRUE) ## -------
 
 data <- merge(x=data, y=gdp,by="year",all=TRUE)
 
-data <- merge(x=data, y=homelessness, by=c("county","year"), all=TRUE)
+data <- merge(x=data, y=homelessness, by=c("county","year"), all=TRUE)  ## -----
 
-data <- merge(x=data, y=house_price, by=c("city","county","month","year"), all=TRUE)
+data <- merge(x=data, y=house_price, by=c("city","county","month","year"), all=TRUE)   ## ---- aggregate to county
 
-data <- merge(x=data, y=income, by=c("county","month","year"), all=TRUE)
+data <- merge(x=data, y=income, by=c("county","month","year"), all=TRUE) ### ----------
 
-data <- merge(x=data, y=property, by=c("county","year"), all=TRUE)
+data <- merge(x=data, y=property, by=c("county","year"), all=TRUE) ## -----------
 
 data <- merge(x=data, y=faults, by="county", all=TRUE)
 
@@ -119,4 +119,11 @@ data %>%
   count(county)
 
 ## ignore values from 1991 to 1997
-data <- data %>% filter(year > 1997)
+data <- data %>% filter(year >= 2010) %>% filter(year <= 2019)
+
+
+## county,month,year
+
+count_data <- data %>%
+  select(county,month,year) %>%
+  count(county,month,year)
