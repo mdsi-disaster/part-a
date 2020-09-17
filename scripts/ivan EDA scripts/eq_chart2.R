@@ -26,6 +26,9 @@ eq_map <- earthquake %>%
 
 eq_map <- usmap_transform(eq_map)
 
+eq_map2 <- eq_map %>%
+  filter(mag >= 4.5)
+
 plot_usmap(include = "CA", regions = "counties") +
   geom_point(data=eq_map, 
              aes(x=lon.1, y=lat.1, size = mag),
@@ -37,10 +40,11 @@ plot_usmap(include = "CA", regions = "counties", data = faults, values = "fault_
                         na.value = "white", 
                         high = "gray20",
                         name = "Fault Line Score") +
-  geom_point(data=eq_map, 
-             aes(x=lon.1, y=lat.1),
+  geom_point(data=eq_map2, 
+             aes(x=lon.1, y=lat.1, size = mag),
              color = "#97d0bf", 
-             alpha = 0.08) +
+             alpha = 0.6) +
   labs(title = "Earthquakes Recorded in California (2010-2020)",
-       subtitle = "projected over fault line score") +
+       subtitle = "projected over fault line score and\nhighlighting events with magnitude 4.5 or greater",
+       size = "Magnitude") +
   theme(legend.position = "right")
