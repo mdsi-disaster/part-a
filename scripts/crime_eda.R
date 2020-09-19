@@ -16,7 +16,8 @@ library(viridis)
 library(ruler)
 library(maps)
 library(usmap)
-library(VennDiagram) 
+library(corrplot)
+library(qacr)
 
 crime <- read_csv(here("data", "crimedata", "clean_cacrime.csv"))
 cities <- read_csv(here("data", "crimedata", "clean_city_county.csv"))
@@ -46,7 +47,7 @@ crime06 <- crime %>%
 crime04 <- crime %>%
   filter(year == 2004)
 
-setdiff(cities$city, crime05$city)
+setdiff(cities$city, crime06$city)
 
 crime %>%
   ggplot() + 
@@ -295,7 +296,7 @@ countycrime %>%
 elim_county %>% #dataset with outliers eliminated
   arrange(desc(av_crime)) # top 10 values are >= 4.34
 
-eliminated$county <- factor(eliminated$county, levels = eliminated$county[order(eliminated$av_crime)])
+#eliminated$county <- factor(eliminated$county, levels = eliminated$county[order(eliminated$av_crime)])
 
 elim_county %>% 
   filter(av_crime >= 4.34) %>%
@@ -347,34 +348,34 @@ countycrime2 %>%
        x = "Crime Index", 
        y = "County") # Lake, Shasta and Inyo have the highest average crime rates if you don't remove the outliers
 
-elim_county2 %>% #dataset with outliers eliminated
-  arrange(desc(av_crime)) # top 10 values are >= 3.24
+#elim_county2 %>% #dataset with outliers eliminated
+#   arrange(desc(av_crime)) # top 10 values are >= 3.24
+# 
+# eliminated$city <- factor(eliminated$city, levels = eliminated$city[order(eliminated$av_crime)])
 
-eliminated$city <- factor(eliminated$city, levels = eliminated$city[order(eliminated$av_crime)])
+# elim_county2 %>% 
+#   filter(av_crime >= 3.24) %>%
+#   ggplot( aes(x = av_crime, y = reorder(county, av_crime))) +
+#   geom_point() + 
+#   xlab("") +
+#   theme_bw() +
+#   labs(title = "Highest Average County Crime Rate", 
+#        x = "Crime Index", 
+#        y = "County")
+# # Tehama, Modoc and Nevada have the highest crime rates if you take the outliers into account 
 
-elim_county2 %>% 
-  filter(av_crime >= 3.24) %>%
-  ggplot( aes(x = av_crime, y = reorder(county, av_crime))) +
-  geom_point() + 
-  xlab("") +
-  theme_bw() +
-  labs(title = "Highest Average County Crime Rate", 
-       x = "Crime Index", 
-       y = "County")
-# Tehama, Modoc and Nevada have the highest crime rates if you take the outliers into account 
-
-elim_county2 %>% 
-  arrange(av_crime) # lowest 10 values are <= 2.05
-
-elim_county2 %>% 
-  arrange(av_crime) %>%
-  filter(av_crime <= 2.05) %>%
-  ggplot(mapping = aes(x = av_crime, y = county)) + 
-  geom_point() + 
-  theme_bw() + 
-  labs(title = "Lowest County Crime Rate", 
-       x = "Crime Index", 
-       y = "County")
+# elim_county2 %>% 
+#   arrange(av_crime) # lowest 10 values are <= 2.05
+# 
+# elim_county2 %>% 
+#   arrange(av_crime) %>%
+#   filter(av_crime <= 2.05) %>%
+#   ggplot(mapping = aes(x = av_crime, y = county)) + 
+#   geom_point() + 
+#   theme_bw() + 
+#   labs(title = "Lowest County Crime Rate", 
+#        x = "Crime Index", 
+#        y = "County")
 
 
 
@@ -459,6 +460,9 @@ yearcrime %>%
   labs(title = "Crime Rate by Year", 
        x = "Year", 
        y = "Crime Rate")
+
+yearcrime %>% #find out what the top ten counties and cities are
+  arrange(desc(av_crime))
 
 #crime index is highest in 2012 and lowest in 2018
 
@@ -610,4 +614,125 @@ plot_usmap(data = fipcrime, values = "av_crime", include = "CA") +
        caption = "")
 
 # Correlation between crime and house prices ------------
+
+# I'm interested in finding out if there is any correlation between crime and house price data 
+
+crime <- read_csv(here("data", "crimedata", "clean_cacrime.csv"))
+
+newcrime <- crime %>% #create a new data frame that's just for the years that we have earthquake data for 2010-2020. Remove 2019 since there are only 6 months worth of data for this year
+  filter(year >= 2010 & year < 2019)
+
+house_price <- read_csv("data/house_price/h_price_clean.csv")
+
+house_price <- house_price %>% #create a new data frame that's just for the years that we have crime data for 2010-2018. 
+  filter(year >= 2010 & year < 2019)
+
+#Since we only have crime data at an annual level, I'm going to bring house price up to an annual level and take the average house price across the months 
+
+house_price <- house_price %>% 
+  group_by(year, county, city) %>%
+  summarise(house_price = (mean(house_price)))
+
+house_price %>%
+  ggplot() + 
+  geom_bar(mapping = aes(y = city)) # this is a graph of the number of observations for each city, can see that we don'y have every city for every year of crime data  
+
+data <- house_price %>%
+  left_join(crime, by = c("city","county","year")) 
+
+data <- data %>%
+  mutate(crime_index = (crime_index*100)) %>% #multiply index for percentage 
+  drop_na() %>% #remove rows that contain na as they seem to mess with the corplot
+  rename(murder = murder_and_nonnegligent_manslaughter, property_crime = sum_property_crime, violent_crime = sum_violent_crime) 
+
+data2 <- data %>% #remove variables that I'm not that interested in 
+  select(-murder, -rape, -arson, -larceny_theft, -vehicle_theft, -robbery, -aggravated_assault, -burglary) 
+
+corplot(data) #this is a function from the qacr function that only plots the numeric variables 
+
+M <- cor(data2[c(1,4,5,6,7,9)])
+
+MM <- cor(data[c(1,4,5,6,7,8,9,10,11,12,13,14,15,17)])
+
+head(round(M,2))
+
+corrplot(M, method = "circle")
+corrplot(MM, method = "circle")
+
+corrplot(M, method = "number")
+
+corrplot(M, method = "color")
+
+corrplot(M, type="upper")
+
+corrplot(M, type="lower")
+
+corrplot(M, type="upper", order="hclust")
+
+library(RColorBrewer)
+
+corrplot(M, type="upper", order="hclust",
+         col=brewer.pal(n=8, name="RdYlBu"))
+
+corrplot(M, type="upper", order="hclust", tl.col="black", tl.srt=45, 
+         title = "Correlation: Crime and House Prices", 
+         mar=c(0,0,2,0), 
+         diag=FALSE)
+
+col <- colorRampPalette(c("#BB4444", "#EE9988", "#FFFFFF", "#77AADD", "#4477AA"))
+
+corrplot(M, method="color", col=col(200),  
+         type="upper", order="hclust", 
+         addCoef.col = "black", # Add coefficient of correlation
+         tl.col="black", tl.srt=45, #Text label color and rotation
+         # Combine with significance
+         p.mat = p.mat, sig.level = 0.01, insig = "blank", 
+         # hide correlation coefficient on the principal diagonal
+         diag=FALSE)
+
+# Correlation earthquakes and crime -------------
+
+earthquakes <- read_csv("data/earthquake/earthquakes_clean.csv")
+
+earthquakes <- earthquakes %>% #create a new data frame that's just for the years that we have crime data for 2010-2018. 
+  filter(year >= 2010 & year < 2019)
+
+#Since we only have crime data at an annual level, I'm going to bring earthquake up to an annual level and take the total number of quakes across the months. 
+
+quakes <- earthquakes %>% 
+  group_by(year, county) %>%
+  summarise(quakes_minor = (sum(quakes_minor)),
+            quakes_moderate = (sum(quakes_moderate)),
+            quakes_severe = (sum(quakes_severe)))
+
+#Since we only have earthquake data at a county level, I'm going to bring crime up to a county level and take the total number of crimes for the county.  
+
+crime_county <- crime %>% 
+  select(-murder_and_nonnegligent_manslaughter, -rape, -arson, -larceny_theft, -vehicle_theft, -robbery, -aggravated_assault, -burglary, -crime_index)
+
+crime_county <- crime_county %>% 
+  group_by(year, county) %>%
+  summarise(sum_violent_crime = (sum(sum_violent_crime)),
+            sum_property_crime = (sum(sum_property_crime)),
+            sum_index_crime = (sum(sum_index_crimes)), 
+            population = (sum(population))) %>%
+  mutate(crime_index = (sum_index_crime)/(population)*100) 
+
+quakes <- quakes %>%
+  mutate(county = str_remove_all(county, " County")) %>%
+  mutate(county = tolower(county))
+
+quake_crime <- quakes %>%
+  left_join(crime_county, by = c("county","year")) %>%
+  drop_na()
+
+
+N <- cor(quake_crime[c(1,3,4,5,6,7,9,10)])
+
+col <- colorRampPalette(c("#BB4444", "#EE9988", "#FFFFFF", "#77AADD", "#4477AA"))
+
+corrplot(N, type="upper", order="hclust", tl.col="black", tl.srt=45, 
+         title = "Correlation: Earthquakes and Crime", 
+         mar=c(0,0,2,0), 
+         diag=FALSE)
 
