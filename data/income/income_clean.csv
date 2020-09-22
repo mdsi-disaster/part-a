@@ -1,0 +1,4583 @@
+year,quarter,county,income
+2000,1,alameda,3855
+2000,2,alameda,3877
+2000,3,alameda,3896
+2000,4,alameda,4147
+2001,1,alameda,4104
+2001,2,alameda,4008
+2001,3,alameda,3854
+2001,4,alameda,4143
+2002,1,alameda,4052
+2002,2,alameda,3973
+2002,3,alameda,3960
+2002,4,alameda,4241
+2003,1,alameda,4091
+2003,2,alameda,4064
+2003,3,alameda,4230
+2003,4,alameda,4400
+2004,1,alameda,4344
+2004,2,alameda,4253
+2004,3,alameda,4291
+2004,4,alameda,4673
+2005,1,alameda,4415
+2005,2,alameda,4343
+2005,3,alameda,4660
+2005,4,alameda,4692
+2006,1,alameda,4879
+2006,2,alameda,4582
+2006,3,alameda,4593
+2006,4,alameda,4848
+2007,1,alameda,5008
+2007,2,alameda,4741
+2007,3,alameda,4672
+2007,4,alameda,5137
+2008,1,alameda,4985
+2008,2,alameda,4753
+2008,3,alameda,4838
+2008,4,alameda,5042
+2009,1,alameda,4789
+2009,2,alameda,4739
+2009,3,alameda,4729
+2009,4,alameda,5190
+2010,1,alameda,4913
+2010,2,alameda,4874
+2010,3,alameda,5019
+2010,4,alameda,5451
+2011,1,alameda,5112
+2011,2,alameda,5097
+2011,3,alameda,5237
+2011,4,alameda,5213
+2012,1,alameda,5506
+2012,2,alameda,5119
+2012,3,alameda,5144
+2012,4,alameda,10164
+2013,1,alameda,5482
+2013,2,alameda,5197
+2013,3,alameda,5322
+2013,4,alameda,5594
+2014,1,alameda,5746
+2014,2,alameda,5330
+2014,3,alameda,5616
+2014,4,alameda,5865
+2015,1,alameda,6031
+2015,2,alameda,5585
+2015,3,alameda,5707
+2015,4,alameda,6188
+2016,1,alameda,6123
+2016,2,alameda,6313
+2016,3,alameda,6168
+2016,4,alameda,6137
+2017,1,alameda,6549
+2017,2,alameda,6182
+2017,3,alameda,6112
+2017,4,alameda,6503
+2018,1,alameda,6847
+2018,2,alameda,6386
+2018,3,alameda,6337
+2018,4,alameda,6734
+2019,1,alameda,6925
+2019,2,alameda,6613
+2019,3,alameda,6535
+2000,1,alpine,1718
+2000,2,alpine,1705
+2000,3,alpine,1877
+2000,4,alpine,1583
+2001,1,alpine,1828
+2001,2,alpine,1962
+2001,3,alpine,2045
+2001,4,alpine,2024
+2002,1,alpine,1934
+2002,2,alpine,1973
+2002,3,alpine,1972
+2002,4,alpine,2203
+2003,1,alpine,2048
+2003,2,alpine,2048
+2003,3,alpine,2309
+2003,4,alpine,2230
+2004,1,alpine,2160
+2004,2,alpine,2272
+2004,3,alpine,2250
+2004,4,alpine,2396
+2005,1,alpine,2242
+2005,2,alpine,2457
+2005,3,alpine,2349
+2005,4,alpine,2159
+2006,1,alpine,2315
+2006,2,alpine,2275
+2006,3,alpine,2193
+2006,4,alpine,2631
+2007,1,alpine,2433
+2007,2,alpine,2567
+2007,3,alpine,2656
+2007,4,alpine,2762
+2008,1,alpine,2540
+2008,2,alpine,2601
+2008,3,alpine,2721
+2008,4,alpine,2794
+2009,1,alpine,2527
+2009,2,alpine,2551
+2009,3,alpine,2586
+2009,4,alpine,2683
+2010,1,alpine,2718
+2010,2,alpine,2925
+2010,3,alpine,2708
+2010,4,alpine,2942
+2011,1,alpine,4193
+2011,2,alpine,4665
+2011,3,alpine,4611
+2011,4,alpine,4724
+2012,1,alpine,5714
+2012,2,alpine,4552
+2012,3,alpine,4370
+2012,4,alpine,4521
+2013,1,alpine,3835
+2013,2,alpine,4305
+2013,3,alpine,4292
+2013,4,alpine,4292
+2014,1,alpine,3884
+2014,2,alpine,4097
+2014,3,alpine,4399
+2014,4,alpine,4396
+2015,1,alpine,2541
+2015,2,alpine,3186
+2015,3,alpine,3341
+2015,4,alpine,3356
+2016,1,alpine,2536
+2016,2,alpine,3223
+2016,3,alpine,3587
+2016,4,alpine,3352
+2017,1,alpine,2971
+2017,2,alpine,3301
+2017,3,alpine,3601
+2017,4,alpine,3561
+2018,1,alpine,3540
+2018,2,alpine,3542
+2018,3,alpine,3658
+2018,4,alpine,3665
+2019,1,alpine,3527
+2019,2,alpine,3684
+2019,3,alpine,4071
+2000,1,amador,1975
+2000,2,amador,2518
+2000,3,amador,2529
+2000,4,amador,2656
+2001,1,amador,2433
+2001,2,amador,2610
+2001,3,amador,2665
+2001,4,amador,2785
+2002,1,amador,2531
+2002,2,amador,2695
+2002,3,amador,2723
+2002,4,amador,2788
+2003,1,amador,2607
+2003,2,amador,2728
+2003,3,amador,2793
+2003,4,amador,2910
+2004,1,amador,2712
+2004,2,amador,2837
+2004,3,amador,2945
+2004,4,amador,3118
+2005,1,amador,2808
+2005,2,amador,2978
+2005,3,amador,3148
+2005,4,amador,3242
+2006,1,amador,3009
+2006,2,amador,3166
+2006,3,amador,3232
+2006,4,amador,3370
+2007,1,amador,3204
+2007,2,amador,3555
+2007,3,amador,3364
+2007,4,amador,3543
+2008,1,amador,3264
+2008,2,amador,3394
+2008,3,amador,3440
+2008,4,amador,3562
+2009,1,amador,3290
+2009,2,amador,3372
+2009,3,amador,3274
+2009,4,amador,3487
+2010,1,amador,3124
+2010,2,amador,3340
+2010,3,amador,3335
+2010,4,amador,3511
+2011,1,amador,3173
+2011,2,amador,3408
+2011,3,amador,3382
+2011,4,amador,3443
+2012,1,amador,3278
+2012,2,amador,3335
+2012,3,amador,3417
+2012,4,amador,3604
+2013,1,amador,3405
+2013,2,amador,3346
+2013,3,amador,3432
+2013,4,amador,3670
+2014,1,amador,3510
+2014,2,amador,3656
+2014,3,amador,3773
+2014,4,amador,3885
+2015,1,amador,3731
+2015,2,amador,3790
+2015,3,amador,3923
+2015,4,amador,4120
+2016,1,amador,3763
+2016,2,amador,3881
+2016,3,amador,4065
+2016,4,amador,4114
+2017,1,amador,3941
+2017,2,amador,4109
+2017,3,amador,4103
+2017,4,amador,4291
+2018,1,amador,3968
+2018,2,amador,4045
+2018,3,amador,4114
+2018,4,amador,4385
+2019,1,amador,4096
+2019,2,amador,4227
+2019,3,amador,4219
+2000,1,butte,2070
+2000,2,butte,2252
+2000,3,butte,2245
+2000,4,butte,2359
+2001,1,butte,2254
+2001,2,butte,2377
+2001,3,butte,2330
+2001,4,butte,2449
+2002,1,butte,2271
+2002,2,butte,2420
+2002,3,butte,2399
+2002,4,butte,2524
+2003,1,butte,2483
+2003,2,butte,2446
+2003,3,butte,2477
+2003,4,butte,2582
+2004,1,butte,2384
+2004,2,butte,2520
+2004,3,butte,2566
+2004,4,butte,2738
+2005,1,butte,2448
+2005,2,butte,2609
+2005,3,butte,2741
+2005,4,butte,2771
+2006,1,butte,2661
+2006,2,butte,2761
+2006,3,butte,2774
+2006,4,butte,2913
+2007,1,butte,2799
+2007,2,butte,2858
+2007,3,butte,2923
+2007,4,butte,3041
+2008,1,butte,2871
+2008,2,butte,2914
+2008,3,butte,2993
+2008,4,butte,3111
+2009,1,butte,2880
+2009,2,butte,2949
+2009,3,butte,2960
+2009,4,butte,3188
+2010,1,butte,2827
+2010,2,butte,2948
+2010,3,butte,3012
+2010,4,butte,3291
+2011,1,butte,2898
+2011,2,butte,3025
+2011,3,butte,3130
+2011,4,butte,3248
+2012,1,butte,3027
+2012,2,butte,3094
+2012,3,butte,3091
+2012,4,butte,3416
+2013,1,butte,3097
+2013,2,butte,3199
+2013,3,butte,3148
+2013,4,butte,3412
+2014,1,butte,3157
+2014,2,butte,3272
+2014,3,butte,3242
+2014,4,butte,3526
+2015,1,butte,3311
+2015,2,butte,3386
+2015,3,butte,3364
+2015,4,butte,3733
+2016,1,butte,3332
+2016,2,butte,3498
+2016,3,butte,3621
+2016,4,butte,3645
+2017,1,butte,3557
+2017,2,butte,3573
+2017,3,butte,3798
+2017,4,butte,3796
+2018,1,butte,3691
+2018,2,butte,3699
+2018,3,butte,3821
+2018,4,butte,4040
+2019,1,butte,3885
+2019,2,butte,3931
+2019,3,butte,3983
+2000,1,calaveras,2032
+2000,2,calaveras,2167
+2000,3,calaveras,2185
+2000,4,calaveras,2319
+2001,1,calaveras,2203
+2001,2,calaveras,2318
+2001,3,calaveras,2394
+2001,4,calaveras,2448
+2002,1,calaveras,2300
+2002,2,calaveras,2342
+2002,3,calaveras,2389
+2002,4,calaveras,2482
+2003,1,calaveras,2311
+2003,2,calaveras,2353
+2003,3,calaveras,2499
+2003,4,calaveras,2584
+2004,1,calaveras,2529
+2004,2,calaveras,2577
+2004,3,calaveras,2637
+2004,4,calaveras,2900
+2005,1,calaveras,2449
+2005,2,calaveras,2673
+2005,3,calaveras,2812
+2005,4,calaveras,2917
+2006,1,calaveras,2613
+2006,2,calaveras,2833
+2006,3,calaveras,2755
+2006,4,calaveras,3002
+2007,1,calaveras,2725
+2007,2,calaveras,2957
+2007,3,calaveras,2792
+2007,4,calaveras,3021
+2008,1,calaveras,2714
+2008,2,calaveras,2988
+2008,3,calaveras,2857
+2008,4,calaveras,3078
+2009,1,calaveras,2732
+2009,2,calaveras,2958
+2009,3,calaveras,2844
+2009,4,calaveras,3083
+2010,1,calaveras,2781
+2010,2,calaveras,2996
+2010,3,calaveras,2927
+2010,4,calaveras,3118
+2011,1,calaveras,2866
+2011,2,calaveras,2970
+2011,3,calaveras,3039
+2011,4,calaveras,3022
+2012,1,calaveras,3014
+2012,2,calaveras,2987
+2012,3,calaveras,3121
+2012,4,calaveras,3119
+2013,1,calaveras,3039
+2013,2,calaveras,3014
+2013,3,calaveras,3126
+2013,4,calaveras,3173
+2014,1,calaveras,3044
+2014,2,calaveras,3057
+2014,3,calaveras,3177
+2014,4,calaveras,3312
+2015,1,calaveras,3155
+2015,2,calaveras,3241
+2015,3,calaveras,3462
+2015,4,calaveras,3752
+2016,1,calaveras,3192
+2016,2,calaveras,3345
+2016,3,calaveras,3538
+2016,4,calaveras,3694
+2017,1,calaveras,3236
+2017,2,calaveras,3478
+2017,3,calaveras,3489
+2017,4,calaveras,3772
+2018,1,calaveras,3438
+2018,2,calaveras,3695
+2018,3,calaveras,3731
+2018,4,calaveras,4637
+2019,1,calaveras,3451
+2019,2,calaveras,3861
+2019,3,calaveras,3804
+2000,1,colusa,1857
+2000,2,colusa,2112
+2000,3,colusa,2022
+2000,4,colusa,2202
+2001,1,colusa,1991
+2001,2,colusa,2225
+2001,3,colusa,2151
+2001,4,colusa,2291
+2002,1,colusa,2115
+2002,2,colusa,2363
+2002,3,colusa,2314
+2002,4,colusa,2406
+2003,1,colusa,2204
+2003,2,colusa,2319
+2003,3,colusa,2338
+2003,4,colusa,2395
+2004,1,colusa,2117
+2004,2,colusa,2429
+2004,3,colusa,2489
+2004,4,colusa,2550
+2005,1,colusa,2209
+2005,2,colusa,2535
+2005,3,colusa,2621
+2005,4,colusa,2713
+2006,1,colusa,2391
+2006,2,colusa,2681
+2006,3,colusa,2576
+2006,4,colusa,2754
+2007,1,colusa,2557
+2007,2,colusa,2721
+2007,3,colusa,2686
+2007,4,colusa,2874
+2008,1,colusa,2644
+2008,2,colusa,2881
+2008,3,colusa,2838
+2008,4,colusa,3093
+2009,1,colusa,2673
+2009,2,colusa,2959
+2009,3,colusa,2871
+2009,4,colusa,3272
+2010,1,colusa,2760
+2010,2,colusa,3081
+2010,3,colusa,2944
+2010,4,colusa,3194
+2011,1,colusa,2632
+2011,2,colusa,2969
+2011,3,colusa,2886
+2011,4,colusa,3358
+2012,1,colusa,2867
+2012,2,colusa,3028
+2012,3,colusa,2947
+2012,4,colusa,3299
+2013,1,colusa,2924
+2013,2,colusa,3037
+2013,3,colusa,3148
+2013,4,colusa,3504
+2014,1,colusa,3062
+2014,2,colusa,3131
+2014,3,colusa,3370
+2014,4,colusa,3731
+2015,1,colusa,3154
+2015,2,colusa,3348
+2015,3,colusa,3540
+2015,4,colusa,3987
+2016,1,colusa,3209
+2016,2,colusa,3634
+2016,3,colusa,3627
+2016,4,colusa,3912
+2017,1,colusa,3337
+2017,2,colusa,3674
+2017,3,colusa,3712
+2017,4,colusa,4160
+2018,1,colusa,3479
+2018,2,colusa,3816
+2018,3,colusa,3786
+2018,4,colusa,4319
+2019,1,colusa,3586
+2019,2,colusa,3908
+2019,3,colusa,4070
+2000,1,contra costa,3825
+2000,2,contra costa,3684
+2000,3,contra costa,3673
+2000,4,contra costa,4022
+2001,1,contra costa,4115
+2001,2,contra costa,3846
+2001,3,contra costa,3784
+2001,4,contra costa,4039
+2002,1,contra costa,4134
+2002,2,contra costa,3940
+2002,3,contra costa,3898
+2002,4,contra costa,4127
+2003,1,contra costa,4191
+2003,2,contra costa,3970
+2003,3,contra costa,4004
+2003,4,contra costa,4226
+2004,1,contra costa,4397
+2004,2,contra costa,4149
+2004,3,contra costa,4215
+2004,4,contra costa,4536
+2005,1,contra costa,4560
+2005,2,contra costa,4360
+2005,3,contra costa,4403
+2005,4,contra costa,4561
+2006,1,contra costa,4806
+2006,2,contra costa,4507
+2006,3,contra costa,4430
+2006,4,contra costa,4845
+2007,1,contra costa,5041
+2007,2,contra costa,4660
+2007,3,contra costa,4614
+2007,4,contra costa,5037
+2008,1,contra costa,5068
+2008,2,contra costa,4799
+2008,3,contra costa,4670
+2008,4,contra costa,5065
+2009,1,contra costa,4817
+2009,2,contra costa,4832
+2009,3,contra costa,4568
+2009,4,contra costa,5112
+2010,1,contra costa,5088
+2010,2,contra costa,4726
+2010,3,contra costa,4636
+2010,4,contra costa,5220
+2011,1,contra costa,5437
+2011,2,contra costa,4904
+2011,3,contra costa,4911
+2011,4,contra costa,5094
+2012,1,contra costa,5619
+2012,2,contra costa,4914
+2012,3,contra costa,5017
+2012,4,contra costa,5339
+2013,1,contra costa,5836
+2013,2,contra costa,5059
+2013,3,contra costa,5070
+2013,4,contra costa,5362
+2014,1,contra costa,5796
+2014,2,contra costa,5146
+2014,3,contra costa,5218
+2014,4,contra costa,5622
+2015,1,contra costa,6034
+2015,2,contra costa,5369
+2015,3,contra costa,5388
+2015,4,contra costa,5987
+2016,1,contra costa,5892
+2016,2,contra costa,5506
+2016,3,contra costa,5682
+2016,4,contra costa,5922
+2017,1,contra costa,6295
+2017,2,contra costa,5769
+2017,3,contra costa,5693
+2017,4,contra costa,6180
+2018,1,contra costa,6595
+2018,2,contra costa,5913
+2018,3,contra costa,5791
+2018,4,contra costa,6387
+2019,1,contra costa,6587
+2019,2,contra costa,6177
+2019,3,contra costa,6035
+2000,1,del norte,1929
+2000,2,del norte,2707
+2000,3,del norte,2552
+2000,4,del norte,2893
+2001,1,del norte,2704
+2001,2,del norte,2810
+2001,3,del norte,2720
+2001,4,del norte,2985
+2002,1,del norte,2821
+2002,2,del norte,2976
+2002,3,del norte,2827
+2002,4,del norte,3071
+2003,1,del norte,2897
+2003,2,del norte,2925
+2003,3,del norte,2790
+2003,4,del norte,3050
+2004,1,del norte,2901
+2004,2,del norte,2983
+2004,3,del norte,2909
+2004,4,del norte,3210
+2005,1,del norte,3066
+2005,2,del norte,3206
+2005,3,del norte,3215
+2005,4,del norte,3366
+2006,1,del norte,3386
+2006,2,del norte,3344
+2006,3,del norte,3440
+2006,4,del norte,3513
+2007,1,del norte,3501
+2007,2,del norte,3914
+2007,3,del norte,3558
+2007,4,del norte,3637
+2008,1,del norte,3593
+2008,2,del norte,3642
+2008,3,del norte,3655
+2008,4,del norte,3726
+2009,1,del norte,3512
+2009,2,del norte,3478
+2009,3,del norte,3388
+2009,4,del norte,3665
+2010,1,del norte,3465
+2010,2,del norte,3731
+2010,3,del norte,3622
+2010,4,del norte,3744
+2011,1,del norte,3566
+2011,2,del norte,3755
+2011,3,del norte,3769
+2011,4,del norte,3889
+2012,1,del norte,3806
+2012,2,del norte,3884
+2012,3,del norte,3686
+2012,4,del norte,3966
+2013,1,del norte,3782
+2013,2,del norte,3836
+2013,3,del norte,3765
+2013,4,del norte,3961
+2014,1,del norte,3800
+2014,2,del norte,3953
+2014,3,del norte,3807
+2014,4,del norte,4056
+2015,1,del norte,3798
+2015,2,del norte,3927
+2015,3,del norte,3799
+2015,4,del norte,4161
+2016,1,del norte,3782
+2016,2,del norte,4125
+2016,3,del norte,3832
+2016,4,del norte,3994
+2017,1,del norte,3939
+2017,2,del norte,4038
+2017,3,del norte,4098
+2017,4,del norte,4147
+2018,1,del norte,4149
+2018,2,del norte,4040
+2018,3,del norte,4100
+2018,4,del norte,4224
+2019,1,del norte,4190
+2019,2,del norte,4247
+2019,3,del norte,4376
+2000,1,el dorado,2506
+2000,2,el dorado,2746
+2000,3,el dorado,2754
+2000,4,el dorado,2908
+2001,1,el dorado,2779
+2001,2,el dorado,2881
+2001,3,el dorado,2844
+2001,4,el dorado,2964
+2002,1,el dorado,2825
+2002,2,el dorado,2922
+2002,3,el dorado,2881
+2002,4,el dorado,3056
+2003,1,el dorado,2908
+2003,2,el dorado,2977
+2003,3,el dorado,2960
+2003,4,el dorado,3136
+2004,1,el dorado,2995
+2004,2,el dorado,3018
+2004,3,el dorado,3039
+2004,4,el dorado,3281
+2005,1,el dorado,3024
+2005,2,el dorado,3122
+2005,3,el dorado,3289
+2005,4,el dorado,3435
+2006,1,el dorado,3262
+2006,2,el dorado,3440
+2006,3,el dorado,3285
+2006,4,el dorado,3606
+2007,1,el dorado,3380
+2007,2,el dorado,3541
+2007,3,el dorado,3380
+2007,4,el dorado,3688
+2008,1,el dorado,3510
+2008,2,el dorado,3639
+2008,3,el dorado,3442
+2008,4,el dorado,3785
+2009,1,el dorado,3493
+2009,2,el dorado,3393
+2009,3,el dorado,3365
+2009,4,el dorado,3922
+2010,1,el dorado,3340
+2010,2,el dorado,3417
+2010,3,el dorado,3429
+2010,4,el dorado,3845
+2011,1,el dorado,3472
+2011,2,el dorado,3507
+2011,3,el dorado,3554
+2011,4,el dorado,3765
+2012,1,el dorado,3669
+2012,2,el dorado,3548
+2012,3,el dorado,3549
+2012,4,el dorado,3924
+2013,1,el dorado,3648
+2013,2,el dorado,3459
+2013,3,el dorado,3460
+2013,4,el dorado,3693
+2014,1,el dorado,3547
+2014,2,el dorado,3676
+2014,3,el dorado,3642
+2014,4,el dorado,4079
+2015,1,el dorado,3886
+2015,2,el dorado,3818
+2015,3,el dorado,3867
+2015,4,el dorado,4355
+2016,1,el dorado,3965
+2016,2,el dorado,3986
+2016,3,el dorado,4170
+2016,4,el dorado,4374
+2017,1,el dorado,4195
+2017,2,el dorado,4134
+2017,3,el dorado,4157
+2017,4,el dorado,4587
+2018,1,el dorado,4427
+2018,2,el dorado,4287
+2018,3,el dorado,4301
+2018,4,el dorado,4685
+2019,1,el dorado,4416
+2019,2,el dorado,4400
+2019,3,el dorado,4411
+2000,1,fresno,2281
+2000,2,fresno,2381
+2000,3,fresno,2411
+2000,4,fresno,2569
+2001,1,fresno,2476
+2001,2,fresno,2490
+2001,3,fresno,2549
+2001,4,fresno,2689
+2002,1,fresno,2564
+2002,2,fresno,2578
+2002,3,fresno,2633
+2002,4,fresno,2768
+2003,1,fresno,2746
+2003,2,fresno,2625
+2003,3,fresno,2697
+2003,4,fresno,2856
+2004,1,fresno,2707
+2004,2,fresno,2725
+2004,3,fresno,2757
+2004,4,fresno,3044
+2005,1,fresno,2729
+2005,2,fresno,2852
+2005,3,fresno,2896
+2005,4,fresno,3132
+2006,1,fresno,2929
+2006,2,fresno,3001
+2006,3,fresno,2914
+2006,4,fresno,3247
+2007,1,fresno,3053
+2007,2,fresno,3117
+2007,3,fresno,3000
+2007,4,fresno,3365
+2008,1,fresno,3145
+2008,2,fresno,3201
+2008,3,fresno,3077
+2008,4,fresno,3424
+2009,1,fresno,3101
+2009,2,fresno,3185
+2009,3,fresno,3059
+2009,4,fresno,3458
+2010,1,fresno,3073
+2010,2,fresno,3213
+2010,3,fresno,3132
+2010,4,fresno,3501
+2011,1,fresno,3197
+2011,2,fresno,3241
+2011,3,fresno,3306
+2011,4,fresno,3486
+2012,1,fresno,3361
+2012,2,fresno,3269
+2012,3,fresno,3263
+2012,4,fresno,3574
+2013,1,fresno,3348
+2013,2,fresno,3286
+2013,3,fresno,3329
+2013,4,fresno,3578
+2014,1,fresno,3439
+2014,2,fresno,3341
+2014,3,fresno,3434
+2014,4,fresno,3744
+2015,1,fresno,3519
+2015,2,fresno,3482
+2015,3,fresno,3540
+2015,4,fresno,3955
+2016,1,fresno,3514
+2016,2,fresno,3618
+2016,3,fresno,3647
+2016,4,fresno,3962
+2017,1,fresno,3631
+2017,2,fresno,3763
+2017,3,fresno,3677
+2017,4,fresno,4069
+2018,1,fresno,3779
+2018,2,fresno,3872
+2018,3,fresno,3779
+2018,4,fresno,4212
+2019,1,fresno,3877
+2019,2,fresno,4123
+2019,3,fresno,3927
+2000,1,glenn,2156
+2000,2,glenn,2334
+2000,3,glenn,2064
+2000,4,glenn,2383
+2001,1,glenn,2272
+2001,2,glenn,2492
+2001,3,glenn,2130
+2001,4,glenn,2527
+2002,1,glenn,2347
+2002,2,glenn,2548
+2002,3,glenn,2289
+2002,4,glenn,2546
+2003,1,glenn,2376
+2003,2,glenn,2556
+2003,3,glenn,2259
+2003,4,glenn,2571
+2004,1,glenn,2355
+2004,2,glenn,2587
+2004,3,glenn,2336
+2004,4,glenn,2676
+2005,1,glenn,2437
+2005,2,glenn,2684
+2005,3,glenn,2524
+2005,4,glenn,2759
+2006,1,glenn,2732
+2006,2,glenn,2831
+2006,3,glenn,2680
+2006,4,glenn,2979
+2007,1,glenn,2873
+2007,2,glenn,2896
+2007,3,glenn,2746
+2007,4,glenn,3028
+2008,1,glenn,2873
+2008,2,glenn,2975
+2008,3,glenn,2840
+2008,4,glenn,3135
+2009,1,glenn,2825
+2009,2,glenn,2854
+2009,3,glenn,2789
+2009,4,glenn,3232
+2010,1,glenn,2805
+2010,2,glenn,2853
+2010,3,glenn,2822
+2010,4,glenn,3163
+2011,1,glenn,2825
+2011,2,glenn,2913
+2011,3,glenn,2976
+2011,4,glenn,3203
+2012,1,glenn,2913
+2012,2,glenn,2991
+2012,3,glenn,2978
+2012,4,glenn,3241
+2013,1,glenn,2994
+2013,2,glenn,3125
+2013,3,glenn,3009
+2013,4,glenn,3363
+2014,1,glenn,3039
+2014,2,glenn,3126
+2014,3,glenn,3182
+2014,4,glenn,3410
+2015,1,glenn,3204
+2015,2,glenn,3296
+2015,3,glenn,3258
+2015,4,glenn,3581
+2016,1,glenn,3237
+2016,2,glenn,3565
+2016,3,glenn,3504
+2016,4,glenn,3686
+2017,1,glenn,3492
+2017,2,glenn,3605
+2017,3,glenn,3616
+2017,4,glenn,3941
+2018,1,glenn,3655
+2018,2,glenn,3771
+2018,3,glenn,3825
+2018,4,glenn,4078
+2019,1,glenn,3723
+2019,2,glenn,3832
+2019,3,glenn,3852
+2000,1,humboldt,2027
+2000,2,humboldt,2286
+2000,3,humboldt,2193
+2000,4,humboldt,2341
+2001,1,humboldt,2218
+2001,2,humboldt,2384
+2001,3,humboldt,2322
+2001,4,humboldt,2396
+2002,1,humboldt,2265
+2002,2,humboldt,2433
+2002,3,humboldt,2312
+2002,4,humboldt,2464
+2003,1,humboldt,2365
+2003,2,humboldt,2450
+2003,3,humboldt,2374
+2003,4,humboldt,2545
+2004,1,humboldt,2386
+2004,2,humboldt,2498
+2004,3,humboldt,2495
+2004,4,humboldt,2689
+2005,1,humboldt,2443
+2005,2,humboldt,2563
+2005,3,humboldt,2616
+2005,4,humboldt,2692
+2006,1,humboldt,2618
+2006,2,humboldt,2656
+2006,3,humboldt,2665
+2006,4,humboldt,2794
+2007,1,humboldt,2727
+2007,2,humboldt,2787
+2007,3,humboldt,2728
+2007,4,humboldt,2887
+2008,1,humboldt,2744
+2008,2,humboldt,2831
+2008,3,humboldt,2792
+2008,4,humboldt,3039
+2009,1,humboldt,2684
+2009,2,humboldt,2794
+2009,3,humboldt,2747
+2009,4,humboldt,3026
+2010,1,humboldt,2675
+2010,2,humboldt,2873
+2010,3,humboldt,2875
+2010,4,humboldt,3160
+2011,1,humboldt,2755
+2011,2,humboldt,2957
+2011,3,humboldt,3000
+2011,4,humboldt,3060
+2012,1,humboldt,2915
+2012,2,humboldt,3030
+2012,3,humboldt,2934
+2012,4,humboldt,3119
+2013,1,humboldt,2949
+2013,2,humboldt,3060
+2013,3,humboldt,3057
+2013,4,humboldt,3197
+2014,1,humboldt,3011
+2014,2,humboldt,3124
+2014,3,humboldt,3105
+2014,4,humboldt,3259
+2015,1,humboldt,3083
+2015,2,humboldt,3213
+2015,3,humboldt,3185
+2015,4,humboldt,3468
+2016,1,humboldt,3107
+2016,2,humboldt,3312
+2016,3,humboldt,3424
+2016,4,humboldt,3462
+2017,1,humboldt,3335
+2017,2,humboldt,3464
+2017,3,humboldt,3502
+2017,4,humboldt,3596
+2018,1,humboldt,3436
+2018,2,humboldt,3510
+2018,3,humboldt,3533
+2018,4,humboldt,3703
+2019,1,humboldt,3548
+2019,2,humboldt,3678
+2019,3,humboldt,3697
+2000,1,imperial,2084
+2000,2,imperial,2348
+2000,3,imperial,2253
+2000,4,imperial,2411
+2001,1,imperial,2330
+2001,2,imperial,2485
+2001,3,imperial,2372
+2001,4,imperial,2538
+2002,1,imperial,2426
+2002,2,imperial,2402
+2002,3,imperial,2275
+2002,4,imperial,2458
+2003,1,imperial,2729
+2003,2,imperial,2537
+2003,3,imperial,2434
+2003,4,imperial,2634
+2004,1,imperial,2540
+2004,2,imperial,2600
+2004,3,imperial,2518
+2004,4,imperial,2759
+2005,1,imperial,2597
+2005,2,imperial,2690
+2005,3,imperial,2666
+2005,4,imperial,2777
+2006,1,imperial,2717
+2006,2,imperial,2828
+2006,3,imperial,2710
+2006,4,imperial,2914
+2007,1,imperial,2885
+2007,2,imperial,3053
+2007,3,imperial,2862
+2007,4,imperial,3076
+2008,1,imperial,2955
+2008,2,imperial,3031
+2008,3,imperial,2922
+2008,4,imperial,3153
+2009,1,imperial,3022
+2009,2,imperial,3068
+2009,3,imperial,2899
+2009,4,imperial,3199
+2010,1,imperial,2970
+2010,2,imperial,3126
+2010,3,imperial,2977
+2010,4,imperial,3309
+2011,1,imperial,2999
+2011,2,imperial,3099
+2011,3,imperial,3173
+2011,4,imperial,3258
+2012,1,imperial,3130
+2012,2,imperial,3146
+2012,3,imperial,3024
+2012,4,imperial,3298
+2013,1,imperial,3106
+2013,2,imperial,3133
+2013,3,imperial,3077
+2013,4,imperial,3277
+2014,1,imperial,3164
+2014,2,imperial,3225
+2014,3,imperial,3178
+2014,4,imperial,3377
+2015,1,imperial,3178
+2015,2,imperial,3346
+2015,3,imperial,3264
+2015,4,imperial,3535
+2016,1,imperial,3219
+2016,2,imperial,3436
+2016,3,imperial,3523
+2016,4,imperial,3544
+2017,1,imperial,3446
+2017,2,imperial,3525
+2017,3,imperial,3459
+2017,4,imperial,3649
+2018,1,imperial,3537
+2018,2,imperial,3614
+2018,3,imperial,3581
+2018,4,imperial,3775
+2019,1,imperial,3658
+2019,2,imperial,3776
+2019,3,imperial,3719
+2000,1,inyo,2000
+2000,2,inyo,2340
+2000,3,inyo,2198
+2000,4,inyo,2452
+2001,1,inyo,2277
+2001,2,inyo,2404
+2001,3,inyo,2232
+2001,4,inyo,2527
+2002,1,inyo,2344
+2002,2,inyo,2507
+2002,3,inyo,2318
+2002,4,inyo,2621
+2003,1,inyo,2393
+2003,2,inyo,2527
+2003,3,inyo,2389
+2003,4,inyo,2702
+2004,1,inyo,2438
+2004,2,inyo,2585
+2004,3,inyo,2452
+2004,4,inyo,2809
+2005,1,inyo,2485
+2005,2,inyo,2715
+2005,3,inyo,2562
+2005,4,inyo,2943
+2006,1,inyo,2691
+2006,2,inyo,2923
+2006,3,inyo,2670
+2006,4,inyo,3154
+2007,1,inyo,2847
+2007,2,inyo,2981
+2007,3,inyo,2836
+2007,4,inyo,3258
+2008,1,inyo,2981
+2008,2,inyo,3134
+2008,3,inyo,2933
+2008,4,inyo,3281
+2009,1,inyo,2973
+2009,2,inyo,3166
+2009,3,inyo,2914
+2009,4,inyo,3385
+2010,1,inyo,2981
+2010,2,inyo,3220
+2010,3,inyo,2997
+2010,4,inyo,3351
+2011,1,inyo,3063
+2011,2,inyo,3313
+2011,3,inyo,3139
+2011,4,inyo,3408
+2012,1,inyo,3450
+2012,2,inyo,3437
+2012,3,inyo,3150
+2012,4,inyo,3527
+2013,1,inyo,3437
+2013,2,inyo,3392
+2013,3,inyo,3208
+2013,4,inyo,3622
+2014,1,inyo,3504
+2014,2,inyo,3550
+2014,3,inyo,3379
+2014,4,inyo,3635
+2015,1,inyo,3574
+2015,2,inyo,3587
+2015,3,inyo,3420
+2015,4,inyo,3796
+2016,1,inyo,3552
+2016,2,inyo,3687
+2016,3,inyo,3660
+2016,4,inyo,3777
+2017,1,inyo,3854
+2017,2,inyo,3744
+2017,3,inyo,3611
+2017,4,inyo,3864
+2018,1,inyo,3776
+2018,2,inyo,3825
+2018,3,inyo,3651
+2018,4,inyo,4027
+2019,1,inyo,3983
+2019,2,inyo,3995
+2019,3,inyo,3838
+2000,1,kern,2507
+2000,2,kern,2627
+2000,3,kern,2503
+2000,4,kern,2842
+2001,1,kern,2718
+2001,2,kern,2792
+2001,3,kern,2606
+2001,4,kern,2904
+2002,1,kern,2813
+2002,2,kern,2860
+2002,3,kern,2710
+2002,4,kern,3012
+2003,1,kern,2934
+2003,2,kern,2899
+2003,3,kern,2800
+2003,4,kern,3053
+2004,1,kern,2954
+2004,2,kern,2970
+2004,3,kern,2908
+2004,4,kern,3262
+2005,1,kern,3032
+2005,2,kern,3077
+2005,3,kern,3159
+2005,4,kern,3332
+2006,1,kern,3288
+2006,2,kern,3298
+2006,3,kern,3258
+2006,4,kern,3540
+2007,1,kern,3431
+2007,2,kern,3514
+2007,3,kern,3395
+2007,4,kern,3729
+2008,1,kern,3521
+2008,2,kern,3588
+2008,3,kern,3539
+2008,4,kern,3888
+2009,1,kern,3501
+2009,2,kern,4751
+2009,3,kern,3393
+2009,4,kern,3871
+2010,1,kern,3496
+2010,2,kern,3609
+2010,3,kern,3491
+2010,4,kern,4011
+2011,1,kern,3661
+2011,2,kern,3769
+2011,3,kern,3764
+2011,4,kern,4020
+2012,1,kern,3954
+2012,2,kern,3895
+2012,3,kern,3732
+2012,4,kern,4174
+2013,1,kern,3907
+2013,2,kern,3856
+2013,3,kern,3756
+2013,4,kern,4136
+2014,1,kern,4022
+2014,2,kern,3922
+2014,3,kern,3949
+2014,4,kern,4358
+2015,1,kern,4092
+2015,2,kern,3893
+2015,3,kern,3890
+2015,4,kern,4289
+2016,1,kern,3928
+2016,2,kern,3911
+2016,3,kern,3961
+2016,4,kern,4147
+2017,1,kern,4109
+2017,2,kern,4006
+2017,3,kern,3954
+2017,4,kern,4258
+2018,1,kern,4283
+2018,2,kern,4123
+2018,3,kern,4087
+2018,4,kern,4419
+2019,1,kern,4290
+2019,2,kern,4269
+2019,3,kern,4213
+2000,1,kings,2130
+2000,2,kings,2485
+2000,3,kings,2415
+2000,4,kings,2647
+2001,1,kings,2441
+2001,2,kings,2524
+2001,3,kings,2446
+2001,4,kings,2659
+2002,1,kings,2507
+2002,2,kings,2588
+2002,3,kings,2574
+2002,4,kings,2746
+2003,1,kings,2877
+2003,2,kings,2663
+2003,3,kings,2601
+2003,4,kings,2807
+2004,1,kings,2644
+2004,2,kings,2696
+2004,3,kings,2742
+2004,4,kings,2946
+2005,1,kings,2760
+2005,2,kings,2828
+2005,3,kings,2906
+2005,4,kings,3096
+2006,1,kings,2924
+2006,2,kings,2950
+2006,3,kings,3023
+2006,4,kings,3189
+2007,1,kings,3053
+2007,2,kings,3216
+2007,3,kings,3132
+2007,4,kings,3344
+2008,1,kings,3202
+2008,2,kings,3260
+2008,3,kings,3300
+2008,4,kings,3503
+2009,1,kings,3135
+2009,2,kings,3215
+2009,3,kings,3233
+2009,4,kings,3506
+2010,1,kings,3079
+2010,2,kings,3272
+2010,3,kings,3338
+2010,4,kings,3584
+2011,1,kings,3348
+2011,2,kings,3454
+2011,3,kings,3384
+2011,4,kings,3625
+2012,1,kings,3307
+2012,2,kings,3486
+2012,3,kings,3258
+2012,4,kings,3651
+2013,1,kings,3287
+2013,2,kings,3538
+2013,3,kings,3389
+2013,4,kings,3726
+2014,1,kings,3390
+2014,2,kings,3675
+2014,3,kings,3723
+2014,4,kings,4128
+2015,1,kings,3690
+2015,2,kings,3975
+2015,3,kings,3831
+2015,4,kings,4244
+2016,1,kings,3780
+2016,2,kings,4043
+2016,3,kings,4045
+2016,4,kings,4197
+2017,1,kings,3976
+2017,2,kings,4062
+2017,3,kings,4094
+2017,4,kings,4261
+2018,1,kings,4108
+2018,2,kings,4103
+2018,3,kings,4189
+2018,4,kings,4421
+2019,1,kings,4217
+2019,2,kings,4310
+2019,3,kings,4316
+2000,1,lake,1926
+2000,2,lake,2031
+2000,3,lake,1987
+2000,4,lake,2239
+2001,1,lake,2505
+2001,2,lake,2480
+2001,3,lake,2346
+2001,4,lake,2526
+2002,1,lake,2556
+2002,2,lake,2481
+2002,3,lake,2347
+2002,4,lake,2453
+2003,1,lake,2365
+2003,2,lake,2367
+2003,3,lake,2327
+2003,4,lake,2543
+2004,1,lake,2466
+2004,2,lake,2487
+2004,3,lake,2472
+2004,4,lake,2655
+2005,1,lake,2495
+2005,2,lake,2558
+2005,3,lake,2545
+2005,4,lake,2719
+2006,1,lake,2541
+2006,2,lake,2673
+2006,3,lake,2573
+2006,4,lake,2777
+2007,1,lake,2671
+2007,2,lake,2791
+2007,3,lake,2678
+2007,4,lake,2879
+2008,1,lake,2832
+2008,2,lake,2844
+2008,3,lake,2745
+2008,4,lake,2896
+2009,1,lake,2764
+2009,2,lake,2775
+2009,3,lake,2713
+2009,4,lake,2992
+2010,1,lake,2761
+2010,2,lake,2753
+2010,3,lake,2709
+2010,4,lake,2946
+2011,1,lake,2767
+2011,2,lake,2839
+2011,3,lake,2728
+2011,4,lake,2855
+2012,1,lake,2838
+2012,2,lake,2882
+2012,3,lake,2735
+2012,4,lake,2871
+2013,1,lake,2995
+2013,2,lake,2806
+2013,3,lake,2770
+2013,4,lake,2910
+2014,1,lake,2987
+2014,2,lake,2863
+2014,3,lake,2826
+2014,4,lake,2966
+2015,1,lake,3087
+2015,2,lake,2893
+2015,3,lake,2894
+2015,4,lake,3190
+2016,1,lake,3041
+2016,2,lake,2987
+2016,3,lake,3075
+2016,4,lake,3153
+2017,1,lake,3188
+2017,2,lake,3083
+2017,3,lake,3082
+2017,4,lake,3295
+2018,1,lake,3460
+2018,2,lake,3215
+2018,3,lake,3205
+2018,4,lake,3402
+2019,1,lake,3354
+2019,2,lake,3322
+2019,3,lake,3352
+2000,1,lassen,2072
+2000,2,lassen,2876
+2000,3,lassen,2717
+2000,4,lassen,2952
+2001,1,lassen,2702
+2001,2,lassen,2930
+2001,3,lassen,2868
+2001,4,lassen,3105
+2002,1,lassen,2762
+2002,2,lassen,2953
+2002,3,lassen,2935
+2002,4,lassen,3093
+2003,1,lassen,2860
+2003,2,lassen,2976
+2003,3,lassen,2991
+2003,4,lassen,3261
+2004,1,lassen,2963
+2004,2,lassen,3139
+2004,3,lassen,3270
+2004,4,lassen,3339
+2005,1,lassen,3266
+2005,2,lassen,3397
+2005,3,lassen,3543
+2005,4,lassen,3671
+2006,1,lassen,3495
+2006,2,lassen,3527
+2006,3,lassen,3854
+2006,4,lassen,3766
+2007,1,lassen,3693
+2007,2,lassen,4171
+2007,3,lassen,3941
+2007,4,lassen,4033
+2008,1,lassen,3793
+2008,2,lassen,3864
+2008,3,lassen,4176
+2008,4,lassen,3896
+2009,1,lassen,3613
+2009,2,lassen,3694
+2009,3,lassen,3622
+2009,4,lassen,3750
+2010,1,lassen,3532
+2010,2,lassen,3664
+2010,3,lassen,3724
+2010,4,lassen,3774
+2011,1,lassen,3606
+2011,2,lassen,3879
+2011,3,lassen,3925
+2011,4,lassen,4054
+2012,1,lassen,3863
+2012,2,lassen,3957
+2012,3,lassen,3979
+2012,4,lassen,4189
+2013,1,lassen,3768
+2013,2,lassen,4036
+2013,3,lassen,4067
+2013,4,lassen,4237
+2014,1,lassen,4015
+2014,2,lassen,4141
+2014,3,lassen,4382
+2014,4,lassen,4351
+2015,1,lassen,3930
+2015,2,lassen,4159
+2015,3,lassen,4432
+2015,4,lassen,4539
+2016,1,lassen,4088
+2016,2,lassen,4396
+2016,3,lassen,4576
+2016,4,lassen,4659
+2017,1,lassen,4408
+2017,2,lassen,4667
+2017,3,lassen,4790
+2017,4,lassen,4982
+2018,1,lassen,4546
+2018,2,lassen,4729
+2018,3,lassen,5047
+2018,4,lassen,5094
+2019,1,lassen,4593
+2019,2,lassen,4861
+2019,3,lassen,4883
+2000,1,los angeles,3328
+2000,2,los angeles,3208
+2000,3,los angeles,3280
+2000,4,los angeles,3526
+2001,1,los angeles,3477
+2001,2,los angeles,3316
+2001,3,los angeles,3277
+2001,4,los angeles,3559
+2002,1,los angeles,3486
+2002,2,los angeles,3341
+2002,3,los angeles,3325
+2002,4,los angeles,3646
+2003,1,los angeles,3543
+2003,2,los angeles,3417
+2003,3,los angeles,3412
+2003,4,los angeles,3736
+2004,1,los angeles,3662
+2004,2,los angeles,3540
+2004,3,los angeles,3573
+2004,4,los angeles,3994
+2005,1,los angeles,3729
+2005,2,los angeles,3694
+2005,3,los angeles,3831
+2005,4,los angeles,4033
+2006,1,los angeles,4087
+2006,2,los angeles,3827
+2006,3,los angeles,3853
+2006,4,los angeles,4190
+2007,1,los angeles,4208
+2007,2,los angeles,4008
+2007,3,los angeles,3974
+2007,4,los angeles,4344
+2008,1,los angeles,4258
+2008,2,los angeles,4066
+2008,3,los angeles,4050
+2008,4,los angeles,4365
+2009,1,los angeles,4090
+2009,2,los angeles,3977
+2009,3,los angeles,3954
+2009,4,los angeles,4437
+2010,1,los angeles,4122
+2010,2,los angeles,4082
+2010,3,los angeles,4066
+2010,4,los angeles,4600
+2011,1,los angeles,4337
+2011,2,los angeles,4143
+2011,3,los angeles,4239
+2011,4,los angeles,4428
+2012,1,los angeles,4541
+2012,2,los angeles,4205
+2012,3,los angeles,4202
+2012,4,los angeles,4709
+2013,1,los angeles,4498
+2013,2,los angeles,4242
+2013,3,los angeles,4250
+2013,4,los angeles,4661
+2014,1,los angeles,4667
+2014,2,los angeles,4352
+2014,3,los angeles,4372
+2014,4,los angeles,4834
+2015,1,los angeles,4764
+2015,2,los angeles,4491
+2015,3,los angeles,4555
+2015,4,los angeles,5133
+2016,1,los angeles,4828
+2016,2,los angeles,4601
+2016,3,los angeles,4801
+2016,4,los angeles,5076
+2017,1,los angeles,5157
+2017,2,los angeles,4770
+2017,3,los angeles,4817
+2017,4,los angeles,5329
+2018,1,los angeles,5352
+2018,2,los angeles,4960
+2018,3,los angeles,4942
+2018,4,los angeles,5458
+2019,1,los angeles,5397
+2019,2,los angeles,5148
+2019,3,los angeles,5116
+2000,1,madera,2193
+2000,2,madera,2406
+2000,3,madera,2401
+2000,4,madera,2636
+2001,1,madera,2433
+2001,2,madera,2563
+2001,3,madera,2477
+2001,4,madera,2656
+2002,1,madera,2544
+2002,2,madera,2637
+2002,3,madera,2592
+2002,4,madera,2810
+2003,1,madera,2655
+2003,2,madera,2692
+2003,3,madera,2650
+2003,4,madera,2839
+2004,1,madera,2640
+2004,2,madera,2757
+2004,3,madera,2795
+2004,4,madera,2950
+2005,1,madera,2786
+2005,2,madera,2834
+2005,3,madera,2967
+2005,4,madera,3145
+2006,1,madera,3007
+2006,2,madera,3033
+2006,3,madera,3057
+2006,4,madera,3250
+2007,1,madera,3169
+2007,2,madera,3258
+2007,3,madera,3262
+2007,4,madera,3477
+2008,1,madera,3301
+2008,2,madera,3345
+2008,3,madera,3378
+2008,4,madera,3530
+2009,1,madera,3293
+2009,2,madera,3306
+2009,3,madera,3268
+2009,4,madera,3595
+2010,1,madera,3143
+2010,2,madera,3307
+2010,3,madera,3301
+2010,4,madera,3586
+2011,1,madera,3177
+2011,2,madera,3477
+2011,3,madera,3384
+2011,4,madera,3645
+2012,1,madera,3311
+2012,2,madera,3508
+2012,3,madera,3371
+2012,4,madera,3697
+2013,1,madera,3372
+2013,2,madera,3632
+2013,3,madera,3432
+2013,4,madera,3749
+2014,1,madera,3447
+2014,2,madera,3664
+2014,3,madera,3601
+2014,4,madera,3936
+2015,1,madera,3653
+2015,2,madera,3803
+2015,3,madera,3700
+2015,4,madera,4122
+2016,1,madera,3741
+2016,2,madera,3872
+2016,3,madera,3985
+2016,4,madera,4056
+2017,1,madera,3911
+2017,2,madera,3989
+2017,3,madera,4016
+2017,4,madera,4151
+2018,1,madera,4055
+2018,2,madera,4067
+2018,3,madera,4079
+2018,4,madera,4282
+2019,1,madera,4120
+2019,2,madera,4186
+2019,3,madera,4299
+2000,1,marin,3575
+2000,2,marin,3728
+2000,3,marin,3682
+2000,4,marin,4143
+2001,1,marin,3838
+2001,2,marin,3828
+2001,3,marin,3739
+2001,4,marin,4068
+2002,1,marin,3837
+2002,2,marin,3880
+2002,3,marin,3788
+2002,4,marin,4265
+2003,1,marin,4165
+2003,2,marin,3967
+2003,3,marin,3891
+2003,4,marin,4459
+2004,1,marin,4242
+2004,2,marin,4137
+2004,3,marin,4081
+2004,4,marin,4734
+2005,1,marin,4215
+2005,2,marin,4505
+2005,3,marin,4478
+2005,4,marin,5123
+2006,1,marin,4547
+2006,2,marin,4836
+2006,3,marin,4407
+2006,4,marin,5064
+2007,1,marin,4643
+2007,2,marin,4800
+2007,3,marin,4624
+2007,4,marin,5273
+2008,1,marin,4863
+2008,2,marin,4823
+2008,3,marin,4625
+2008,4,marin,5124
+2009,1,marin,4638
+2009,2,marin,4646
+2009,3,marin,4440
+2009,4,marin,5090
+2010,1,marin,4584
+2010,2,marin,4689
+2010,3,marin,4507
+2010,4,marin,5239
+2011,1,marin,4803
+2011,2,marin,4881
+2011,3,marin,4770
+2011,4,marin,5209
+2012,1,marin,4987
+2012,2,marin,4989
+2012,3,marin,4768
+2012,4,marin,5396
+2013,1,marin,5083
+2013,2,marin,5093
+2013,3,marin,4817
+2013,4,marin,5345
+2014,1,marin,5291
+2014,2,marin,5145
+2014,3,marin,4984
+2014,4,marin,5645
+2015,1,marin,5487
+2015,2,marin,5585
+2015,3,marin,5298
+2015,4,marin,5888
+2016,1,marin,5737
+2016,2,marin,5746
+2016,3,marin,5642
+2016,4,marin,6134
+2017,1,marin,5936
+2017,2,marin,5802
+2017,3,marin,5573
+2017,4,marin,6215
+2018,1,marin,6278
+2018,2,marin,6267
+2018,3,marin,5822
+2018,4,marin,6452
+2019,1,marin,6792
+2019,2,marin,6220
+2019,3,marin,5951
+2000,1,mariposa,1695
+2000,2,mariposa,1983
+2000,3,mariposa,1811
+2000,4,mariposa,1998
+2001,1,mariposa,1865
+2001,2,mariposa,2094
+2001,3,mariposa,1863
+2001,4,mariposa,1973
+2002,1,mariposa,1909
+2002,2,mariposa,2141
+2002,3,mariposa,1906
+2002,4,mariposa,2088
+2003,1,mariposa,1917
+2003,2,mariposa,2159
+2003,3,mariposa,1967
+2003,4,mariposa,2108
+2004,1,mariposa,1960
+2004,2,mariposa,2204
+2004,3,mariposa,2040
+2004,4,mariposa,2227
+2005,1,mariposa,1999
+2005,2,mariposa,2294
+2005,3,mariposa,2240
+2005,4,mariposa,2198
+2006,1,mariposa,2090
+2006,2,mariposa,2321
+2006,3,mariposa,2228
+2006,4,mariposa,2299
+2007,1,mariposa,2201
+2007,2,mariposa,2402
+2007,3,mariposa,2282
+2007,4,mariposa,2366
+2008,1,mariposa,2283
+2008,2,mariposa,2356
+2008,3,mariposa,2370
+2008,4,mariposa,2402
+2009,1,mariposa,2295
+2009,2,mariposa,2346
+2009,3,mariposa,2278
+2009,4,mariposa,2418
+2010,1,mariposa,2201
+2010,2,mariposa,2442
+2010,3,mariposa,2416
+2010,4,mariposa,2538
+2011,1,mariposa,2155
+2011,2,mariposa,2445
+2011,3,mariposa,2576
+2011,4,mariposa,2525
+2012,1,mariposa,2574
+2012,2,mariposa,2629
+2012,3,mariposa,2492
+2012,4,mariposa,2571
+2013,1,mariposa,2570
+2013,2,mariposa,2636
+2013,3,mariposa,2515
+2013,4,mariposa,2581
+2014,1,mariposa,2455
+2014,2,mariposa,2675
+2014,3,mariposa,2594
+2014,4,mariposa,2662
+2015,1,mariposa,2546
+2015,2,mariposa,3056
+2015,3,mariposa,3084
+2015,4,mariposa,3293
+2016,1,mariposa,3021
+2016,2,mariposa,3411
+2016,3,mariposa,3646
+2016,4,mariposa,3531
+2017,1,mariposa,3351
+2017,2,mariposa,3556
+2017,3,mariposa,3777
+2017,4,mariposa,3737
+2018,1,mariposa,3589
+2018,2,mariposa,3665
+2018,3,mariposa,3864
+2018,4,mariposa,3892
+2019,1,mariposa,3831
+2019,2,mariposa,3986
+2019,3,mariposa,3932
+2000,1,mendocino,1988
+2000,2,mendocino,2149
+2000,3,mendocino,2061
+2000,4,mendocino,2301
+2001,1,mendocino,2119
+2001,2,mendocino,2276
+2001,3,mendocino,2158
+2001,4,mendocino,2360
+2002,1,mendocino,2126
+2002,2,mendocino,2319
+2002,3,mendocino,2209
+2002,4,mendocino,2449
+2003,1,mendocino,2182
+2003,2,mendocino,2301
+2003,3,mendocino,2234
+2003,4,mendocino,2470
+2004,1,mendocino,2224
+2004,2,mendocino,2383
+2004,3,mendocino,2375
+2004,4,mendocino,2596
+2005,1,mendocino,2337
+2005,2,mendocino,2471
+2005,3,mendocino,2569
+2005,4,mendocino,2674
+2006,1,mendocino,2574
+2006,2,mendocino,2607
+2006,3,mendocino,2703
+2006,4,mendocino,2800
+2007,1,mendocino,2687
+2007,2,mendocino,2767
+2007,3,mendocino,2819
+2007,4,mendocino,2912
+2008,1,mendocino,2779
+2008,2,mendocino,2794
+2008,3,mendocino,2881
+2008,4,mendocino,2994
+2009,1,mendocino,2711
+2009,2,mendocino,2768
+2009,3,mendocino,2790
+2009,4,mendocino,3002
+2010,1,mendocino,2614
+2010,2,mendocino,2800
+2010,3,mendocino,2892
+2010,4,mendocino,3047
+2011,1,mendocino,2675
+2011,2,mendocino,2877
+2011,3,mendocino,2959
+2011,4,mendocino,3112
+2012,1,mendocino,2812
+2012,2,mendocino,2964
+2012,3,mendocino,2919
+2012,4,mendocino,3123
+2013,1,mendocino,2863
+2013,2,mendocino,3079
+2013,3,mendocino,2994
+2013,4,mendocino,3169
+2014,1,mendocino,2902
+2014,2,mendocino,3104
+2014,3,mendocino,3142
+2014,4,mendocino,3317
+2015,1,mendocino,3058
+2015,2,mendocino,3287
+2015,3,mendocino,3215
+2015,4,mendocino,3483
+2016,1,mendocino,3135
+2016,2,mendocino,3389
+2016,3,mendocino,3488
+2016,4,mendocino,3431
+2017,1,mendocino,3316
+2017,2,mendocino,3360
+2017,3,mendocino,3501
+2017,4,mendocino,3564
+2018,1,mendocino,3412
+2018,2,mendocino,3461
+2018,3,mendocino,3580
+2018,4,mendocino,3688
+2019,1,mendocino,3557
+2019,2,mendocino,3640
+2019,3,mendocino,3763
+2000,1,merced,2168
+2000,2,merced,2225
+2000,3,merced,2175
+2000,4,merced,2283
+2001,1,merced,2184
+2001,2,merced,2315
+2001,3,merced,2235
+2001,4,merced,2439
+2002,1,merced,2395
+2002,2,merced,2475
+2002,3,merced,2424
+2002,4,merced,2568
+2003,1,merced,2639
+2003,2,merced,2472
+2003,3,merced,2422
+2003,4,merced,2604
+2004,1,merced,2431
+2004,2,merced,2567
+2004,3,merced,2492
+2004,4,merced,2714
+2005,1,merced,2488
+2005,2,merced,2682
+2005,3,merced,2659
+2005,4,merced,2847
+2006,1,merced,2698
+2006,2,merced,2778
+2006,3,merced,2661
+2006,4,merced,2922
+2007,1,merced,2813
+2007,2,merced,2851
+2007,3,merced,2748
+2007,4,merced,3001
+2008,1,merced,2944
+2008,2,merced,3001
+2008,3,merced,2910
+2008,4,merced,3123
+2009,1,merced,2878
+2009,2,merced,2948
+2009,3,merced,2829
+2009,4,merced,3162
+2010,1,merced,2825
+2010,2,merced,2976
+2010,3,merced,2881
+2010,4,merced,3233
+2011,1,merced,2890
+2011,2,merced,3022
+2011,3,merced,3070
+2011,4,merced,3074
+2012,1,merced,3090
+2012,2,merced,3031
+2012,3,merced,3887
+2012,4,merced,3230
+2013,1,merced,3111
+2013,2,merced,3100
+2013,3,merced,3131
+2013,4,merced,3256
+2014,1,merced,3190
+2014,2,merced,3172
+2014,3,merced,3228
+2014,4,merced,3421
+2015,1,merced,3309
+2015,2,merced,3313
+2015,3,merced,3349
+2015,4,merced,3619
+2016,1,merced,3308
+2016,2,merced,3456
+2016,3,merced,3588
+2016,4,merced,3643
+2017,1,merced,3516
+2017,2,merced,3582
+2017,3,merced,3514
+2017,4,merced,3737
+2018,1,merced,3678
+2018,2,merced,3660
+2018,3,merced,3571
+2018,4,merced,3875
+2019,1,merced,3642
+2019,2,merced,3812
+2019,3,merced,3713
+2000,1,modoc,1672
+2000,2,modoc,1953
+2000,3,modoc,1743
+2000,4,modoc,1964
+2001,1,modoc,1785
+2001,2,modoc,2022
+2001,3,modoc,1840
+2001,4,modoc,2071
+2002,1,modoc,1848
+2002,2,modoc,2204
+2002,3,modoc,1902
+2002,4,modoc,2073
+2003,1,modoc,1879
+2003,2,modoc,2207
+2003,3,modoc,1962
+2003,4,modoc,2078
+2004,1,modoc,1908
+2004,2,modoc,2256
+2004,3,modoc,2006
+2004,4,modoc,2361
+2005,1,modoc,2152
+2005,2,modoc,2351
+2005,3,modoc,2157
+2005,4,modoc,2350
+2006,1,modoc,2249
+2006,2,modoc,2441
+2006,3,modoc,2290
+2006,4,modoc,2512
+2007,1,modoc,2427
+2007,2,modoc,2577
+2007,3,modoc,2317
+2007,4,modoc,2580
+2008,1,modoc,2376
+2008,2,modoc,2771
+2008,3,modoc,2499
+2008,4,modoc,2669
+2009,1,modoc,2469
+2009,2,modoc,2750
+2009,3,modoc,2572
+2009,4,modoc,2687
+2010,1,modoc,2463
+2010,2,modoc,2743
+2010,3,modoc,2498
+2010,4,modoc,2814
+2011,1,modoc,2495
+2011,2,modoc,2747
+2011,3,modoc,2530
+2011,4,modoc,2666
+2012,1,modoc,2303
+2012,2,modoc,2655
+2012,3,modoc,2433
+2012,4,modoc,2826
+2013,1,modoc,2454
+2013,2,modoc,2762
+2013,3,modoc,2628
+2013,4,modoc,2882
+2014,1,modoc,2545
+2014,2,modoc,2847
+2014,3,modoc,2764
+2014,4,modoc,2911
+2015,1,modoc,2612
+2015,2,modoc,3078
+2015,3,modoc,2895
+2015,4,modoc,3074
+2016,1,modoc,2745
+2016,2,modoc,3248
+2016,3,modoc,3029
+2016,4,modoc,3086
+2017,1,modoc,2856
+2017,2,modoc,3269
+2017,3,modoc,3315
+2017,4,modoc,3187
+2018,1,modoc,3053
+2018,2,modoc,3288
+2018,3,modoc,3172
+2018,4,modoc,3288
+2019,1,modoc,3120
+2019,2,modoc,3359
+2019,3,modoc,3305
+2000,1,mono,2060
+2000,2,mono,2297
+2000,3,mono,2100
+2000,4,mono,2326
+2001,1,mono,2169
+2001,2,mono,2281
+2001,3,mono,2202
+2001,4,mono,2352
+2002,1,mono,2348
+2002,2,mono,2420
+2002,3,mono,2342
+2002,4,mono,2506
+2003,1,mono,2396
+2003,2,mono,2571
+2003,3,mono,2427
+2003,4,mono,2579
+2004,1,mono,2501
+2004,2,mono,2604
+2004,3,mono,2595
+2004,4,mono,2770
+2005,1,mono,2612
+2005,2,mono,2750
+2005,3,mono,3062
+2005,4,mono,4280
+2006,1,mono,2701
+2006,2,mono,2853
+2006,3,mono,3001
+2006,4,mono,3008
+2007,1,mono,2862
+2007,2,mono,2872
+2007,3,mono,2935
+2007,4,mono,3089
+2008,1,mono,2942
+2008,2,mono,2949
+2008,3,mono,3018
+2008,4,mono,3040
+2009,1,mono,2809
+2009,2,mono,2923
+2009,3,mono,2955
+2009,4,mono,3128
+2010,1,mono,2724
+2010,2,mono,2873
+2010,3,mono,2969
+2010,4,mono,3117
+2011,1,mono,2781
+2011,2,mono,2899
+2011,3,mono,3020
+2011,4,mono,3134
+2012,1,mono,2788
+2012,2,mono,3026
+2012,3,mono,2890
+2012,4,mono,3139
+2013,1,mono,2895
+2013,2,mono,3043
+2013,3,mono,2980
+2013,4,mono,3241
+2014,1,mono,2805
+2014,2,mono,3143
+2014,3,mono,2930
+2014,4,mono,3255
+2015,1,mono,2851
+2015,2,mono,3072
+2015,3,mono,3028
+2015,4,mono,3393
+2016,1,mono,3155
+2016,2,mono,3188
+2016,3,mono,3249
+2016,4,mono,3280
+2017,1,mono,3444
+2017,2,mono,3406
+2017,3,mono,4892
+2017,4,mono,3504
+2018,1,mono,3332
+2018,2,mono,3289
+2018,3,mono,3417
+2018,4,mono,3548
+2019,1,mono,3450
+2019,2,mono,3386
+2019,3,mono,3515
+2000,1,monterey,2598
+2000,2,monterey,2689
+2000,3,monterey,2587
+2000,4,monterey,2818
+2001,1,monterey,2846
+2001,2,monterey,2914
+2001,3,monterey,2674
+2001,4,monterey,2956
+2002,1,monterey,2893
+2002,2,monterey,2946
+2002,3,monterey,2749
+2002,4,monterey,2988
+2003,1,monterey,2990
+2003,2,monterey,3014
+2003,3,monterey,2785
+2003,4,monterey,3092
+2004,1,monterey,3053
+2004,2,monterey,3127
+2004,3,monterey,2889
+2004,4,monterey,3237
+2005,1,monterey,3073
+2005,2,monterey,3249
+2005,3,monterey,3079
+2005,4,monterey,3303
+2006,1,monterey,3350
+2006,2,monterey,3318
+2006,3,monterey,3141
+2006,4,monterey,3475
+2007,1,monterey,3501
+2007,2,monterey,3544
+2007,3,monterey,3270
+2007,4,monterey,3491
+2008,1,monterey,3506
+2008,2,monterey,3486
+2008,3,monterey,3244
+2008,4,monterey,3561
+2009,1,monterey,3359
+2009,2,monterey,3489
+2009,3,monterey,3229
+2009,4,monterey,3602
+2010,1,monterey,3418
+2010,2,monterey,3510
+2010,3,monterey,3298
+2010,4,monterey,3619
+2011,1,monterey,3439
+2011,2,monterey,3503
+2011,3,monterey,3456
+2011,4,monterey,3564
+2012,1,monterey,3575
+2012,2,monterey,3581
+2012,3,monterey,3433
+2012,4,monterey,3607
+2013,1,monterey,3579
+2013,2,monterey,3610
+2013,3,monterey,3497
+2013,4,monterey,3708
+2014,1,monterey,3641
+2014,2,monterey,3644
+2014,3,monterey,3566
+2014,4,monterey,3803
+2015,1,monterey,3671
+2015,2,monterey,3744
+2015,3,monterey,3737
+2015,4,monterey,4153
+2016,1,monterey,3717
+2016,2,monterey,3986
+2016,3,monterey,4001
+2016,4,monterey,4174
+2017,1,monterey,3956
+2017,2,monterey,4190
+2017,3,monterey,4062
+2017,4,monterey,4374
+2018,1,monterey,4116
+2018,2,monterey,4291
+2018,3,monterey,4154
+2018,4,monterey,4475
+2019,1,monterey,4183
+2019,2,monterey,4421
+2019,3,monterey,4267
+2000,1,napa,2838
+2000,2,napa,2843
+2000,3,napa,3003
+2000,4,napa,3252
+2001,1,napa,3002
+2001,2,napa,3055
+2001,3,napa,3114
+2001,4,napa,3226
+2002,1,napa,3114
+2002,2,napa,3122
+2002,3,napa,3155
+2002,4,napa,3333
+2003,1,napa,3074
+2003,2,napa,3084
+2003,3,napa,3199
+2003,4,napa,3479
+2004,1,napa,3175
+2004,2,napa,3278
+2004,3,napa,3412
+2004,4,napa,3814
+2005,1,napa,3462
+2005,2,napa,3424
+2005,3,napa,3500
+2005,4,napa,3748
+2006,1,napa,3631
+2006,2,napa,3544
+2006,3,napa,3558
+2006,4,napa,3913
+2007,1,napa,3787
+2007,2,napa,3760
+2007,3,napa,3729
+2007,4,napa,4208
+2008,1,napa,3860
+2008,2,napa,3838
+2008,3,napa,3797
+2008,4,napa,4203
+2009,1,napa,3825
+2009,2,napa,3842
+2009,3,napa,3706
+2009,4,napa,4127
+2010,1,napa,3725
+2010,2,napa,3878
+2010,3,napa,3798
+2010,4,napa,4171
+2011,1,napa,3749
+2011,2,napa,3956
+2011,3,napa,4044
+2011,4,napa,4108
+2012,1,napa,4108
+2012,2,napa,4054
+2012,3,napa,3972
+2012,4,napa,4203
+2013,1,napa,4076
+2013,2,napa,4028
+2013,3,napa,4049
+2013,4,napa,4359
+2014,1,napa,4164
+2014,2,napa,4157
+2014,3,napa,4187
+2014,4,napa,4523
+2015,1,napa,4316
+2015,2,napa,4313
+2015,3,napa,4485
+2015,4,napa,4843
+2016,1,napa,4386
+2016,2,napa,4534
+2016,3,napa,4736
+2016,4,napa,4838
+2017,1,napa,4652
+2017,2,napa,4707
+2017,3,napa,4766
+2017,4,napa,5021
+2018,1,napa,4828
+2018,2,napa,4843
+2018,3,napa,4822
+2018,4,napa,5213
+2019,1,napa,4886
+2019,2,napa,5028
+2019,3,napa,5047
+2000,1,nevada,2257
+2000,2,nevada,2606
+2000,3,nevada,2430
+2000,4,nevada,2700
+2001,1,nevada,2412
+2001,2,nevada,2711
+2001,3,nevada,2515
+2001,4,nevada,2812
+2002,1,nevada,2530
+2002,2,nevada,2758
+2002,3,nevada,2597
+2002,4,nevada,2862
+2003,1,nevada,2580
+2003,2,nevada,2814
+2003,3,nevada,2678
+2003,4,nevada,2976
+2004,1,nevada,2658
+2004,2,nevada,2922
+2004,3,nevada,2831
+2004,4,nevada,3130
+2005,1,nevada,2862
+2005,2,nevada,3090
+2005,3,nevada,3107
+2005,4,nevada,3288
+2006,1,nevada,3080
+2006,2,nevada,3175
+2006,3,nevada,3162
+2006,4,nevada,3400
+2007,1,nevada,3156
+2007,2,nevada,3300
+2007,3,nevada,3213
+2007,4,nevada,3488
+2008,1,nevada,3192
+2008,2,nevada,3305
+2008,3,nevada,3289
+2008,4,nevada,3515
+2009,1,nevada,3210
+2009,2,nevada,3306
+2009,3,nevada,3233
+2009,4,nevada,3589
+2010,1,nevada,3097
+2010,2,nevada,3359
+2010,3,nevada,3347
+2010,4,nevada,3647
+2011,1,nevada,3154
+2011,2,nevada,3446
+2011,3,nevada,3459
+2011,4,nevada,3619
+2012,1,nevada,3412
+2012,2,nevada,3483
+2012,3,nevada,3387
+2012,4,nevada,3634
+2013,1,nevada,3324
+2013,2,nevada,3534
+2013,3,nevada,3456
+2013,4,nevada,3689
+2014,1,nevada,3397
+2014,2,nevada,3574
+2014,3,nevada,3545
+2014,4,nevada,3959
+2015,1,nevada,3583
+2015,2,nevada,3660
+2015,3,nevada,3710
+2015,4,nevada,4018
+2016,1,nevada,3526
+2016,2,nevada,3752
+2016,3,nevada,3874
+2016,4,nevada,3997
+2017,1,nevada,3737
+2017,2,nevada,3872
+2017,3,nevada,3793
+2017,4,nevada,4204
+2018,1,nevada,3794
+2018,2,nevada,3891
+2018,3,nevada,3957
+2018,4,nevada,4277
+2019,1,nevada,3878
+2019,2,nevada,4137
+2019,3,nevada,4086
+2000,1,orange,3524
+2000,2,orange,3355
+2000,3,orange,3414
+2000,4,orange,3636
+2001,1,orange,3654
+2001,2,orange,3450
+2001,3,orange,3437
+2001,4,orange,3644
+2002,1,orange,3672
+2002,2,orange,3518
+2002,3,orange,3528
+2002,4,orange,3756
+2003,1,orange,3797
+2003,2,orange,3856
+2003,3,orange,3688
+2003,4,orange,3950
+2004,1,orange,3963
+2004,2,orange,3774
+2004,3,orange,3858
+2004,4,orange,4240
+2005,1,orange,4062
+2005,2,orange,3933
+2005,3,orange,4148
+2005,4,orange,4354
+2006,1,orange,4378
+2006,2,orange,4132
+2006,3,orange,4064
+2006,4,orange,4462
+2007,1,orange,4518
+2007,2,orange,4230
+2007,3,orange,4151
+2007,4,orange,4592
+2008,1,orange,4550
+2008,2,orange,4242
+2008,3,orange,4241
+2008,4,orange,4603
+2009,1,orange,4337
+2009,2,orange,4163
+2009,3,orange,4124
+2009,4,orange,4656
+2010,1,orange,4419
+2010,2,orange,4267
+2010,3,orange,4332
+2010,4,orange,4869
+2011,1,orange,4588
+2011,2,orange,4413
+2011,3,orange,4592
+2011,4,orange,4746
+2012,1,orange,4851
+2012,2,orange,4476
+2012,3,orange,4525
+2012,4,orange,4982
+2013,1,orange,4854
+2013,2,orange,4723
+2013,3,orange,4569
+2013,4,orange,4945
+2014,1,orange,4993
+2014,2,orange,4621
+2014,3,orange,4714
+2014,4,orange,5144
+2015,1,orange,5400
+2015,2,orange,4798
+2015,3,orange,4826
+2015,4,orange,5362
+2016,1,orange,5076
+2016,2,orange,4934
+2016,3,orange,5179
+2016,4,orange,5326
+2017,1,orange,5445
+2017,2,orange,5065
+2017,3,orange,5098
+2017,4,orange,5478
+2018,1,orange,5931
+2018,2,orange,5208
+2018,3,orange,5187
+2018,4,orange,5521
+2019,1,orange,5799
+2019,2,orange,5382
+2019,3,orange,5417
+2000,1,placer,3021
+2000,2,placer,3138
+2000,3,placer,3165
+2000,4,placer,3296
+2001,1,placer,3139
+2001,2,placer,3211
+2001,3,placer,3225
+2001,4,placer,3279
+2002,1,placer,3213
+2002,2,placer,3366
+2002,3,placer,3286
+2002,4,placer,3379
+2003,1,placer,3331
+2003,2,placer,3460
+2003,3,placer,3390
+2003,4,placer,3502
+2004,1,placer,3367
+2004,2,placer,3471
+2004,3,placer,3454
+2004,4,placer,3697
+2005,1,placer,3485
+2005,2,placer,3636
+2005,3,placer,3782
+2005,4,placer,3855
+2006,1,placer,3738
+2006,2,placer,3691
+2006,3,placer,3712
+2006,4,placer,4021
+2007,1,placer,3900
+2007,2,placer,3880
+2007,3,placer,3821
+2007,4,placer,4075
+2008,1,placer,3904
+2008,2,placer,3849
+2008,3,placer,3837
+2008,4,placer,4126
+2009,1,placer,3803
+2009,2,placer,3769
+2009,3,placer,3801
+2009,4,placer,4209
+2010,1,placer,3810
+2010,2,placer,3851
+2010,3,placer,3882
+2010,4,placer,4351
+2011,1,placer,3946
+2011,2,placer,3957
+2011,3,placer,4099
+2011,4,placer,4219
+2012,1,placer,4218
+2012,2,placer,4142
+2012,3,placer,4144
+2012,4,placer,4488
+2013,1,placer,4262
+2013,2,placer,4131
+2013,3,placer,4125
+2013,4,placer,4411
+2014,1,placer,4335
+2014,2,placer,4213
+2014,3,placer,4289
+2014,4,placer,4628
+2015,1,placer,4497
+2015,2,placer,4430
+2015,3,placer,4490
+2015,4,placer,4910
+2016,1,placer,4516
+2016,2,placer,4573
+2016,3,placer,4761
+2016,4,placer,4825
+2017,1,placer,4798
+2017,2,placer,4693
+2017,3,placer,4703
+2017,4,placer,5007
+2018,1,placer,4954
+2018,2,placer,4830
+2018,3,placer,4857
+2018,4,placer,5164
+2019,1,placer,5042
+2019,2,placer,4983
+2019,3,placer,5068
+2000,1,plumas,2113
+2000,2,plumas,2275
+2000,3,plumas,2190
+2000,4,plumas,2373
+2001,1,plumas,2243
+2001,2,plumas,2403
+2001,3,plumas,2248
+2001,4,plumas,2426
+2002,1,plumas,2280
+2002,2,plumas,2432
+2002,3,plumas,2293
+2002,4,plumas,2511
+2003,1,plumas,2378
+2003,2,plumas,2504
+2003,3,plumas,2380
+2003,4,plumas,2643
+2004,1,plumas,2460
+2004,2,plumas,2571
+2004,3,plumas,2547
+2004,4,plumas,2743
+2005,1,plumas,2551
+2005,2,plumas,2638
+2005,3,plumas,2693
+2005,4,plumas,2746
+2006,1,plumas,2657
+2006,2,plumas,2720
+2006,3,plumas,2731
+2006,4,plumas,2875
+2007,1,plumas,2800
+2007,2,plumas,2865
+2007,3,plumas,2785
+2007,4,plumas,2975
+2008,1,plumas,2921
+2008,2,plumas,2916
+2008,3,plumas,2910
+2008,4,plumas,3029
+2009,1,plumas,2734
+2009,2,plumas,2829
+2009,3,plumas,2828
+2009,4,plumas,3059
+2010,1,plumas,2807
+2010,2,plumas,3012
+2010,3,plumas,2842
+2010,4,plumas,3095
+2011,1,plumas,2795
+2011,2,plumas,3024
+2011,3,plumas,2966
+2011,4,plumas,3180
+2012,1,plumas,2991
+2012,2,plumas,3128
+2012,3,plumas,3002
+2012,4,plumas,3215
+2013,1,plumas,2995
+2013,2,plumas,3139
+2013,3,plumas,2975
+2013,4,plumas,3329
+2014,1,plumas,3088
+2014,2,plumas,3237
+2014,3,plumas,3045
+2014,4,plumas,3372
+2015,1,plumas,3160
+2015,2,plumas,3267
+2015,3,plumas,3153
+2015,4,plumas,3443
+2016,1,plumas,3172
+2016,2,plumas,3341
+2016,3,plumas,3405
+2016,4,plumas,3523
+2017,1,plumas,3469
+2017,2,plumas,3529
+2017,3,plumas,3460
+2017,4,plumas,3759
+2018,1,plumas,3645
+2018,2,plumas,3741
+2018,3,plumas,3670
+2018,4,plumas,3953
+2019,1,plumas,3729
+2019,2,plumas,3963
+2019,3,plumas,3782
+2000,1,riverside,2648
+2000,2,riverside,2597
+2000,3,riverside,2578
+2000,4,riverside,2746
+2001,1,riverside,2756
+2001,2,riverside,2736
+2001,3,riverside,2597
+2001,4,riverside,2803
+2002,1,riverside,2791
+2002,2,riverside,2788
+2002,3,riverside,2709
+2002,4,riverside,2866
+2003,1,riverside,2895
+2003,2,riverside,2845
+2003,3,riverside,2787
+2003,4,riverside,2979
+2004,1,riverside,2992
+2004,2,riverside,3037
+2004,3,riverside,2942
+2004,4,riverside,3150
+2005,1,riverside,3041
+2005,2,riverside,3080
+2005,3,riverside,3161
+2005,4,riverside,3168
+2006,1,riverside,3324
+2006,2,riverside,3238
+2006,3,riverside,3165
+2006,4,riverside,3320
+2007,1,riverside,3462
+2007,2,riverside,3322
+2007,3,riverside,3252
+2007,4,riverside,3393
+2008,1,riverside,3498
+2008,2,riverside,3340
+2008,3,riverside,3264
+2008,4,riverside,3407
+2009,1,riverside,3397
+2009,2,riverside,3273
+2009,3,riverside,3205
+2009,4,riverside,3415
+2010,1,riverside,3323
+2010,2,riverside,3320
+2010,3,riverside,3256
+2010,4,riverside,3490
+2011,1,riverside,3425
+2011,2,riverside,3363
+2011,3,riverside,3410
+2011,4,riverside,3401
+2012,1,riverside,3564
+2012,2,riverside,3410
+2012,3,riverside,3277
+2012,4,riverside,3498
+2013,1,riverside,3558
+2013,2,riverside,3505
+2013,3,riverside,3369
+2013,4,riverside,3544
+2014,1,riverside,3639
+2014,2,riverside,3535
+2014,3,riverside,3471
+2014,4,riverside,3707
+2015,1,riverside,3959
+2015,2,riverside,3808
+2015,3,riverside,3614
+2015,4,riverside,3898
+2016,1,riverside,3797
+2016,2,riverside,3732
+2016,3,riverside,3853
+2016,4,riverside,3840
+2017,1,riverside,3978
+2017,2,riverside,3810
+2017,3,riverside,3798
+2017,4,riverside,4009
+2018,1,riverside,4094
+2018,2,riverside,3898
+2018,3,riverside,3845
+2018,4,riverside,4045
+2019,1,riverside,4234
+2019,2,riverside,4063
+2019,3,riverside,4000
+2000,1,sacramento,3134
+2000,2,sacramento,3234
+2000,3,sacramento,3241
+2000,4,sacramento,3390
+2001,1,sacramento,3450
+2001,2,sacramento,3344
+2001,3,sacramento,3331
+2001,4,sacramento,3476
+2002,1,sacramento,3482
+2002,2,sacramento,3396
+2002,3,sacramento,3404
+2002,4,sacramento,3565
+2003,1,sacramento,3573
+2003,2,sacramento,3444
+2003,3,sacramento,3505
+2003,4,sacramento,3629
+2004,1,sacramento,3639
+2004,2,sacramento,3534
+2004,3,sacramento,3578
+2004,4,sacramento,3821
+2005,1,sacramento,3733
+2005,2,sacramento,3660
+2005,3,sacramento,3834
+2005,4,sacramento,3921
+2006,1,sacramento,3962
+2006,2,sacramento,3827
+2006,3,sacramento,3882
+2006,4,sacramento,4070
+2007,1,sacramento,4118
+2007,2,sacramento,4059
+2007,3,sacramento,3994
+2007,4,sacramento,4257
+2008,1,sacramento,4226
+2008,2,sacramento,4109
+2008,3,sacramento,4109
+2008,4,sacramento,4320
+2009,1,sacramento,4162
+2009,2,sacramento,4066
+2009,3,sacramento,3989
+2009,4,sacramento,4300
+2010,1,sacramento,4168
+2010,2,sacramento,4139
+2010,3,sacramento,4112
+2010,4,sacramento,4454
+2011,1,sacramento,4355
+2011,2,sacramento,4290
+2011,3,sacramento,4366
+2011,4,sacramento,4409
+2012,1,sacramento,4667
+2012,2,sacramento,4348
+2012,3,sacramento,4314
+2012,4,sacramento,4515
+2013,1,sacramento,4583
+2013,2,sacramento,4392
+2013,3,sacramento,4453
+2013,4,sacramento,4624
+2014,1,sacramento,4745
+2014,2,sacramento,4467
+2014,3,sacramento,4545
+2014,4,sacramento,4731
+2015,1,sacramento,4851
+2015,2,sacramento,4575
+2015,3,sacramento,4643
+2015,4,sacramento,4977
+2016,1,sacramento,4808
+2016,2,sacramento,4700
+2016,3,sacramento,4901
+2016,4,sacramento,4969
+2017,1,sacramento,5040
+2017,2,sacramento,4982
+2017,3,sacramento,4882
+2017,4,sacramento,5135
+2018,1,sacramento,5169
+2018,2,sacramento,5022
+2018,3,sacramento,4907
+2018,4,sacramento,5296
+2019,1,sacramento,5296
+2019,2,sacramento,5185
+2019,3,sacramento,5146
+2000,1,san benito,2560
+2000,2,san benito,2641
+2000,3,san benito,2546
+2000,4,san benito,2893
+2001,1,san benito,2710
+2001,2,san benito,2775
+2001,3,san benito,2585
+2001,4,san benito,2895
+2002,1,san benito,2739
+2002,2,san benito,2893
+2002,3,san benito,2732
+2002,4,san benito,2945
+2003,1,san benito,2848
+2003,2,san benito,2918
+2003,3,san benito,2841
+2003,4,san benito,3052
+2004,1,san benito,2875
+2004,2,san benito,3009
+2004,3,san benito,2927
+2004,4,san benito,3215
+2005,1,san benito,2868
+2005,2,san benito,3024
+2005,3,san benito,3042
+2005,4,san benito,3208
+2006,1,san benito,3004
+2006,2,san benito,3201
+2006,3,san benito,3036
+2006,4,san benito,3222
+2007,1,san benito,3060
+2007,2,san benito,3297
+2007,3,san benito,3065
+2007,4,san benito,3422
+2008,1,san benito,3182
+2008,2,san benito,3320
+2008,3,san benito,3097
+2008,4,san benito,3553
+2009,1,san benito,3118
+2009,2,san benito,3344
+2009,3,san benito,3097
+2009,4,san benito,3538
+2010,1,san benito,3100
+2010,2,san benito,3350
+2010,3,san benito,3117
+2010,4,san benito,3604
+2011,1,san benito,3290
+2011,2,san benito,3426
+2011,3,san benito,3326
+2011,4,san benito,3476
+2012,1,san benito,3326
+2012,2,san benito,3434
+2012,3,san benito,3248
+2012,4,san benito,3601
+2013,1,san benito,3519
+2013,2,san benito,3513
+2013,3,san benito,3417
+2013,4,san benito,3754
+2014,1,san benito,3916
+2014,2,san benito,3710
+2014,3,san benito,3587
+2014,4,san benito,3935
+2015,1,san benito,3736
+2015,2,san benito,3720
+2015,3,san benito,3741
+2015,4,san benito,4192
+2016,1,san benito,3723
+2016,2,san benito,3857
+2016,3,san benito,3950
+2016,4,san benito,4109
+2017,1,san benito,3816
+2017,2,san benito,4037
+2017,3,san benito,3954
+2017,4,san benito,4236
+2018,1,san benito,4192
+2018,2,san benito,4235
+2018,3,san benito,4082
+2018,4,san benito,4409
+2019,1,san benito,4290
+2019,2,san benito,4462
+2019,3,san benito,4207
+2000,1,san bernardino,2600
+2000,2,san bernardino,2699
+2000,3,san bernardino,2658
+2000,4,san bernardino,2885
+2001,1,san bernardino,2736
+2001,2,san bernardino,2790
+2001,3,san bernardino,2730
+2001,4,san bernardino,2972
+2002,1,san bernardino,2811
+2002,2,san bernardino,2887
+2002,3,san bernardino,2799
+2002,4,san bernardino,3080
+2003,1,san bernardino,2903
+2003,2,san bernardino,2960
+2003,3,san bernardino,2895
+2003,4,san bernardino,3170
+2004,1,san bernardino,2993
+2004,2,san bernardino,3052
+2004,3,san bernardino,3014
+2004,4,san bernardino,3341
+2005,1,san bernardino,3016
+2005,2,san bernardino,3158
+2005,3,san bernardino,3244
+2005,4,san bernardino,3364
+2006,1,san bernardino,3277
+2006,2,san bernardino,3261
+2006,3,san bernardino,3249
+2006,4,san bernardino,3484
+2007,1,san bernardino,3419
+2007,2,san bernardino,3350
+2007,3,san bernardino,3324
+2007,4,san bernardino,3554
+2008,1,san bernardino,3430
+2008,2,san bernardino,3378
+2008,3,san bernardino,3367
+2008,4,san bernardino,3601
+2009,1,san bernardino,3325
+2009,2,san bernardino,3325
+2009,3,san bernardino,3310
+2009,4,san bernardino,3632
+2010,1,san bernardino,3286
+2010,2,san bernardino,3408
+2010,3,san bernardino,3366
+2010,4,san bernardino,3709
+2011,1,san bernardino,3376
+2011,2,san bernardino,3454
+2011,3,san bernardino,3516
+2011,4,san bernardino,3635
+2012,1,san bernardino,3578
+2012,2,san bernardino,3553
+2012,3,san bernardino,3465
+2012,4,san bernardino,3771
+2013,1,san bernardino,3617
+2013,2,san bernardino,3599
+2013,3,san bernardino,3500
+2013,4,san bernardino,3777
+2014,1,san bernardino,3664
+2014,2,san bernardino,3656
+2014,3,san bernardino,3602
+2014,4,san bernardino,3925
+2015,1,san bernardino,3728
+2015,2,san bernardino,3776
+2015,3,san bernardino,3723
+2015,4,san bernardino,4118
+2016,1,san bernardino,3766
+2016,2,san bernardino,3858
+2016,3,san bernardino,3987
+2016,4,san bernardino,4037
+2017,1,san bernardino,4014
+2017,2,san bernardino,3954
+2017,3,san bernardino,3990
+2017,4,san bernardino,4205
+2018,1,san bernardino,4157
+2018,2,san bernardino,4038
+2018,3,san bernardino,4059
+2018,4,san bernardino,4296
+2019,1,san bernardino,4259
+2019,2,san bernardino,4208
+2019,3,san bernardino,4226
+2000,1,san diego,3401
+2000,2,san diego,3253
+2000,3,san diego,3221
+2000,4,san diego,3543
+2001,1,san diego,3457
+2001,2,san diego,3319
+2001,3,san diego,3272
+2001,4,san diego,3524
+2002,1,san diego,3422
+2002,2,san diego,3416
+2002,3,san diego,3304
+2002,4,san diego,3658
+2003,1,san diego,3514
+2003,2,san diego,3473
+2003,3,san diego,3450
+2003,4,san diego,3753
+2004,1,san diego,3666
+2004,2,san diego,3816
+2004,3,san diego,3636
+2004,4,san diego,4077
+2005,1,san diego,3739
+2005,2,san diego,3766
+2005,3,san diego,3942
+2005,4,san diego,4081
+2006,1,san diego,4184
+2006,2,san diego,3906
+2006,3,san diego,3907
+2006,4,san diego,4206
+2007,1,san diego,4256
+2007,2,san diego,4066
+2007,3,san diego,4026
+2007,4,san diego,4382
+2008,1,san diego,4308
+2008,2,san diego,4215
+2008,3,san diego,4178
+2008,4,san diego,4569
+2009,1,san diego,4206
+2009,2,san diego,4083
+2009,3,san diego,4060
+2009,4,san diego,4536
+2010,1,san diego,4167
+2010,2,san diego,4151
+2010,3,san diego,4203
+2010,4,san diego,4772
+2011,1,san diego,4466
+2011,2,san diego,4354
+2011,3,san diego,4497
+2011,4,san diego,4596
+2012,1,san diego,4782
+2012,2,san diego,4420
+2012,3,san diego,4478
+2012,4,san diego,4833
+2013,1,san diego,4712
+2013,2,san diego,4669
+2013,3,san diego,4587
+2013,4,san diego,5039
+2014,1,san diego,4996
+2014,2,san diego,4695
+2014,3,san diego,4601
+2014,4,san diego,5105
+2015,1,san diego,5067
+2015,2,san diego,4833
+2015,3,san diego,4753
+2015,4,san diego,5355
+2016,1,san diego,4949
+2016,2,san diego,4847
+2016,3,san diego,5069
+2016,4,san diego,5222
+2017,1,san diego,5292
+2017,2,san diego,4948
+2017,3,san diego,5010
+2017,4,san diego,5483
+2018,1,san diego,5539
+2018,2,san diego,5118
+2018,3,san diego,5158
+2018,4,san diego,5686
+2019,1,san diego,5695
+2019,2,san diego,5361
+2019,3,san diego,5419
+2000,1,san francisco,5598
+2000,2,san francisco,4554
+2000,3,san francisco,4613
+2000,4,san francisco,5141
+2001,1,san francisco,6345
+2001,2,san francisco,4525
+2001,3,san francisco,4535
+2001,4,san francisco,4917
+2002,1,san francisco,5547
+2002,2,san francisco,4453
+2002,3,san francisco,4488
+2002,4,san francisco,4870
+2003,1,san francisco,5230
+2003,2,san francisco,4470
+2003,3,san francisco,4593
+2003,4,san francisco,5121
+2004,1,san francisco,5594
+2004,2,san francisco,4733
+2004,3,san francisco,4740
+2004,4,san francisco,5523
+2005,1,san francisco,5861
+2005,2,san francisco,4966
+2005,3,san francisco,5224
+2005,4,san francisco,5937
+2006,1,san francisco,6452
+2006,2,san francisco,5246
+2006,3,san francisco,5277
+2006,4,san francisco,6134
+2007,1,san francisco,6892
+2007,2,san francisco,5577
+2007,3,san francisco,5521
+2007,4,san francisco,6561
+2008,1,san francisco,6871
+2008,2,san francisco,5692
+2008,3,san francisco,5761
+2008,4,san francisco,6318
+2009,1,san francisco,6415
+2009,2,san francisco,5475
+2009,3,san francisco,5537
+2009,4,san francisco,6519
+2010,1,san francisco,6702
+2010,2,san francisco,5659
+2010,3,san francisco,5840
+2010,4,san francisco,6659
+2011,1,san francisco,7158
+2011,2,san francisco,6002
+2011,3,san francisco,6214
+2011,4,san francisco,6614
+2012,1,san francisco,7429
+2012,2,san francisco,6114
+2012,3,san francisco,6249
+2012,4,san francisco,7133
+2013,1,san francisco,7465
+2013,2,san francisco,6314
+2013,3,san francisco,6579
+2013,4,san francisco,7415
+2014,1,san francisco,7996
+2014,2,san francisco,6731
+2014,3,san francisco,7228
+2014,4,san francisco,7794
+2015,1,san francisco,8839
+2015,2,san francisco,7392
+2015,3,san francisco,7556
+2015,4,san francisco,8644
+2016,1,san francisco,8835
+2016,2,san francisco,7851
+2016,3,san francisco,8193
+2016,4,san francisco,8772
+2017,1,san francisco,9698
+2017,2,san francisco,8445
+2017,3,san francisco,8475
+2017,4,san francisco,9722
+2018,1,san francisco,10716
+2018,2,san francisco,9161
+2018,3,san francisco,9190
+2018,4,san francisco,10777
+2019,1,san francisco,11730
+2019,2,san francisco,10443
+2019,3,san francisco,9879
+2000,1,san joaquin,2572
+2000,2,san joaquin,2653
+2000,3,san joaquin,2677
+2000,4,san joaquin,2813
+2001,1,san joaquin,2730
+2001,2,san joaquin,2768
+2001,3,san joaquin,2742
+2001,4,san joaquin,2954
+2002,1,san joaquin,2824
+2002,2,san joaquin,2870
+2002,3,san joaquin,2848
+2002,4,san joaquin,3061
+2003,1,san joaquin,2923
+2003,2,san joaquin,2906
+2003,3,san joaquin,2932
+2003,4,san joaquin,3156
+2004,1,san joaquin,2950
+2004,2,san joaquin,4557
+2004,3,san joaquin,3011
+2004,4,san joaquin,3354
+2005,1,san joaquin,2985
+2005,2,san joaquin,3116
+2005,3,san joaquin,3263
+2005,4,san joaquin,3396
+2006,1,san joaquin,3167
+2006,2,san joaquin,3255
+2006,3,san joaquin,3218
+2006,4,san joaquin,3507
+2007,1,san joaquin,3312
+2007,2,san joaquin,3414
+2007,3,san joaquin,3346
+2007,4,san joaquin,3601
+2008,1,san joaquin,3385
+2008,2,san joaquin,3470
+2008,3,san joaquin,3432
+2008,4,san joaquin,3688
+2009,1,san joaquin,3298
+2009,2,san joaquin,3424
+2009,3,san joaquin,3359
+2009,4,san joaquin,3711
+2010,1,san joaquin,3292
+2010,2,san joaquin,3488
+2010,3,san joaquin,3446
+2010,4,san joaquin,3771
+2011,1,san joaquin,3384
+2011,2,san joaquin,3571
+2011,3,san joaquin,3628
+2011,4,san joaquin,3639
+2012,1,san joaquin,3585
+2012,2,san joaquin,3501
+2012,3,san joaquin,3571
+2012,4,san joaquin,3711
+2013,1,san joaquin,3621
+2013,2,san joaquin,3545
+2013,3,san joaquin,3636
+2013,4,san joaquin,3786
+2014,1,san joaquin,3693
+2014,2,san joaquin,3611
+2014,3,san joaquin,3753
+2014,4,san joaquin,3926
+2015,1,san joaquin,3800
+2015,2,san joaquin,3747
+2015,3,san joaquin,3909
+2015,4,san joaquin,4216
+2016,1,san joaquin,3813
+2016,2,san joaquin,3866
+2016,3,san joaquin,4086
+2016,4,san joaquin,4171
+2017,1,san joaquin,3981
+2017,2,san joaquin,4044
+2017,3,san joaquin,4035
+2017,4,san joaquin,4313
+2018,1,san joaquin,4106
+2018,2,san joaquin,4173
+2018,3,san joaquin,4173
+2018,4,san joaquin,4531
+2019,1,san joaquin,4233
+2019,2,san joaquin,4399
+2019,3,san joaquin,4363
+2000,1,san luis obispo,2429
+2000,2,san luis obispo,2602
+2000,3,san luis obispo,2637
+2000,4,san luis obispo,2761
+2001,1,san luis obispo,2661
+2001,2,san luis obispo,2763
+2001,3,san luis obispo,2702
+2001,4,san luis obispo,2841
+2002,1,san luis obispo,2763
+2002,2,san luis obispo,2792
+2002,3,san luis obispo,2762
+2002,4,san luis obispo,2878
+2003,1,san luis obispo,2807
+2003,2,san luis obispo,2831
+2003,3,san luis obispo,2837
+2003,4,san luis obispo,2963
+2004,1,san luis obispo,2815
+2004,2,san luis obispo,2923
+2004,3,san luis obispo,2965
+2004,4,san luis obispo,3151
+2005,1,san luis obispo,2903
+2005,2,san luis obispo,3011
+2005,3,san luis obispo,3114
+2005,4,san luis obispo,3234
+2006,1,san luis obispo,3130
+2006,2,san luis obispo,3137
+2006,3,san luis obispo,3186
+2006,4,san luis obispo,3410
+2007,1,san luis obispo,3276
+2007,2,san luis obispo,3352
+2007,3,san luis obispo,3250
+2007,4,san luis obispo,3472
+2008,1,san luis obispo,3419
+2008,2,san luis obispo,3364
+2008,3,san luis obispo,3354
+2008,4,san luis obispo,3517
+2009,1,san luis obispo,3377
+2009,2,san luis obispo,3319
+2009,3,san luis obispo,3272
+2009,4,san luis obispo,3549
+2010,1,san luis obispo,3248
+2010,2,san luis obispo,3342
+2010,3,san luis obispo,3369
+2010,4,san luis obispo,3665
+2011,1,san luis obispo,3344
+2011,2,san luis obispo,3526
+2011,3,san luis obispo,3511
+2011,4,san luis obispo,3604
+2012,1,san luis obispo,3508
+2012,2,san luis obispo,3549
+2012,3,san luis obispo,3435
+2012,4,san luis obispo,3684
+2013,1,san luis obispo,3571
+2013,2,san luis obispo,3558
+2013,3,san luis obispo,3547
+2013,4,san luis obispo,3691
+2014,1,san luis obispo,3650
+2014,2,san luis obispo,3645
+2014,3,san luis obispo,3636
+2014,4,san luis obispo,3845
+2015,1,san luis obispo,3728
+2015,2,san luis obispo,3794
+2015,3,san luis obispo,3855
+2015,4,san luis obispo,4158
+2016,1,san luis obispo,3816
+2016,2,san luis obispo,3964
+2016,3,san luis obispo,4043
+2016,4,san luis obispo,4097
+2017,1,san luis obispo,4015
+2017,2,san luis obispo,4126
+2017,3,san luis obispo,4057
+2017,4,san luis obispo,4250
+2018,1,san luis obispo,4185
+2018,2,san luis obispo,4296
+2018,3,san luis obispo,4170
+2018,4,san luis obispo,4444
+2019,1,san luis obispo,4453
+2019,2,san luis obispo,4466
+2019,3,san luis obispo,4349
+2000,1,san mateo,5193
+2000,2,san mateo,5068
+2000,3,san mateo,5978
+2000,4,san mateo,5723
+2001,1,san mateo,5879
+2001,2,san mateo,4887
+2001,3,san mateo,4647
+2001,4,san mateo,5061
+2002,1,san mateo,4722
+2002,2,san mateo,4598
+2002,3,san mateo,4546
+2002,4,san mateo,5045
+2003,1,san mateo,4621
+2003,2,san mateo,4834
+2003,3,san mateo,4809
+2003,4,san mateo,5264
+2004,1,san mateo,5186
+2004,2,san mateo,4893
+2004,3,san mateo,5251
+2004,4,san mateo,5683
+2005,1,san mateo,5187
+2005,2,san mateo,5468
+2005,3,san mateo,5504
+2005,4,san mateo,5899
+2006,1,san mateo,5756
+2006,2,san mateo,5217
+2006,3,san mateo,5495
+2006,4,san mateo,6074
+2007,1,san mateo,6136
+2007,2,san mateo,5545
+2007,3,san mateo,5708
+2007,4,san mateo,6628
+2008,1,san mateo,6240
+2008,2,san mateo,5577
+2008,3,san mateo,5936
+2008,4,san mateo,6235
+2009,1,san mateo,7551
+2009,2,san mateo,5591
+2009,3,san mateo,5579
+2009,4,san mateo,6426
+2010,1,san mateo,6058
+2010,2,san mateo,5631
+2010,3,san mateo,5749
+2010,4,san mateo,6755
+2011,1,san mateo,6382
+2011,2,san mateo,6054
+2011,3,san mateo,6128
+2011,4,san mateo,6827
+2012,1,san mateo,6856
+2012,2,san mateo,6507
+2012,3,san mateo,6568
+2012,4,san mateo,13485
+2013,1,san mateo,8112
+2013,2,san mateo,6981
+2013,3,san mateo,7114
+2013,4,san mateo,12323
+2014,1,san mateo,9155
+2014,2,san mateo,7621
+2014,3,san mateo,8128
+2014,4,san mateo,9356
+2015,1,san mateo,9254
+2015,2,san mateo,8224
+2015,3,san mateo,8507
+2015,4,san mateo,9353
+2016,1,san mateo,9633
+2016,2,san mateo,8375
+2016,3,san mateo,9504
+2016,4,san mateo,9156
+2017,1,san mateo,10544
+2017,2,san mateo,9212
+2017,3,san mateo,10088
+2017,4,san mateo,10723
+2018,1,san mateo,12179
+2018,2,san mateo,10745
+2018,3,san mateo,10690
+2018,4,san mateo,10781
+2019,1,san mateo,12112
+2019,2,san mateo,10786
+2019,3,san mateo,11160
+2000,1,santa barbara,2979
+2000,2,santa barbara,2818
+2000,3,santa barbara,2961
+2000,4,santa barbara,3035
+2001,1,santa barbara,3031
+2001,2,santa barbara,2961
+2001,3,santa barbara,2875
+2001,4,santa barbara,3049
+2002,1,santa barbara,3086
+2002,2,santa barbara,3022
+2002,3,santa barbara,2977
+2002,4,santa barbara,3160
+2003,1,santa barbara,3148
+2003,2,santa barbara,3069
+2003,3,santa barbara,3122
+2003,4,santa barbara,3293
+2004,1,santa barbara,3250
+2004,2,santa barbara,3198
+2004,3,santa barbara,3182
+2004,4,santa barbara,3511
+2005,1,santa barbara,3298
+2005,2,santa barbara,3389
+2005,3,santa barbara,3497
+2005,4,santa barbara,3632
+2006,1,santa barbara,3580
+2006,2,santa barbara,3515
+2006,3,santa barbara,3408
+2006,4,santa barbara,3682
+2007,1,santa barbara,3786
+2007,2,santa barbara,3637
+2007,3,santa barbara,3570
+2007,4,santa barbara,3941
+2008,1,santa barbara,3786
+2008,2,santa barbara,3735
+2008,3,santa barbara,3613
+2008,4,santa barbara,3918
+2009,1,santa barbara,3732
+2009,2,santa barbara,3672
+2009,3,santa barbara,3621
+2009,4,santa barbara,3951
+2010,1,santa barbara,3711
+2010,2,santa barbara,3747
+2010,3,santa barbara,3730
+2010,4,santa barbara,4043
+2011,1,santa barbara,3817
+2011,2,santa barbara,3807
+2011,3,santa barbara,3960
+2011,4,santa barbara,3942
+2012,1,santa barbara,4103
+2012,2,santa barbara,3948
+2012,3,santa barbara,3832
+2012,4,santa barbara,4227
+2013,1,santa barbara,4040
+2013,2,santa barbara,4031
+2013,3,santa barbara,3972
+2013,4,santa barbara,4194
+2014,1,santa barbara,4205
+2014,2,santa barbara,4117
+2014,3,santa barbara,4083
+2014,4,santa barbara,4380
+2015,1,santa barbara,4224
+2015,2,santa barbara,4316
+2015,3,santa barbara,4227
+2015,4,santa barbara,4660
+2016,1,santa barbara,4203
+2016,2,santa barbara,4310
+2016,3,santa barbara,4499
+2016,4,santa barbara,4571
+2017,1,santa barbara,4472
+2017,2,santa barbara,4474
+2017,3,santa barbara,4400
+2017,4,santa barbara,4702
+2018,1,santa barbara,4570
+2018,2,santa barbara,4661
+2018,3,santa barbara,4493
+2018,4,santa barbara,4896
+2019,1,santa barbara,4627
+2019,2,santa barbara,4723
+2019,3,santa barbara,4614
+2000,1,santa clara,6797
+2000,2,santa clara,6195
+2000,3,santa clara,7015
+2000,4,santa clara,6435
+2001,1,santa clara,5917
+2001,2,santa clara,5455
+2001,3,santa clara,5212
+2001,4,santa clara,5685
+2002,1,santa clara,5379
+2002,2,santa clara,5181
+2002,3,santa clara,5146
+2002,4,santa clara,5451
+2003,1,santa clara,5269
+2003,2,santa clara,5346
+2003,3,santa clara,5508
+2003,4,santa clara,5801
+2004,1,santa clara,5773
+2004,2,santa clara,5621
+2004,3,santa clara,5705
+2004,4,santa clara,6401
+2005,1,santa clara,5936
+2005,2,santa clara,5708
+2005,3,santa clara,6139
+2005,4,santa clara,6542
+2006,1,santa clara,6752
+2006,2,santa clara,6112
+2006,3,santa clara,6199
+2006,4,santa clara,6945
+2007,1,santa clara,6869
+2007,2,santa clara,6575
+2007,3,santa clara,6943
+2007,4,santa clara,7422
+2008,1,santa clara,6927
+2008,2,santa clara,6650
+2008,3,santa clara,6641
+2008,4,santa clara,6788
+2009,1,santa clara,6500
+2009,2,santa clara,6225
+2009,3,santa clara,6729
+2009,4,santa clara,7346
+2010,1,santa clara,7019
+2010,2,santa clara,6979
+2010,3,santa clara,7142
+2010,4,santa clara,8492
+2011,1,santa clara,7827
+2011,2,santa clara,7578
+2011,3,santa clara,7838
+2011,4,santa clara,7923
+2012,1,santa clara,8226
+2012,2,santa clara,7713
+2012,3,santa clara,7883
+2012,4,santa clara,8371
+2013,1,santa clara,8482
+2013,2,santa clara,7994
+2013,3,santa clara,8292
+2013,4,santa clara,8800
+2014,1,santa clara,9205
+2014,2,santa clara,8390
+2014,3,santa clara,9051
+2014,4,santa clara,9391
+2015,1,santa clara,9577
+2015,2,santa clara,9290
+2015,3,santa clara,9077
+2015,4,santa clara,10039
+2016,1,santa clara,9660
+2016,2,santa clara,9425
+2016,3,santa clara,9984
+2016,4,santa clara,10249
+2017,1,santa clara,10734
+2017,2,santa clara,10436
+2017,3,santa clara,10095
+2017,4,santa clara,11059
+2018,1,santa clara,11734
+2018,2,santa clara,11059
+2018,3,santa clara,10680
+2018,4,santa clara,11360
+2019,1,santa clara,11869
+2019,2,santa clara,11048
+2019,3,santa clara,10419
+2000,1,santa cruz,3011
+2000,2,santa cruz,2938
+2000,3,santa cruz,2915
+2000,4,santa cruz,4027
+2001,1,santa cruz,3272
+2001,2,santa cruz,3071
+2001,3,santa cruz,2897
+2001,4,santa cruz,3152
+2002,1,santa cruz,3081
+2002,2,santa cruz,3057
+2002,3,santa cruz,3062
+2002,4,santa cruz,3371
+2003,1,santa cruz,3158
+2003,2,santa cruz,3108
+2003,3,santa cruz,3266
+2003,4,santa cruz,3354
+2004,1,santa cruz,3369
+2004,2,santa cruz,3248
+2004,3,santa cruz,3164
+2004,4,santa cruz,3608
+2005,1,santa cruz,3272
+2005,2,santa cruz,3375
+2005,3,santa cruz,3561
+2005,4,santa cruz,3438
+2006,1,santa cruz,3910
+2006,2,santa cruz,3479
+2006,3,santa cruz,3543
+2006,4,santa cruz,3685
+2007,1,santa cruz,3780
+2007,2,santa cruz,3550
+2007,3,santa cruz,3525
+2007,4,santa cruz,3879
+2008,1,santa cruz,3725
+2008,2,santa cruz,3560
+2008,3,santa cruz,3744
+2008,4,santa cruz,3679
+2009,1,santa cruz,3600
+2009,2,santa cruz,3460
+2009,3,santa cruz,3429
+2009,4,santa cruz,3705
+2010,1,santa cruz,3501
+2010,2,santa cruz,3527
+2010,3,santa cruz,3573
+2010,4,santa cruz,3902
+2011,1,santa cruz,3603
+2011,2,santa cruz,3730
+2011,3,santa cruz,3864
+2011,4,santa cruz,3828
+2012,1,santa cruz,3995
+2012,2,santa cruz,3838
+2012,3,santa cruz,3896
+2012,4,santa cruz,3903
+2013,1,santa cruz,3899
+2013,2,santa cruz,3929
+2013,3,santa cruz,4009
+2013,4,santa cruz,4163
+2014,1,santa cruz,3811
+2014,2,santa cruz,3931
+2014,3,santa cruz,3892
+2014,4,santa cruz,4214
+2015,1,santa cruz,3851
+2015,2,santa cruz,4057
+2015,3,santa cruz,4104
+2015,4,santa cruz,4349
+2016,1,santa cruz,3981
+2016,2,santa cruz,4241
+2016,3,santa cruz,4378
+2016,4,santa cruz,4230
+2017,1,santa cruz,4348
+2017,2,santa cruz,4432
+2017,3,santa cruz,4376
+2017,4,santa cruz,4446
+2018,1,santa cruz,4525
+2018,2,santa cruz,4534
+2018,3,santa cruz,4329
+2018,4,santa cruz,4605
+2019,1,santa cruz,4548
+2019,2,santa cruz,4618
+2019,3,santa cruz,4543
+2000,1,shasta,2242
+2000,2,shasta,2403
+2000,3,shasta,2424
+2000,4,shasta,2591
+2001,1,shasta,2403
+2001,2,shasta,2524
+2001,3,shasta,2510
+2001,4,shasta,2676
+2002,1,shasta,2444
+2002,2,shasta,2588
+2002,3,shasta,2529
+2002,4,shasta,2747
+2003,1,shasta,2486
+2003,2,shasta,2604
+2003,3,shasta,2642
+2003,4,shasta,2827
+2004,1,shasta,2558
+2004,2,shasta,2691
+2004,3,shasta,2802
+2004,4,shasta,2966
+2005,1,shasta,2710
+2005,2,shasta,2788
+2005,3,shasta,2966
+2005,4,shasta,3002
+2006,1,shasta,2835
+2006,2,shasta,2874
+2006,3,shasta,2976
+2006,4,shasta,3084
+2007,1,shasta,2956
+2007,2,shasta,3017
+2007,3,shasta,3078
+2007,4,shasta,3188
+2008,1,shasta,2984
+2008,2,shasta,3023
+2008,3,shasta,3146
+2008,4,shasta,3273
+2009,1,shasta,2909
+2009,2,shasta,3019
+2009,3,shasta,3095
+2009,4,shasta,3246
+2010,1,shasta,2873
+2010,2,shasta,3052
+2010,3,shasta,3117
+2010,4,shasta,3312
+2011,1,shasta,2938
+2011,2,shasta,3116
+2011,3,shasta,3270
+2011,4,shasta,3300
+2012,1,shasta,3072
+2012,2,shasta,3149
+2012,3,shasta,3182
+2012,4,shasta,3378
+2013,1,shasta,3157
+2013,2,shasta,3249
+2013,3,shasta,3232
+2013,4,shasta,3365
+2014,1,shasta,3194
+2014,2,shasta,3314
+2014,3,shasta,3350
+2014,4,shasta,3521
+2015,1,shasta,3307
+2015,2,shasta,3346
+2015,3,shasta,3463
+2015,4,shasta,3673
+2016,1,shasta,3339
+2016,2,shasta,3465
+2016,3,shasta,3670
+2016,4,shasta,3665
+2017,1,shasta,3512
+2017,2,shasta,3600
+2017,3,shasta,3693
+2017,4,shasta,3854
+2018,1,shasta,3635
+2018,2,shasta,3663
+2018,3,shasta,3785
+2018,4,shasta,3992
+2019,1,shasta,3744
+2019,2,shasta,3850
+2019,3,shasta,3953
+2000,1,sierra,1841
+2000,2,sierra,2009
+2000,3,sierra,1934
+2000,4,sierra,2129
+2001,1,sierra,2071
+2001,2,sierra,2132
+2001,3,sierra,1721
+2001,4,sierra,1907
+2002,1,sierra,1691
+2002,2,sierra,1775
+2002,3,sierra,1778
+2002,4,sierra,2005
+2003,1,sierra,1873
+2003,2,sierra,1848
+2003,3,sierra,1876
+2003,4,sierra,2219
+2004,1,sierra,2216
+2004,2,sierra,2303
+2004,3,sierra,2231
+2004,4,sierra,2429
+2005,1,sierra,2417
+2005,2,sierra,2515
+2005,3,sierra,2502
+2005,4,sierra,2949
+2006,1,sierra,2655
+2006,2,sierra,2882
+2006,3,sierra,2708
+2006,4,sierra,2902
+2007,1,sierra,2473
+2007,2,sierra,3076
+2007,3,sierra,2730
+2007,4,sierra,3050
+2008,1,sierra,2829
+2008,2,sierra,2981
+2008,3,sierra,2556
+2008,4,sierra,3139
+2009,1,sierra,2777
+2009,2,sierra,3048
+2009,3,sierra,2524
+2009,4,sierra,3143
+2010,1,sierra,2907
+2010,2,sierra,3030
+2010,3,sierra,2692
+2010,4,sierra,3266
+2011,1,sierra,2962
+2011,2,sierra,3271
+2011,3,sierra,3195
+2011,4,sierra,3544
+2012,1,sierra,3425
+2012,2,sierra,3367
+2012,3,sierra,3352
+2012,4,sierra,3320
+2013,1,sierra,3039
+2013,2,sierra,3279
+2013,3,sierra,2838
+2013,4,sierra,3396
+2014,1,sierra,3299
+2014,2,sierra,3148
+2014,3,sierra,3149
+2014,4,sierra,3662
+2015,1,sierra,2873
+2015,2,sierra,3191
+2015,3,sierra,3033
+2015,4,sierra,3742
+2016,1,sierra,2817
+2016,2,sierra,3397
+2016,3,sierra,3609
+2016,4,sierra,3489
+2017,1,sierra,3368
+2017,2,sierra,3123
+2017,3,sierra,3704
+2017,4,sierra,3565
+2018,1,sierra,3527
+2018,2,sierra,3285
+2018,3,sierra,3365
+2018,4,sierra,4158
+2019,1,sierra,3167
+2019,2,sierra,3908
+2019,3,sierra,3368
+2000,1,siskiyou,1809
+2000,2,siskiyou,2039
+2000,3,siskiyou,1891
+2000,4,siskiyou,2095
+2001,1,siskiyou,1873
+2001,2,siskiyou,2188
+2001,3,siskiyou,1965
+2001,4,siskiyou,2178
+2002,1,siskiyou,1974
+2002,2,siskiyou,2251
+2002,3,siskiyou,2061
+2002,4,siskiyou,2253
+2003,1,siskiyou,2080
+2003,2,siskiyou,2324
+2003,3,siskiyou,2106
+2003,4,siskiyou,2329
+2004,1,siskiyou,2122
+2004,2,siskiyou,2396
+2004,3,siskiyou,2218
+2004,4,siskiyou,2409
+2005,1,siskiyou,2159
+2005,2,siskiyou,2496
+2005,3,siskiyou,2317
+2005,4,siskiyou,2468
+2006,1,siskiyou,2341
+2006,2,siskiyou,2586
+2006,3,siskiyou,2393
+2006,4,siskiyou,2527
+2007,1,siskiyou,2399
+2007,2,siskiyou,2636
+2007,3,siskiyou,2475
+2007,4,siskiyou,2645
+2008,1,siskiyou,2485
+2008,2,siskiyou,2649
+2008,3,siskiyou,2491
+2008,4,siskiyou,2696
+2009,1,siskiyou,2413
+2009,2,siskiyou,2691
+2009,3,siskiyou,2490
+2009,4,siskiyou,2773
+2010,1,siskiyou,2448
+2010,2,siskiyou,2777
+2010,3,siskiyou,2624
+2010,4,siskiyou,2928
+2011,1,siskiyou,2544
+2011,2,siskiyou,2838
+2011,3,siskiyou,2756
+2011,4,siskiyou,2858
+2012,1,siskiyou,2655
+2012,2,siskiyou,2866
+2012,3,siskiyou,2676
+2012,4,siskiyou,2871
+2013,1,siskiyou,2617
+2013,2,siskiyou,2902
+2013,3,siskiyou,2730
+2013,4,siskiyou,2912
+2014,1,siskiyou,2703
+2014,2,siskiyou,2956
+2014,3,siskiyou,2817
+2014,4,siskiyou,3027
+2015,1,siskiyou,2758
+2015,2,siskiyou,3070
+2015,3,siskiyou,2971
+2015,4,siskiyou,3221
+2016,1,siskiyou,2846
+2016,2,siskiyou,3211
+2016,3,siskiyou,3159
+2016,4,siskiyou,3242
+2017,1,siskiyou,3066
+2017,2,siskiyou,3353
+2017,3,siskiyou,3216
+2017,4,siskiyou,3381
+2018,1,siskiyou,3189
+2018,2,siskiyou,3440
+2018,3,siskiyou,3361
+2018,4,siskiyou,3524
+2019,1,siskiyou,3300
+2019,2,siskiyou,3578
+2019,3,siskiyou,3415
+2000,1,solano,3026
+2000,2,solano,3009
+2000,3,solano,3067
+2000,4,solano,3170
+2001,1,solano,3316
+2001,2,solano,3213
+2001,3,solano,3127
+2001,4,solano,3569
+2002,1,solano,3309
+2002,2,solano,3272
+2002,3,solano,3311
+2002,4,solano,3374
+2003,1,solano,3392
+2003,2,solano,3330
+2003,3,solano,3424
+2003,4,solano,3562
+2004,1,solano,3473
+2004,2,solano,3456
+2004,3,solano,3457
+2004,4,solano,3767
+2005,1,solano,3548
+2005,2,solano,3609
+2005,3,solano,3809
+2005,4,solano,3702
+2006,1,solano,3932
+2006,2,solano,3759
+2006,3,solano,3772
+2006,4,solano,3893
+2007,1,solano,4170
+2007,2,solano,4061
+2007,3,solano,3785
+2007,4,solano,4239
+2008,1,solano,4128
+2008,2,solano,4203
+2008,3,solano,4185
+2008,4,solano,4418
+2009,1,solano,4750
+2009,2,solano,4214
+2009,3,solano,4176
+2009,4,solano,4422
+2010,1,solano,4270
+2010,2,solano,4146
+2010,3,solano,4212
+2010,4,solano,4542
+2011,1,solano,4485
+2011,2,solano,4311
+2011,3,solano,4637
+2011,4,solano,4365
+2012,1,solano,4840
+2012,2,solano,4373
+2012,3,solano,4280
+2012,4,solano,4711
+2013,1,solano,4858
+2013,2,solano,4526
+2013,3,solano,4587
+2013,4,solano,4914
+2014,1,solano,5028
+2014,2,solano,4695
+2014,3,solano,4760
+2014,4,solano,5057
+2015,1,solano,5095
+2015,2,solano,4827
+2015,3,solano,4898
+2015,4,solano,5342
+2016,1,solano,5140
+2016,2,solano,4922
+2016,3,solano,5204
+2016,4,solano,5027
+2017,1,solano,5306
+2017,2,solano,5116
+2017,3,solano,5109
+2017,4,solano,5206
+2018,1,solano,5506
+2018,2,solano,5216
+2018,3,solano,5085
+2018,4,solano,5484
+2019,1,solano,5508
+2019,2,solano,5504
+2019,3,solano,5451
+2000,1,sonoma,3242
+2000,2,sonoma,3311
+2000,3,sonoma,3344
+2000,4,sonoma,3373
+2001,1,sonoma,3179
+2001,2,sonoma,3261
+2001,3,sonoma,3129
+2001,4,sonoma,3346
+2002,1,sonoma,3149
+2002,2,sonoma,3277
+2002,3,sonoma,3185
+2002,4,sonoma,3420
+2003,1,sonoma,3198
+2003,2,sonoma,3242
+2003,3,sonoma,3249
+2003,4,sonoma,3485
+2004,1,sonoma,3241
+2004,2,sonoma,3343
+2004,3,sonoma,3322
+2004,4,sonoma,3686
+2005,1,sonoma,3341
+2005,2,sonoma,3461
+2005,3,sonoma,3612
+2005,4,sonoma,3814
+2006,1,sonoma,3554
+2006,2,sonoma,3611
+2006,3,sonoma,3563
+2006,4,sonoma,3885
+2007,1,sonoma,3676
+2007,2,sonoma,3691
+2007,3,sonoma,3653
+2007,4,sonoma,4007
+2008,1,sonoma,3669
+2008,2,sonoma,3689
+2008,3,sonoma,3661
+2008,4,sonoma,3982
+2009,1,sonoma,3624
+2009,2,sonoma,3664
+2009,3,sonoma,3645
+2009,4,sonoma,3981
+2010,1,sonoma,3607
+2010,2,sonoma,3660
+2010,3,sonoma,3753
+2010,4,sonoma,4152
+2011,1,sonoma,3790
+2011,2,sonoma,3842
+2011,3,sonoma,3955
+2011,4,sonoma,4044
+2012,1,sonoma,3896
+2012,2,sonoma,3820
+2012,3,sonoma,3908
+2012,4,sonoma,4205
+2013,1,sonoma,3942
+2013,2,sonoma,3898
+2013,3,sonoma,3984
+2013,4,sonoma,4203
+2014,1,sonoma,3955
+2014,2,sonoma,3915
+2014,3,sonoma,4080
+2014,4,sonoma,4355
+2015,1,sonoma,4187
+2015,2,sonoma,4118
+2015,3,sonoma,4279
+2015,4,sonoma,4792
+2016,1,sonoma,4194
+2016,2,sonoma,4303
+2016,3,sonoma,4588
+2016,4,sonoma,4639
+2017,1,sonoma,4430
+2017,2,sonoma,4499
+2017,3,sonoma,4556
+2017,4,sonoma,4849
+2018,1,sonoma,4693
+2018,2,sonoma,4644
+2018,3,sonoma,4732
+2018,4,sonoma,5091
+2019,1,sonoma,4793
+2019,2,sonoma,4861
+2019,3,sonoma,4918
+2000,1,stanislaus,2537
+2000,2,stanislaus,2569
+2000,3,stanislaus,2640
+2000,4,stanislaus,2726
+2001,1,stanislaus,2655
+2001,2,stanislaus,2738
+2001,3,stanislaus,2741
+2001,4,stanislaus,2834
+2002,1,stanislaus,2743
+2002,2,stanislaus,2763
+2002,3,stanislaus,2826
+2002,4,stanislaus,2860
+2003,1,stanislaus,2927
+2003,2,stanislaus,2846
+2003,3,stanislaus,2949
+2003,4,stanislaus,3017
+2004,1,stanislaus,2901
+2004,2,stanislaus,2934
+2004,3,stanislaus,3045
+2004,4,stanislaus,3156
+2005,1,stanislaus,2977
+2005,2,stanislaus,3062
+2005,3,stanislaus,3180
+2005,4,stanislaus,3237
+2006,1,stanislaus,3137
+2006,2,stanislaus,3187
+2006,3,stanislaus,3200
+2006,4,stanislaus,3345
+2007,1,stanislaus,3261
+2007,2,stanislaus,3316
+2007,3,stanislaus,3298
+2007,4,stanislaus,3445
+2008,1,stanislaus,3346
+2008,2,stanislaus,3373
+2008,3,stanislaus,3371
+2008,4,stanislaus,3487
+2009,1,stanislaus,3262
+2009,2,stanislaus,3360
+2009,3,stanislaus,3382
+2009,4,stanislaus,3573
+2010,1,stanislaus,3285
+2010,2,stanislaus,3437
+2010,3,stanislaus,3409
+2010,4,stanislaus,3615
+2011,1,stanislaus,3405
+2011,2,stanislaus,3429
+2011,3,stanislaus,3572
+2011,4,stanislaus,3479
+2012,1,stanislaus,3550
+2012,2,stanislaus,3410
+2012,3,stanislaus,3534
+2012,4,stanislaus,3578
+2013,1,stanislaus,3591
+2013,2,stanislaus,3463
+2013,3,stanislaus,3606
+2013,4,stanislaus,3619
+2014,1,stanislaus,3678
+2014,2,stanislaus,3541
+2014,3,stanislaus,3699
+2014,4,stanislaus,3799
+2015,1,stanislaus,3805
+2015,2,stanislaus,3738
+2015,3,stanislaus,3898
+2015,4,stanislaus,4072
+2016,1,stanislaus,3834
+2016,2,stanislaus,3801
+2016,3,stanislaus,4103
+2016,4,stanislaus,4062
+2017,1,stanislaus,4025
+2017,2,stanislaus,3959
+2017,3,stanislaus,4063
+2017,4,stanislaus,4204
+2018,1,stanislaus,4155
+2018,2,stanislaus,4107
+2018,3,stanislaus,4314
+2018,4,stanislaus,4298
+2019,1,stanislaus,4286
+2019,2,stanislaus,4284
+2019,3,stanislaus,4331
+2000,1,sutter,2097
+2000,2,sutter,2266
+2000,3,sutter,2200
+2000,4,sutter,2293
+2001,1,sutter,2279
+2001,2,sutter,2435
+2001,3,sutter,2350
+2001,4,sutter,2496
+2002,1,sutter,2368
+2002,2,sutter,2523
+2002,3,sutter,2491
+2002,4,sutter,2597
+2003,1,sutter,2777
+2003,2,sutter,2577
+2003,3,sutter,2606
+2003,4,sutter,2667
+2004,1,sutter,2497
+2004,2,sutter,2692
+2004,3,sutter,2702
+2004,4,sutter,2886
+2005,1,sutter,2519
+2005,2,sutter,2773
+2005,3,sutter,2780
+2005,4,sutter,2952
+2006,1,sutter,2704
+2006,2,sutter,2949
+2006,3,sutter,2790
+2006,4,sutter,3043
+2007,1,sutter,2757
+2007,2,sutter,3052
+2007,3,sutter,2868
+2007,4,sutter,3100
+2008,1,sutter,2809
+2008,2,sutter,3092
+2008,3,sutter,2901
+2008,4,sutter,3142
+2009,1,sutter,2772
+2009,2,sutter,3116
+2009,3,sutter,2877
+2009,4,sutter,3180
+2010,1,sutter,2803
+2010,2,sutter,3123
+2010,3,sutter,2983
+2010,4,sutter,3160
+2011,1,sutter,2915
+2011,2,sutter,3117
+2011,3,sutter,3142
+2011,4,sutter,3187
+2012,1,sutter,3094
+2012,2,sutter,3145
+2012,3,sutter,3132
+2012,4,sutter,3247
+2013,1,sutter,3125
+2013,2,sutter,3192
+2013,3,sutter,3213
+2013,4,sutter,3328
+2014,1,sutter,3185
+2014,2,sutter,3272
+2014,3,sutter,3297
+2014,4,sutter,3423
+2015,1,sutter,3381
+2015,2,sutter,3388
+2015,3,sutter,3447
+2015,4,sutter,3721
+2016,1,sutter,3282
+2016,2,sutter,3541
+2016,3,sutter,3581
+2016,4,sutter,3729
+2017,1,sutter,3434
+2017,2,sutter,3662
+2017,3,sutter,3486
+2017,4,sutter,3847
+2018,1,sutter,3584
+2018,2,sutter,3817
+2018,3,sutter,3615
+2018,4,sutter,3945
+2019,1,sutter,3609
+2019,2,sutter,3899
+2019,3,sutter,3762
+2000,1,tehama,2207
+2000,2,tehama,2307
+2000,3,tehama,2282
+2000,4,tehama,2352
+2001,1,tehama,2280
+2001,2,tehama,2411
+2001,3,tehama,2377
+2001,4,tehama,2434
+2002,1,tehama,2317
+2002,2,tehama,2484
+2002,3,tehama,2464
+2002,4,tehama,2527
+2003,1,tehama,2447
+2003,2,tehama,2522
+2003,3,tehama,2547
+2003,4,tehama,2698
+2004,1,tehama,2422
+2004,2,tehama,2624
+2004,3,tehama,2634
+2004,4,tehama,2780
+2005,1,tehama,2500
+2005,2,tehama,2723
+2005,3,tehama,2698
+2005,4,tehama,2841
+2006,1,tehama,2626
+2006,2,tehama,2849
+2006,3,tehama,2661
+2006,4,tehama,2862
+2007,1,tehama,2758
+2007,2,tehama,2985
+2007,3,tehama,2747
+2007,4,tehama,2981
+2008,1,tehama,2747
+2008,2,tehama,2975
+2008,3,tehama,2777
+2008,4,tehama,3065
+2009,1,tehama,2630
+2009,2,tehama,2911
+2009,3,tehama,2747
+2009,4,tehama,2991
+2010,1,tehama,2667
+2010,2,tehama,2941
+2010,3,tehama,2871
+2010,4,tehama,3107
+2011,1,tehama,2808
+2011,2,tehama,2969
+2011,3,tehama,3004
+2011,4,tehama,3049
+2012,1,tehama,2938
+2012,2,tehama,3009
+2012,3,tehama,3016
+2012,4,tehama,3140
+2013,1,tehama,3046
+2013,2,tehama,3112
+2013,3,tehama,3169
+2013,4,tehama,3331
+2014,1,tehama,3219
+2014,2,tehama,3180
+2014,3,tehama,3259
+2014,4,tehama,3536
+2015,1,tehama,3256
+2015,2,tehama,3415
+2015,3,tehama,3499
+2015,4,tehama,3806
+2016,1,tehama,3295
+2016,2,tehama,3562
+2016,3,tehama,3655
+2016,4,tehama,3819
+2017,1,tehama,3495
+2017,2,tehama,3688
+2017,3,tehama,3657
+2017,4,tehama,3990
+2018,1,tehama,3594
+2018,2,tehama,3800
+2018,3,tehama,3758
+2018,4,tehama,4120
+2019,1,tehama,3696
+2019,2,tehama,3986
+2019,3,tehama,3881
+2000,1,trinity,1805
+2000,2,trinity,2099
+2000,3,trinity,1747
+2000,4,trinity,1810
+2001,1,trinity,1879
+2001,2,trinity,2175
+2001,3,trinity,1875
+2001,4,trinity,2161
+2002,1,trinity,1997
+2002,2,trinity,2157
+2002,3,trinity,1899
+2002,4,trinity,2276
+2003,1,trinity,2071
+2003,2,trinity,2214
+2003,3,trinity,2069
+2003,4,trinity,2278
+2004,1,trinity,2185
+2004,2,trinity,2340
+2004,3,trinity,2124
+2004,4,trinity,2330
+2005,1,trinity,2291
+2005,2,trinity,2334
+2005,3,trinity,2254
+2005,4,trinity,2481
+2006,1,trinity,2443
+2006,2,trinity,2505
+2006,3,trinity,2475
+2006,4,trinity,2630
+2007,1,trinity,2548
+2007,2,trinity,2615
+2007,3,trinity,2445
+2007,4,trinity,2546
+2008,1,trinity,2567
+2008,2,trinity,2528
+2008,3,trinity,2450
+2008,4,trinity,3756
+2009,1,trinity,2370
+2009,2,trinity,2562
+2009,3,trinity,2501
+2009,4,trinity,2635
+2010,1,trinity,2499
+2010,2,trinity,2624
+2010,3,trinity,2590
+2010,4,trinity,2718
+2011,1,trinity,2584
+2011,2,trinity,2781
+2011,3,trinity,2781
+2011,4,trinity,2679
+2012,1,trinity,2600
+2012,2,trinity,2681
+2012,3,trinity,2622
+2012,4,trinity,2774
+2013,1,trinity,2618
+2013,2,trinity,2696
+2013,3,trinity,2536
+2013,4,trinity,2842
+2014,1,trinity,2622
+2014,2,trinity,2741
+2014,3,trinity,2775
+2014,4,trinity,2985
+2015,1,trinity,2755
+2015,2,trinity,2982
+2015,3,trinity,2829
+2015,4,trinity,3032
+2016,1,trinity,2844
+2016,2,trinity,3028
+2016,3,trinity,3033
+2016,4,trinity,3148
+2017,1,trinity,3007
+2017,2,trinity,3202
+2017,3,trinity,3093
+2017,4,trinity,3326
+2018,1,trinity,3168
+2018,2,trinity,3379
+2018,3,trinity,3191
+2018,4,trinity,3965
+2019,1,trinity,3372
+2019,2,trinity,3461
+2019,3,trinity,3269
+2000,1,tulare,2101
+2000,2,tulare,2202
+2000,3,tulare,2143
+2000,4,tulare,2364
+2001,1,tulare,2200
+2001,2,tulare,2301
+2001,3,tulare,2212
+2001,4,tulare,2433
+2002,1,tulare,2262
+2002,2,tulare,2363
+2002,3,tulare,2270
+2002,4,tulare,2527
+2003,1,tulare,2359
+2003,2,tulare,2419
+2003,3,tulare,2354
+2003,4,tulare,2565
+2004,1,tulare,2386
+2004,2,tulare,2475
+2004,3,tulare,2413
+2004,4,tulare,2702
+2005,1,tulare,2420
+2005,2,tulare,2562
+2005,3,tulare,2586
+2005,4,tulare,2774
+2006,1,tulare,2624
+2006,2,tulare,2688
+2006,3,tulare,2629
+2006,4,tulare,2853
+2007,1,tulare,2704
+2007,2,tulare,2781
+2007,3,tulare,2735
+2007,4,tulare,3024
+2008,1,tulare,2787
+2008,2,tulare,2856
+2008,3,tulare,2838
+2008,4,tulare,3065
+2009,1,tulare,2728
+2009,2,tulare,2871
+2009,3,tulare,2711
+2009,4,tulare,3105
+2010,1,tulare,2706
+2010,2,tulare,2891
+2010,3,tulare,2807
+2010,4,tulare,3183
+2011,1,tulare,2795
+2011,2,tulare,2942
+2011,3,tulare,2941
+2011,4,tulare,3138
+2012,1,tulare,2908
+2012,2,tulare,2989
+2012,3,tulare,2880
+2012,4,tulare,3235
+2013,1,tulare,2978
+2013,2,tulare,3074
+2013,3,tulare,2974
+2013,4,tulare,3294
+2014,1,tulare,3003
+2014,2,tulare,3071
+2014,3,tulare,3064
+2014,4,tulare,3432
+2015,1,tulare,3137
+2015,2,tulare,3167
+2015,3,tulare,3159
+2015,4,tulare,3584
+2016,1,tulare,3199
+2016,2,tulare,3299
+2016,3,tulare,3341
+2016,4,tulare,3574
+2017,1,tulare,3373
+2017,2,tulare,3392
+2017,3,tulare,3356
+2017,4,tulare,3810
+2018,1,tulare,3485
+2018,2,tulare,3471
+2018,3,tulare,3429
+2018,4,tulare,3790
+2019,1,tulare,3541
+2019,2,tulare,3639
+2019,3,tulare,3552
+2000,1,tuolumne,2129
+2000,2,tuolumne,2399
+2000,3,tuolumne,2501
+2000,4,tuolumne,2589
+2001,1,tuolumne,2423
+2001,2,tuolumne,2556
+2001,3,tuolumne,2604
+2001,4,tuolumne,2763
+2002,1,tuolumne,2554
+2002,2,tuolumne,2643
+2002,3,tuolumne,2729
+2002,4,tuolumne,2812
+2003,1,tuolumne,2570
+2003,2,tuolumne,2677
+2003,3,tuolumne,2779
+2003,4,tuolumne,2971
+2004,1,tuolumne,2627
+2004,2,tuolumne,2796
+2004,3,tuolumne,2990
+2004,4,tuolumne,3103
+2005,1,tuolumne,2814
+2005,2,tuolumne,2871
+2005,3,tuolumne,3204
+2005,4,tuolumne,3212
+2006,1,tuolumne,2990
+2006,2,tuolumne,3069
+2006,3,tuolumne,3262
+2006,4,tuolumne,3398
+2007,1,tuolumne,3177
+2007,2,tuolumne,3325
+2007,3,tuolumne,3402
+2007,4,tuolumne,3556
+2008,1,tuolumne,3241
+2008,2,tuolumne,3316
+2008,3,tuolumne,3352
+2008,4,tuolumne,3522
+2009,1,tuolumne,3147
+2009,2,tuolumne,3282
+2009,3,tuolumne,3163
+2009,4,tuolumne,3561
+2010,1,tuolumne,3099
+2010,2,tuolumne,23382
+2010,3,tuolumne,3313
+2010,4,tuolumne,3594
+2011,1,tuolumne,3180
+2011,2,tuolumne,3405
+2011,3,tuolumne,3386
+2011,4,tuolumne,3614
+2012,1,tuolumne,3267
+2012,2,tuolumne,3402
+2012,3,tuolumne,3369
+2012,4,tuolumne,3628
+2013,1,tuolumne,3292
+2013,2,tuolumne,3466
+2013,3,tuolumne,3425
+2013,4,tuolumne,3702
+2014,1,tuolumne,3410
+2014,2,tuolumne,3582
+2014,3,tuolumne,3415
+2014,4,tuolumne,3700
+2015,1,tuolumne,3425
+2015,2,tuolumne,3690
+2015,3,tuolumne,3591
+2015,4,tuolumne,3952
+2016,1,tuolumne,3550
+2016,2,tuolumne,3673
+2016,3,tuolumne,3920
+2016,4,tuolumne,3917
+2017,1,tuolumne,3759
+2017,2,tuolumne,3811
+2017,3,tuolumne,3974
+2017,4,tuolumne,4200
+2018,1,tuolumne,4006
+2018,2,tuolumne,3939
+2018,3,tuolumne,3994
+2018,4,tuolumne,4253
+2019,1,tuolumne,4110
+2019,2,tuolumne,4164
+2019,3,tuolumne,4124
+2000,1,ventura,3613
+2000,2,ventura,3221
+2000,3,ventura,3388
+2000,4,ventura,3489
+2001,1,ventura,3484
+2001,2,ventura,3232
+2001,3,ventura,3164
+2001,4,ventura,3560
+2002,1,ventura,3440
+2002,2,ventura,3338
+2002,3,ventura,3231
+2002,4,ventura,3648
+2003,1,ventura,3614
+2003,2,ventura,3541
+2003,3,ventura,3582
+2003,4,ventura,3757
+2004,1,ventura,3899
+2004,2,ventura,3680
+2004,3,ventura,3664
+2004,4,ventura,4304
+2005,1,ventura,4112
+2005,2,ventura,3889
+2005,3,ventura,4041
+2005,4,ventura,4190
+2006,1,ventura,4329
+2006,2,ventura,4005
+2006,3,ventura,3884
+2006,4,ventura,4478
+2007,1,ventura,4615
+2007,2,ventura,4198
+2007,3,ventura,3868
+2007,4,ventura,4477
+2008,1,ventura,4329
+2008,2,ventura,4062
+2008,3,ventura,3965
+2008,4,ventura,4249
+2009,1,ventura,5505
+2009,2,ventura,4057
+2009,3,ventura,3881
+2009,4,ventura,4264
+2010,1,ventura,4213
+2010,2,ventura,4092
+2010,3,ventura,3936
+2010,4,ventura,4383
+2011,1,ventura,4378
+2011,2,ventura,4229
+2011,3,ventura,4110
+2011,4,ventura,4208
+2012,1,ventura,4707
+2012,2,ventura,4200
+2012,3,ventura,4143
+2012,4,ventura,4376
+2013,1,ventura,4722
+2013,2,ventura,4332
+2013,3,ventura,4150
+2013,4,ventura,4387
+2014,1,ventura,5005
+2014,2,ventura,4404
+2014,3,ventura,4219
+2014,4,ventura,4625
+2015,1,ventura,4688
+2015,2,ventura,4880
+2015,3,ventura,4311
+2015,4,ventura,4837
+2016,1,ventura,4981
+2016,2,ventura,4551
+2016,3,ventura,4605
+2016,4,ventura,4714
+2017,1,ventura,5140
+2017,2,ventura,4645
+2017,3,ventura,4597
+2017,4,ventura,4844
+2018,1,ventura,5061
+2018,2,ventura,4762
+2018,3,ventura,4620
+2018,4,ventura,4937
+2019,1,ventura,5341
+2019,2,ventura,4893
+2019,3,ventura,4799
+2000,1,yolo,2607
+2000,2,yolo,2712
+2000,3,yolo,2747
+2000,4,yolo,2899
+2001,1,yolo,2728
+2001,2,yolo,2832
+2001,3,yolo,2837
+2001,4,yolo,2986
+2002,1,yolo,2832
+2002,2,yolo,2896
+2002,3,yolo,2925
+2002,4,yolo,3128
+2003,1,yolo,2895
+2003,2,yolo,2945
+2003,3,yolo,3004
+2003,4,yolo,3188
+2004,1,yolo,2963
+2004,2,yolo,3130
+2004,3,yolo,3245
+2004,4,yolo,3476
+2005,1,yolo,3151
+2005,2,yolo,3269
+2005,3,yolo,3451
+2005,4,yolo,3515
+2006,1,yolo,3337
+2006,2,yolo,3363
+2006,3,yolo,3442
+2006,4,yolo,3618
+2007,1,yolo,3364
+2007,2,yolo,3435
+2007,3,yolo,3458
+2007,4,yolo,3758
+2008,1,yolo,3458
+2008,2,yolo,3513
+2008,3,yolo,3524
+2008,4,yolo,3755
+2009,1,yolo,3373
+2009,2,yolo,3493
+2009,3,yolo,3412
+2009,4,yolo,3821
+2010,1,yolo,3329
+2010,2,yolo,3533
+2010,3,yolo,3552
+2010,4,yolo,3911
+2011,1,yolo,3469
+2011,2,yolo,3597
+2011,3,yolo,3724
+2011,4,yolo,3844
+2012,1,yolo,3631
+2012,2,yolo,3766
+2012,3,yolo,3876
+2012,4,yolo,3924
+2013,1,yolo,3731
+2013,2,yolo,3789
+2013,3,yolo,3754
+2013,4,yolo,4031
+2014,1,yolo,3856
+2014,2,yolo,3867
+2014,3,yolo,3875
+2014,4,yolo,4197
+2015,1,yolo,3971
+2015,2,yolo,4003
+2015,3,yolo,4028
+2015,4,yolo,4480
+2016,1,yolo,4005
+2016,2,yolo,4131
+2016,3,yolo,4245
+2016,4,yolo,4388
+2017,1,yolo,4196
+2017,2,yolo,4227
+2017,3,yolo,4228
+2017,4,yolo,4578
+2018,1,yolo,4455
+2018,2,yolo,4349
+2018,3,yolo,4369
+2018,4,yolo,4708
+2019,1,yolo,4465
+2019,2,yolo,4481
+2019,3,yolo,4525
+2000,1,yuba,2272
+2000,2,yuba,2576
+2000,3,yuba,2482
+2000,4,yuba,2810
+2001,1,yuba,2634
+2001,2,yuba,2768
+2001,3,yuba,2627
+2001,4,yuba,2821
+2002,1,yuba,2706
+2002,2,yuba,2818
+2002,3,yuba,2699
+2002,4,yuba,2961
+2003,1,yuba,2840
+2003,2,yuba,2846
+2003,3,yuba,2834
+2003,4,yuba,3095
+2004,1,yuba,2867
+2004,2,yuba,3005
+2004,3,yuba,2896
+2004,4,yuba,3151
+2005,1,yuba,2933
+2005,2,yuba,3113
+2005,3,yuba,3002
+2005,4,yuba,3248
+2006,1,yuba,3081
+2006,2,yuba,3218
+2006,3,yuba,3165
+2006,4,yuba,3453
+2007,1,yuba,3381
+2007,2,yuba,3433
+2007,3,yuba,3336
+2007,4,yuba,3589
+2008,1,yuba,3475
+2008,2,yuba,3576
+2008,3,yuba,3527
+2008,4,yuba,3713
+2009,1,yuba,3558
+2009,2,yuba,3613
+2009,3,yuba,3458
+2009,4,yuba,3746
+2010,1,yuba,3419
+2010,2,yuba,3752
+2010,3,yuba,3565
+2010,4,yuba,3662
+2011,1,yuba,3567
+2011,2,yuba,3642
+2011,3,yuba,3661
+2011,4,yuba,3691
+2012,1,yuba,3636
+2012,2,yuba,3660
+2012,3,yuba,3622
+2012,4,yuba,3726
+2013,1,yuba,3709
+2013,2,yuba,3580
+2013,3,yuba,3591
+2013,4,yuba,3766
+2014,1,yuba,3730
+2014,2,yuba,3696
+2014,3,yuba,3688
+2014,4,yuba,4007
+2015,1,yuba,3817
+2015,2,yuba,3852
+2015,3,yuba,3875
+2015,4,yuba,4224
+2016,1,yuba,3882
+2016,2,yuba,4036
+2016,3,yuba,3939
+2016,4,yuba,4194
+2017,1,yuba,4050
+2017,2,yuba,4234
+2017,3,yuba,3971
+2017,4,yuba,4327
+2018,1,yuba,4116
+2018,2,yuba,4339
+2018,3,yuba,4068
+2018,4,yuba,4446
+2019,1,yuba,4406
+2019,2,yuba,4345
+2019,3,yuba,4471
