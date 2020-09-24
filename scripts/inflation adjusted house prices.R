@@ -10,16 +10,16 @@ houses <- read_csv(here("data", "house_price", "h_price_clean.csv"))
 adj_house <- houses %>%
   mutate(adjusted=NA) %>%
   mutate(adjusted=ifelse(year=="2010",(house_price*0.1920)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2011",(house_price*0.1756)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2012",(house_price*0.1440)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2013",(house_price*0.1233)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2014",(house_price*0.1087)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2015",(house_price*0.0925)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2016",(house_price*0.0913)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2017",(house_price*0.0787)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2018",(house_price*0.0574)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2019",(house_price*0.0325)+house_price,adjusted)) %>%
-  mutate(adjusted=ifelse(year=="2020",(house_price*0.0149)+house_price,adjusted))
+  mutate(adjusted=ifelse(year=="2011",(house_price*0.1555)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2012",(house_price*0.1321)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2013",(house_price*0.1157)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2014",(house_price*0.0979)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2015",(house_price*0.0966)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2016",(house_price*0.083)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2017",(house_price*0.0604)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2018",(house_price*0.0346)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2019",(house_price*0.0167)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2020",(house_price*0)+house_price,adjusted))
 
 # remove years 2000 to 2009 and nas
 adj_house <- adj_house %>%
