@@ -11,6 +11,7 @@ library(ggcorrplot)
 library(DataExplorer)
 library(GGally)
 library(hydroGOF)
+library(corrplot)
 
 # Set working directory
 setwd("C:/Users/sandr/projects/part-a/data")
@@ -23,14 +24,13 @@ summary(earthquakes)
 plot_missing(earthquakes)
 
 # check for multicollinearity using corrplot
-library(corrplot)
 ggcorr(earthquakes, method = 'pairwise')
 
 # select some variables only - # year,population,crime_total,crime_index,quakes_minor,quakes_moderate,quakes_severe,gdp_change,house_price,fault_length
 
 earthquakes_selected <- earthquakes[, c(1:2,5,16:21,23,37)]
 
-df_status(earthquakes_selected)
+# Remove NAs 
 earthquakes_selected <- na.omit(earthquakes_selected)
 
 # Set seed for reproducibility 
