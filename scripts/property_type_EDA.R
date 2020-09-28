@@ -34,7 +34,7 @@ property_house <- property_type %>%
   )
 
 # plot
-house <- ggplot(property_house, aes(x=year, y=mean_per_house,group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of houses",x="Year", y = "% house") + ylim(60,70)
+house <- ggplot(property_house, aes(x=year, y=mean_per_house,group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of houses",x="Year", y = "% house") + ylim(65,67)
 
 # Plot per_townhouse
 # group and remove NAs
@@ -47,7 +47,7 @@ property_townhouse <- property_type %>%
   )
 
 # plot
-townhouse <- ggplot(property_townhouse, aes(x=year, y=mean_per_townhouse, group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of townhouses ",x="Year", y = "% townhouse") + ylim(5,10)
+townhouse <- ggplot(property_townhouse, aes(x=year, y=mean_per_townhouse, group = 1)) + geom_line() + geom_point(color="red", size=3) + labs(title="Average % of townhouses ",x="Year", y = "% townhouse") + ylim(7,9)
 
 # Plot per_apartments
 # group and remove NAs
