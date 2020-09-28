@@ -30,40 +30,37 @@ ggcorr(earthquakes, method = 'pairwise')
 
 earthquakes_selected <- earthquakes[, c(1:2,5,16:21,23,37)]
 
-# Remove NAs 
+# Remove NAs
 earthquakes_selected <- na.omit(earthquakes_selected)
 
 # Set seed for reproducibility 
 set.seed(48) 
 
 # Split train/test at random
-train_binary = createDataPartition(y = earthquakes_selected$county, p = 0.7, list = F)
-training_binary = earthquakes_selected[train_binary, ]
-testing_binary = earthquakes_selected[-train_binary, ]
+train_split= createDataPartition(y = earthquakes_selected$county, p = 0.7, list = F)
+training = earthquakes_selected[train_split, ]
+testing = earthquakes_selected[-train_split, ]
 
 # simple multiple linear regression model # adjusted r square 0.58
-slm <- lm(formula =  house_price ~ ., data = training_binary)
+slm <- lm(formula =  house_price ~ ., data = training)
 
 # Plot the model information
 par(mfrow = c(2, 2)) 
 plot(slm)  
 
 # predict on testset
-prediction <- predict.lm(slm, testing_binary, type="response", interval="confidence")
+prediction <- predict.lm(slm, testing, type="response", interval="confidence")
 
 # add column with predicted value (fit) and error (difference between actual and predicted)
-testing_binary$fit <- as.data.frame(prediction)$fit
-testing_binary$error <- testing_binary$house_price-testing_binary$fit
-
-# plot actuals vs predicted
-# Compare actuals vs predicted on testset
+testing$fit <- as.data.frame(prediction)$fit
+testing$error <- testing$house_price-testing$fit
 
 # calculate RMSE
-rmse(testing_binary$house_price, testing_binary$fit)
+rmse(testing$house_price, testing$fit)
 
 # calculate RMSE after grouping by county
 
-predicted_actuals <- testing_binary %>% 
+predicted_actuals <- testing %>% 
   group_by(county) %>% 
   summarise(actual = mean(house_price), 
             predicted = mean(fit))
