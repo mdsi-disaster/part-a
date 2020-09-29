@@ -46,6 +46,8 @@ data$id <- 1:nrow(data)
 train <- data%>%sample_frac(.75)
 test <- anti_join(data,train,by='id')
 
-model <- lm(formula = log(house_price)~.,data=train)
-train.back <- drop1(model,test="Chisq")
-train.back
+model <- lm(formula = log(house_price)~.-id,data=train)
+#train.back <- drop1(model,test="Chisq")
+#train.back
+
+step(model,direction="backward")
