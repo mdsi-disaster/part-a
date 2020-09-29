@@ -51,3 +51,18 @@ model <- lm(formula = log(house_price)~.-id,data=train)
 #train.back
 
 step(model,direction="backward")
+
+model1 <- lm(formula = log(house_price)~crime_murder + crime_rape + crime_robbery + 
+               crime_arson + property_house + property_house_per + property_townhouse + 
+               property_townhouse_per + property_low_rise_per + property_mid_rise + 
+               property_mid_rise_per + property_high_rise_per + income + 
+               unemployment_rate + population,data=train)
+par(mfrow = c(2, 2)) 
+plot(model1)  
+
+pred <- predict(model1,test,type='response',interval = 'confidence')
+
+test$fit <- as.data.frame(pred)$fit
+test$error <- log(test$house_price) - test$fit
+
+RMSE(test$house_price,test$fit)
