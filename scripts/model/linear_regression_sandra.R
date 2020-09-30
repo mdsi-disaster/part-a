@@ -43,7 +43,7 @@ testing = earthquakes_selected[-train_split, ]
 
 # simple multiple linear regression model # adjusted r square 0.58
 slm <- lm(formula =  house_price ~ ., data = training)
-
+summary(slm)
 # Plot the model information
 par(mfrow = c(2, 2)) 
 plot(slm)  
