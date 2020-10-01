@@ -95,11 +95,12 @@ fault_df <- read_csv(paste0(path, fault_file))
 filtered_df <- filtered_df %>% 
   left_join(select(fault_df, c("county", "fault_score")), by = "county")
 
-# Check for missing data
-filtered_df %>% 
-  filter(is.na(fault_score)) %>% 
-  select(county) %>% 
-  unique()
+# Fill missing data
+#filtered_df <- filtered_df %>% 
+#  mutate(fault_score = replace_na(fault_score, 1)) 
+filtered_df <- filtered_df %>% 
+  na.omit()
+
 
 # Lag prices 
 lag_df <- filtered_df %>% 
@@ -132,6 +133,19 @@ summary(lm.all)
 
 par(mfrow = c(2, 2)) 
 plot(lm.all)
+
+# Prediction
+test_set$prediction <- predict(lm.all, test_set)
+
+p <- length(attr(summary(lm.all)$terms, 'term.labels'))
+n <- nrow(test_set)
+y <- test_set$house_price
+y_predict <- test_set$prediction
+
+RSS <- sum((y - y_predict)^2)
+MSE <- RSS / (n - p - 1)
+RMSE <- sqrt(MSE)
+RMSE
 
 # Log-transform
 lm.log <- lm(log(house_price)~.-income+log(income)-population+log(population), data = train_set)
