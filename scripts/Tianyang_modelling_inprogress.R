@@ -49,7 +49,7 @@ test <- anti_join(data,train,by='id')
 model <- lm(formula = log(house_price)~.-id,data=train)
 #train.back <- drop1(model,test="Chisq")
 #train.back
-
+summary(model)
 step(model,direction="backward")
 
 model1 <- lm(formula = log(house_price)~crime_murder + crime_rape + crime_robbery + 
@@ -59,7 +59,7 @@ model1 <- lm(formula = log(house_price)~crime_murder + crime_rape + crime_robber
                unemployment_rate + population,data=train)
 par(mfrow = c(2, 2)) 
 plot(model1)  
-
+summary(model1)
 pred <- predict(model1,test,type='response',interval = 'confidence')
 
 test$fit <- as.data.frame(pred)$fit
