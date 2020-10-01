@@ -116,7 +116,7 @@ yr_quakes$des_quake <- as.factor(yr_quakes$des_quake)
 # crime ------------------
 
 yr_quakes %>%
-  ggplot(mapping = aes(x = crime_rate, y = house_price, colour = des_quake)) + 
+  ggplot(mapping = aes(x = crime_rate, y = house_price, colour = des_quake)) +
   geom_point(alpha = 0.3) +
   geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
   geom_smooth(method = 'lm', se=FALSE) +
@@ -127,6 +127,14 @@ summary(fit1)$coef
 
 crime_fit <- lm(house_price~des_quake+crime_rate, data = yr_quakes) 
 summary(crime_fit)$coef 
+
+#same graph using the house price that is adjusted for inflation
+new_quakes %>%
+  ggplot(mapping = aes(x = crime_rate, y = adjusted, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
 
 #make the same graph just for 2010 to see if it's easier to read
 quakes_10 <- yr_quakes %>%
@@ -213,6 +221,49 @@ summary(fit1)$coef
 inc_fit <- lm(house_price~des_quake+income, data = yr_quakes) #blue 
 summary(inc_fit)$coef 
 
+inc_fit2 <- lm(house_price~income, data = yr_quakes) #blue 
+summary(inc_fit2)$coef 
+
+pop_quakes <- yr_quakes %>%
+  mutate(pop_1000 = (population/1000)) %>%
+  na.omit(des_quake, pop_1000, unemployment_rate, house_price)
+
+# best regression -------------
+fit10 <- lm(house_price~des_quake+pop_1000+unemployment_rate, data = pop_quakes) 
+summary(fit10)$coef
+
+summary(fit10)
+
+fit14 <- lm(house_price~des_quake+pop_1000+unemployment_rate+property_house_per, data = pop_quakes) 
+summary(fit14)
+
+plot(fit10)
+
+fit11 <- lm(house_price~des_quake+pop_1000+unemployment_rate+crime_rate, data = pop_quakes) 
+summary(fit11)
+
+fit12 <- lm(house_price~des_quake+pop_1000+crime_rate, data = pop_quakes) 
+summary(fit12)$coef 
+
+fit13 <- lm(house_price~des_quake+pop_1000+crime_rate+income, data = pop_quakes) 
+summary(fit13)
+
+library(corrplot)
+
+house_inc <- quakes %>%
+  select(house_price, income, crime_index, unemployment_rate, population) %>%
+  drop_na(house_price, income, crime_index, unemployment_rate, population) 
+
+cor(house_inc)
+
+#same graph using the house price that is adjusted for inflation
+new_quakes %>%
+  ggplot(mapping = aes(x = income, y = adjusted, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
 # unemployment -------------------
 yr_quakes %>%
   ggplot(mapping = aes(x = unemployment_rate, y = house_price, col = des_quake)) + 
@@ -227,6 +278,15 @@ summary(fit1)$coef
 unemp_fit <- lm(house_price~des_quake+unemployment_rate, data = yr_quakes) #blue 
 summary(unemp_fit)$coef 
 
+#same graph using the house price that is adjusted for inflation
+new_quakes %>%
+  ggplot(mapping = aes(x = unemployment_rate, y = adjusted, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+
 # gdp change -------------------
 yr_quakes %>%
   ggplot(mapping = aes(x = gdp_change, y = house_price, col = des_quake)) + 
@@ -240,6 +300,14 @@ summary(fit1)$coef
 
 gdp_fit <- lm(house_price~des_quake+gdp_change, data = yr_quakes) #blue 
 summary(gdp_fit)$coef 
+
+#same graph using the house price that is adjusted for inflation
+new_quakes %>%
+  ggplot(mapping = aes(x = gdp_change, y = adjusted, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
 
 # population -------------------
 yr_quakes %>%
@@ -256,6 +324,14 @@ pop_fit <- lm(house_price~des_quake+population, data = yr_quakes) #blue
 summary(pop_fit)$coef 
 
 summary(yr_quakes)
+
+#same graph using the house price that is adjusted for inflation
+new_quakes %>%
+  ggplot(mapping = aes(x = population, y = adjusted, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
 
 # include an economic measure in the model to see if areas that are higher in crime are associated with lower house prices generally 
 
@@ -315,3 +391,90 @@ summary(fit1)$coef
 
 fault_fit <- lm(house_price~des_quake+fault_score, data = fau_quakes) #blue 
 summary(fault_fit)$coef 
+
+#same graph using the house price that is adjusted for inflation
+new_quakes %>% 
+  ggplot(mapping = aes(x = fault_score, y = adjusted, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(438.7198, 452.9788), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+# adjust house price for inflation ------------------
+new_quakes <- fau_quakes %>%
+  mutate(adjusted=NA) %>%
+  mutate(adjusted=ifelse(year=="2010",(house_price*0.1920)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2011",(house_price*0.1555)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2012",(house_price*0.1321)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2013",(house_price*0.1157)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2014",(house_price*0.0979)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2015",(house_price*0.0966)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2016",(house_price*0.083)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2017",(house_price*0.0604)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2018",(house_price*0.0346)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2019",(house_price*0.0167)+house_price,adjusted)) %>%
+  mutate(adjusted=ifelse(year=="2020",(house_price*0)+house_price,adjusted))
+
+# percentage change for house price by city ----------------
+
+#add a column to show the percentage change by year for city house prices 
+new_quakes <- new_quakes %>% 
+  group_by(city) %>% 
+  arrange(year, .by_group = TRUE) %>%
+  mutate(pct_change = (adjusted/lag(adjusted) - 1) * 100) 
+
+#find the average house price percentage change when there are quakes and when there aren't
+mean_houses2 <- new_quakes %>%
+  group_by(des_quake) %>%
+  summarise(house_price_mean = mean(pct_change, na.rm = TRUE))
+
+# crime 
+new_quakes %>%
+  ggplot(mapping = aes(x = crime_rate, y = pct_change, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(3.978015, 3.680569), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+# income
+new_quakes %>%
+  ggplot(mapping = aes(x = income, y = pct_change, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(3.978015, 3.680569), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+# unemployment --------------
+new_quakes %>%
+  ggplot(mapping = aes(x = unemployment_rate, y = pct_change, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(3.978015, 3.680569), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+#gdp change
+new_quakes %>% 
+  ggplot(mapping = aes(x = gdp_change, y = pct_change, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(3.978015, 3.680569), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+#population
+new_quakes %>% 
+  ggplot(mapping = aes(x = population, y = pct_change, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(3.978015, 3.680569), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+#fault score
+new_quakes %>% 
+  ggplot(mapping = aes(x = fault_score, y = pct_change, colour = des_quake)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = c(3.978015, 3.680569), colour = c("cyan3", "coral"), linetype = "dashed") + 
+  geom_smooth(method = 'lm', se=FALSE) +
+  labs(colour='Quakes Y/N')
+
+
+
