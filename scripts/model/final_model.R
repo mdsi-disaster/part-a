@@ -12,7 +12,6 @@ ir_file <- "interest_clean.csv"
 fault_file <- "faults_scored.csv"
 pop_file <- "population_redo.csv"
 
-
 # Load data
 df <- read_csv(paste0(path, data_file))
 income <- read_csv(paste0(path, inc_file))
@@ -81,6 +80,7 @@ filtered_df <- quarter_df %>%
 # Replace population data (too many missing items on previous set)
 filtered_df <- filtered_df %>% 
   left_join(population, by = c('county', 'year'))
+summary(filtered_df)
 
 # Assume median where missing 
 filtered_df <- filtered_df %>% 
@@ -90,7 +90,7 @@ filtered_df <- filtered_df %>%
   ungroup()
 
 # Combine fault scores 
-fault_df <- read_csv(paste0(path, fault_file))
+fault_df <- read_csv("data/fault_lines/faults_scored.csv")
 
 filtered_df <- filtered_df %>% 
   left_join(select(fault_df, c("county", "fault_score")), by = "county")
@@ -218,3 +218,4 @@ RSS <- sum((y - y_predict)^2)
 MSE <- RSS / (n - p - 1)
 RMSE <- sqrt(MSE)
 RMSE
+
