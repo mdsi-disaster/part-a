@@ -4,6 +4,7 @@ library(janitor)
 library(DataExplorer)
 library(skimr)
 library(Amelia)
+library(car)
 data <- read.csv(here('data','merged_data_by_city_clean.csv'),stringsAsFactors = TRUE)
 #data1 <- read.csv(here('data/','_archive','merged','merged_data_raw_0914zb.csv'))
 
@@ -30,7 +31,7 @@ county_data <- data %>% group_by(county, year,month) %>%
 model <- lm(formula = log(house_price) ~ year + population + county + quakes_minor
 +quakes_moderate + quakes_severe ,data = data)
 summary(model)
-par(mfrow=c(2,2))
+#par(mfrow=c(2,2))
 plot(model)
 
 
@@ -50,6 +51,7 @@ model <- lm(formula = log(house_price)~.-id,data=train)
 #train.back <- drop1(model,test="Chisq")
 #train.back
 summary(model)
+
 step(model,direction="backward")
 
 model1 <- lm(formula = log(house_price)~crime_murder + crime_rape + crime_robbery + 
@@ -66,3 +68,12 @@ test$fit <- as.data.frame(pred)$fit
 test$error <- log(test$house_price) - test$fit
 
 RMSE(test$house_price,test$fit)
+
+
+library(Boruta)
+boruta_output <- Boruta(formula = log(house_price)~.-id,data=train, doTrace=2)
+boruta_signif <- names(boruta_output$finalDecision[boruta_output$finalDecision %in% c("Confirmed", "Tentative")])  # collect Confirmed and Tentative variables
+print(boruta_signif)  # significant variables
+par(mfrow = c(1,1)) 
+plot(boruta_output, cex.axis=.7, las=2, xlab="", main="Variable Importance")  # plot variable importance
+ggplot(data =boruta_output)
