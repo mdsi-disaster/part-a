@@ -32,3 +32,4 @@ VIF(model)
 
 library(car)
 sqrt(vif(model)) > 2
+VIF(model, plot=TRUE)
