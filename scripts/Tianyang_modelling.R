@@ -77,3 +77,7 @@ print(boruta_signif)  # significant variables
 par(mfrow = c(1,1)) 
 plot(boruta_output, cex.axis=.7, las=2, xlab="", main="Variable Importance")  # plot variable importance
 ggplot(data =boruta_output)
+
+
+one.way <- aov(log(house_price)~.-id,data = train)
+summary(one.way)
