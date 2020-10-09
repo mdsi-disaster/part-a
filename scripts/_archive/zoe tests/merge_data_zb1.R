@@ -23,8 +23,6 @@ date_key <- date_key %>%
 
 write_csv(date_key, "data/keys/date_key.csv")
 
-
-
 ## build overall key
 key <- merge(x=city_key, y=county_key, by="county", all=TRUE)
 key <- merge(x=key, y=date_key, all=TRUE)
@@ -140,6 +138,9 @@ table(quakes$year) #we only have data for quakes from 2010 to 2019
 quakes <- quakes %>%
   select(-crime_murder, -crime_rape, -crime_arson, -crime_larceny, -crime_assault, -crime_burglary, -crime_robbery, -crime_vehicle) %>%
   mutate(crime_index = (crime_index*100000)) #multiply crime index by 100,000 to complete calculation for crime index 
+
+
+
 
 summary(quakes)  
 

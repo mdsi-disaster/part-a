@@ -1,0 +1,74 @@
+library(censusapi)
+library(tidycensus)
+library(readr)
+library(dplyr) 
+
+# CensusAPI - 2013 to 2014
+cen_key = "INSERT KEY"
+
+# Create API queries 
+df2013 <- getCensus(
+  name = "pep/cty",
+  vars = c("STNAME", "POP", "CTYNAME"), 
+  region = "county:*", 
+  regionin = "state:06", 
+  vintage = 2013,
+  "DATE_" = "1",
+  key = cen_key)
+
+df2014 <- getCensus(
+  name = "pep/cty",
+  vars = c("STNAME", "POP", "CTYNAME"), 
+  region = "county:*", 
+  regionin = "state:06", 
+  vintage = 2014,
+  "DATE_" = "1",
+  key = cen_key)
+
+
+# TidyCensus for 2015 onwards 
+# Function required for seperate calls 
+download <- function(year) {
+  pop <- get_estimates("county", 
+                        product = "population", 
+                        year = year, 
+                        output = "tidy", 
+                        state = "06", 
+                        key = cen_key)
+  pop$year <- year
+  return(pop)
+} 
+
+# Download via tidycensus 
+data <- lapply(c(2019, 2018, 2017, 2016, 2015), download)
+
+# Clean and Merge to dataframe
+full_df <- bind_rows(data)
+
+full_df <- full_df %>% 
+  filter(variable == 'POP') %>% 
+  select(NAME, year, value) %>% 
+  rename(county = NAME, population = value) %>% 
+  mutate(county = substr(tolower(county), 1, regexpr(" county", tolower(county))-1))
+  #mutate(county = gsub(" county, california", "", tolower(county)))
+
+df13 <- df2013 %>% 
+  select(CTYNAME, DATE_, POP) %>% 
+  rename(county = CTYNAME, year = DATE_, population = POP) %>% 
+  mutate(county =  gsub(" county", "", tolower(county)), year = 2013)
+
+df14 <- df2014 %>% 
+  select(CTYNAME, DATE_, POP) %>% 
+  rename(county = CTYNAME, year = DATE_, population = POP) %>% 
+  mutate(county =  gsub(" county", "", tolower(county)), year = 2014)
+
+full_df <- rbind(full_df, df14, df13)
+
+# For missing data pre 2013, use 2013. 
+full_df <- rbind(full_df, 
+                 mutate(df13, year = 2012), 
+                 mutate(df13, year = 2011),
+                 mutate(df13, year = 2010))
+
+
+write_csv(full_df, "./population_redo.csv")
